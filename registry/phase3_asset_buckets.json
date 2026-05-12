@@ -1,0 +1,550 @@
+{
+  "schema_version": "0.1.0",
+  "generated_on": "2026-05-13",
+  "scope": {
+    "inventory_total": 85,
+    "excluded_phase2_assets": 10,
+    "remaining_assets_bucketed": 75
+  },
+  "summary": {
+    "continue_skill": 19,
+    "reference": 40,
+    "scriptable": 13,
+    "archive": 3
+  },
+  "buckets": {
+    "continue_skill": [
+      {
+        "relative_path": "10_vibe-coding-Scrum个人团队工作流.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/10_vibe-coding-Scrum个人团队工作流.md",
+        "layer": "models",
+        "line_count": 222,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "14_LaTeX工作流技能.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/14_LaTeX工作流技能.md",
+        "layer": "methods",
+        "line_count": 26,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "16_论文信息获取与处理全流程.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/16_论文信息获取与处理全流程.md",
+        "layer": "models",
+        "line_count": 271,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "17_论文扩写与AI辅助指南.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/17_论文扩写与AI辅助指南.md",
+        "layer": "models",
+        "line_count": 254,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/00_skill说明.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/00_skill说明.md",
+        "layer": "methods",
+        "line_count": 73,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/02_文档分类与生命周期.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/02_文档分类与生命周期.md",
+        "layer": "methods",
+        "line_count": 342,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/08_文档命名与版本控制.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/08_文档命名与版本控制.md",
+        "layer": "methods",
+        "line_count": 260,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/09_文档质量审查清单.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/09_文档质量审查清单.md",
+        "layer": "methods",
+        "line_count": 403,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/10_Agent调研任务库.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/10_Agent调研任务库.md",
+        "layer": "methods",
+        "line_count": 179,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/SRS检查清单.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/SRS检查清单.md",
+        "layer": "methods",
+        "line_count": 98,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/引用格式检查清单.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/引用格式检查清单.md",
+        "layer": "methods",
+        "line_count": 106,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/毕业论文检查清单.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/毕业论文检查清单.md",
+        "layer": "methods",
+        "line_count": 90,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/测试文档检查清单.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/测试文档检查清单.md",
+        "layer": "methods",
+        "line_count": 85,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/软件设计文档检查清单.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/软件设计文档检查清单.md",
+        "layer": "methods",
+        "line_count": 102,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "skills_library/Valyu调研skill.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/Valyu调研skill.md",
+        "layer": "cases",
+        "line_count": 86,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "skills_library/需求文档更新skill.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/需求文档更新skill.md",
+        "layer": "methods",
+        "line_count": 24,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "006_应用场景/002_内容扩写大师.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/002_内容扩写大师.md",
+        "layer": "methods",
+        "line_count": 36,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "006_应用场景/003_总结文章.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/003_总结文章.md",
+        "layer": "methods",
+        "line_count": 9,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      },
+      {
+        "relative_path": "006_应用场景/005_智能周报编写助手.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/005_智能周报编写助手.md",
+        "layer": "methods",
+        "line_count": 48,
+        "reason": "Reusable workflow with enough task structure to justify future distillation."
+      }
+    ],
+    "reference": [
+      {
+        "relative_path": "01_个人文件夹管理范式.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/01_个人文件夹管理范式.md",
+        "layer": "models",
+        "line_count": 390,
+        "reason": "Useful context, but not yet strong enough to become an active skill."
+      },
+      {
+        "relative_path": "02_文档管理与书写规范.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/02_文档管理与书写规范.md",
+        "layer": "methods",
+        "line_count": 542,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "05_大厂敏捷开发流水线规范.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/05_大厂敏捷开发流水线规范.md",
+        "layer": "methods",
+        "line_count": 484,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "11_前端UI-UX审美参照清单.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/11_前端UI-UX审美参照清单.md",
+        "layer": "principles",
+        "line_count": 59,
+        "reason": "Useful context, but not yet strong enough to become an active skill."
+      },
+      {
+        "relative_path": "15_LaTeX模板定制与修改.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/15_LaTeX模板定制与修改.md",
+        "layer": "principles",
+        "line_count": 37,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "19_问题解决底层思路与执行方法论.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/19_问题解决底层思路与执行方法论.md",
+        "layer": "models",
+        "line_count": 41,
+        "reason": "Useful context, but not yet strong enough to become an active skill."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/01_国家标准索引.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/01_国家标准索引.md",
+        "layer": "methods",
+        "line_count": 335,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/03_学术文档规范.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/03_学术文档规范.md",
+        "layer": "methods",
+        "line_count": 403,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/04_软件工程文档规范.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/04_软件工程文档规范.md",
+        "layer": "methods",
+        "line_count": 278,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/05_产品与项目管理文档规范.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/05_产品与项目管理文档规范.md",
+        "layer": "methods",
+        "line_count": 279,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/06_图表与建模规范.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/06_图表与建模规范.md",
+        "layer": "methods",
+        "line_count": 375,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/07_引用与参考文献规范.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/07_引用与参考文献规范.md",
+        "layer": "methods",
+        "line_count": 283,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/README.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/README.md",
+        "layer": "methods",
+        "line_count": 154,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/README.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/README.md",
+        "layer": "models",
+        "line_count": 84,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/学术类/课程论文模板.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/学术类/课程论文模板.md",
+        "layer": "methods",
+        "line_count": 206,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/数据库设计说明书模板.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/数据库设计说明书模板.md",
+        "layer": "models",
+        "line_count": 222,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/概要设计说明书模板.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/概要设计说明书模板.md",
+        "layer": "models",
+        "line_count": 341,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/测试报告模板.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/测试报告模板.md",
+        "layer": "inbox",
+        "line_count": 151,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/详细设计说明书模板.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/详细设计说明书模板.md",
+        "layer": "inbox",
+        "line_count": 184,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/软件需求规格说明书SRS模板.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/软件需求规格说明书SRS模板.md",
+        "layer": "methods",
+        "line_count": 309,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/项目管理类/会议纪要模板.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/项目管理类/会议纪要模板.md",
+        "layer": "inbox",
+        "line_count": 103,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/项目管理类/项目复盘模板.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/项目管理类/项目复盘模板.md",
+        "layer": "inbox",
+        "line_count": 146,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/document.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/document.md",
+        "layer": "models",
+        "line_count": 802,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "skills_library/达尔文.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/达尔文.md",
+        "layer": "principles",
+        "line_count": 19,
+        "reason": "Useful context, but not yet strong enough to become an active skill."
+      },
+      {
+        "relative_path": "003_思维框架/001_金字塔原理.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/003_思维框架/001_金字塔原理.md",
+        "layer": "principles",
+        "line_count": 143,
+        "reason": "Useful context, but not yet strong enough to become an active skill."
+      },
+      {
+        "relative_path": "003_思维框架/002_SCQA模型.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/003_思维框架/002_SCQA模型.md",
+        "layer": "models",
+        "line_count": 144,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "003_思维框架/003_STAR法则.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/003_思维框架/003_STAR法则.md",
+        "layer": "principles",
+        "line_count": 144,
+        "reason": "Useful context, but not yet strong enough to become an active skill."
+      },
+      {
+        "relative_path": "003_思维框架/004_六项思考帽模型思考家.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/003_思维框架/004_六项思考帽模型思考家.md",
+        "layer": "models",
+        "line_count": 28,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "003_思维框架/005_逻辑学与逻辑中的谬误.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/003_思维框架/005_逻辑学与逻辑中的谬误.md",
+        "layer": "principles",
+        "line_count": 76,
+        "reason": "Useful context, but not yet strong enough to become an active skill."
+      },
+      {
+        "relative_path": "003_思维框架/006_SCAMPER框架.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/003_思维框架/006_SCAMPER框架.md",
+        "layer": "principles",
+        "line_count": 251,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "004_营销框架/001_AIDA模型.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/004_营销框架/001_AIDA模型.md",
+        "layer": "models",
+        "line_count": 145,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "004_营销框架/002_FAB技巧.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/004_营销框架/002_FAB技巧.md",
+        "layer": "models",
+        "line_count": 125,
+        "reason": "Useful context, but not yet strong enough to become an active skill."
+      },
+      {
+        "relative_path": "004_营销框架/003_PAS框架.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/004_营销框架/003_PAS框架.md",
+        "layer": "models",
+        "line_count": 146,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "005_叙事结构/001_三幕剧结构.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/005_叙事结构/001_三幕剧结构.md",
+        "layer": "inbox",
+        "line_count": 61,
+        "reason": "Useful context, but not yet strong enough to become an active skill."
+      },
+      {
+        "relative_path": "005_叙事结构/002_五幕剧结构.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/005_叙事结构/002_五幕剧结构.md",
+        "layer": "models",
+        "line_count": 134,
+        "reason": "Useful context, but not yet strong enough to become an active skill."
+      },
+      {
+        "relative_path": "005_叙事结构/003_英雄之旅.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/005_叙事结构/003_英雄之旅.md",
+        "layer": "principles",
+        "line_count": 146,
+        "reason": "Useful context, but not yet strong enough to become an active skill."
+      },
+      {
+        "relative_path": "006_应用场景/001_常青笔记生成器.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/001_常青笔记生成器.md",
+        "layer": "cases",
+        "line_count": 72,
+        "reason": "Useful context, but not yet strong enough to become an active skill."
+      },
+      {
+        "relative_path": "006_应用场景/004_周报生成.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/004_周报生成.md",
+        "layer": "inbox",
+        "line_count": 55,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "006_应用场景/008_产品开发核心指令.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/008_产品开发核心指令.md",
+        "layer": "models",
+        "line_count": 61,
+        "reason": "Long-form framework, template, or standards material better kept as reference."
+      },
+      {
+        "relative_path": "西蒙学习法-考研学习助手.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/西蒙学习法-考研学习助手.md",
+        "layer": "cases",
+        "line_count": 225,
+        "reason": "Useful context, but not yet strong enough to become an active skill."
+      }
+    ],
+    "scriptable": [
+      {
+        "relative_path": "001_提示词基础/002_Summarize.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/001_提示词基础/002_Summarize.md",
+        "layer": "inbox",
+        "line_count": 8,
+        "reason": "Highly repetitive prompt-like transform with stable input/output."
+      },
+      {
+        "relative_path": "001_提示词基础/003_Make_longer.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/001_提示词基础/003_Make_longer.md",
+        "layer": "inbox",
+        "line_count": 12,
+        "reason": "Highly repetitive prompt-like transform with stable input/output."
+      },
+      {
+        "relative_path": "001_提示词基础/004_Make_shorter.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/001_提示词基础/004_Make_shorter.md",
+        "layer": "inbox",
+        "line_count": 12,
+        "reason": "Highly repetitive prompt-like transform with stable input/output."
+      },
+      {
+        "relative_path": "001_提示词基础/005_Fix_grammar_and_spelling.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/001_提示词基础/005_Fix_grammar_and_spelling.md",
+        "layer": "inbox",
+        "line_count": 8,
+        "reason": "Highly repetitive prompt-like transform with stable input/output."
+      },
+      {
+        "relative_path": "001_提示词基础/006_Translate_to_Chinese.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/001_提示词基础/006_Translate_to_Chinese.md",
+        "layer": "inbox",
+        "line_count": 12,
+        "reason": "Highly repetitive prompt-like transform with stable input/output."
+      },
+      {
+        "relative_path": "001_提示词基础/007_Emojify.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/001_提示词基础/007_Emojify.md",
+        "layer": "inbox",
+        "line_count": 13,
+        "reason": "Highly repetitive prompt-like transform with stable input/output."
+      },
+      {
+        "relative_path": "002_内容处理/001_Generate_table_of_contents.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/002_内容处理/001_Generate_table_of_contents.md",
+        "layer": "inbox",
+        "line_count": 8,
+        "reason": "Highly repetitive prompt-like transform with stable input/output."
+      },
+      {
+        "relative_path": "002_内容处理/002_Generate_glossary.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/002_内容处理/002_Generate_glossary.md",
+        "layer": "inbox",
+        "line_count": 8,
+        "reason": "Highly repetitive prompt-like transform with stable input/output."
+      },
+      {
+        "relative_path": "002_内容处理/003_Remove_URLs.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/002_内容处理/003_Remove_URLs.md",
+        "layer": "inbox",
+        "line_count": 8,
+        "reason": "Highly repetitive prompt-like transform with stable input/output."
+      },
+      {
+        "relative_path": "002_内容处理/004_Rewrite_as_tweet.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/002_内容处理/004_Rewrite_as_tweet.md",
+        "layer": "inbox",
+        "line_count": 12,
+        "reason": "Highly repetitive prompt-like transform with stable input/output."
+      },
+      {
+        "relative_path": "002_内容处理/005_Rewrite_as_tweet_thread.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/002_内容处理/005_Rewrite_as_tweet_thread.md",
+        "layer": "inbox",
+        "line_count": 18,
+        "reason": "Highly repetitive prompt-like transform with stable input/output."
+      },
+      {
+        "relative_path": "006_应用场景/006_简易待办事项.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/006_简易待办事项.md",
+        "layer": "inbox",
+        "line_count": 11,
+        "reason": "Highly repetitive prompt-like transform with stable input/output."
+      },
+      {
+        "relative_path": "006_应用场景/007_Dataview插件示例.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/007_Dataview插件示例.md",
+        "layer": "cases",
+        "line_count": 54,
+        "reason": "Highly repetitive prompt-like transform with stable input/output."
+      }
+    ],
+    "archive": [
+      {
+        "relative_path": "13_LaTeX工作流入口.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/13_LaTeX工作流入口.md",
+        "layer": "cases",
+        "line_count": 23,
+        "reason": "Low-context utility or fragment better kept outside the active path."
+      },
+      {
+        "relative_path": "001_提示词基础/001_Simplify.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/001_提示词基础/001_Simplify.md",
+        "layer": "inbox",
+        "line_count": 8,
+        "reason": "Thin or weakly classified asset with limited standalone value."
+      },
+      {
+        "relative_path": "002_内容处理/006_Explain_like_I_am_5.md",
+        "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/002_内容处理/006_Explain_like_I_am_5.md",
+        "layer": "inbox",
+        "line_count": 12,
+        "reason": "Thin or weakly classified asset with limited standalone value."
+      }
+    ]
+  }
+}

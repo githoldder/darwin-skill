@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "created_at": "2026-05-13",
+  "selection_rule": "High reuse, clear trigger potential, repeated workflow value, token-saving value, and fit for active agent behavior.",
+  "candidates": [
+    {
+      "name": "think-before-execute",
+      "source": "library/principles/before_analyese.md",
+      "action": "active_skill",
+      "skill_path": "skills/think-before-execute/SKILL.md"
+    },
+    {
+      "name": "project-three-layer-discipline",
+      "source": "library/models/03_项目三层规训框架.md",
+      "action": "active_skill",
+      "skill_path": "skills/project-three-layer-discipline/SKILL.md"
+    },
+    {
+      "name": "cli-token-saving-pattern",
+      "source": "library/models/06_vibe-coding-CLI-token节省范式.md",
+      "action": "active_skill",
+      "skill_path": "skills/cli-token-saving-pattern/SKILL.md"
+    },
+    {
+      "name": "vibe-skill-pipeline",
+      "source": "library/methods/08_vibe-coding流水线构建与Skill蒸馏.md",
+      "action": "active_skill",
+      "skill_path": "skills/vibe-skill-pipeline/SKILL.md"
+    },
+    {
+      "name": "harness-iteration-engineering",
+      "source": "library/cases/09_vibe-coding-Harness工程规范.md",
+      "action": "active_skill",
+      "skill_path": "skills/harness-iteration-engineering/SKILL.md"
+    },
+    {
+      "name": "industry-source-research",
+      "source": "library/methods/18_行研信源获取SOP.md",
+      "action": "active_skill",
+      "skill_path": "skills/industry-source-research/SKILL.md"
+    },
+    {
+      "name": "vibe-git-version-management",
+      "source": "library/methods/07_vibe-coding-Git版本管理SOP.md",
+      "action": "active_skill",
+      "skill_path": "skills/vibe-git-version-management/SKILL.md"
+    },
+    {
+      "name": "ai-figma-vector-production",
+      "source": "library/methods/12_AI-Figma建模与二次修改SOP.md",
+      "action": "active_skill",
+      "skill_path": "skills/ai-figma-vector-production/SKILL.md"
+    },
+    {
+      "name": "requirement-alignment-log",
+      "source": "library/methods/04_需求访谈与分析SOP.md",
+      "action": "active_skill",
+      "skill_path": "skills/requirement-alignment-log/SKILL.md"
+    },
+    {
+      "name": "okrts-root-cause-analysis",
+      "source": "library/models/20_目标拆解与根因分析框架（OKRTS+5W）.md",
+      "action": "active_skill",
+      "skill_path": "skills/okrts-root-cause-analysis/SKILL.md"
+    }
+  ]
+}

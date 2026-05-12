@@ -52,3 +52,62 @@ darwin-skill/
 3. 按原理层、模型层、方法层、案例层进行初步归类
 4. 标记需要补充、拆分、压缩、脚本化、归档的 Skills
 5. 形成第一版 Skills 进化报告
+
+## 快速使用
+
+扫描本地 skills 仓库并生成索引：
+
+```bash
+python3 scripts/scan_skills.py "/path/to/04-skills" --output registry/skills_index.json
+```
+
+同时扫描 skills 与提示词工程：
+
+```bash
+python3 scripts/scan_skills.py "/path/to/04-skills" "/path/to/提示词工程" --output registry/skills_index.json
+```
+
+在 Agent 中使用时，可以直接说：
+
+> 读取我的本地 skills 仓库，并用达尔文机制管理、蒸馏、优化和归档 skills。
+
+## 第一批核心资产
+
+当前已迁移 6 个核心资产作为第一阶段样本：
+
+- `library/principles/before_analyese.md`
+- `library/models/03_项目三层规训框架.md`
+- `library/models/06_vibe-coding-CLI-token节省范式.md`
+- `library/methods/08_vibe-coding流水线构建与Skill蒸馏.md`
+- `library/methods/18_行研信源获取SOP.md`
+- `library/cases/09_vibe-coding-Harness工程规范.md`
+
+详见 `docs/phase1_plan.md`。
+
+## 第二阶段小批量蒸馏
+
+第二阶段先从 85 个资产中选择 10 个高价值候选，补充 `name` / `description` frontmatter，并蒸馏为常驻 skills：
+
+- `think-before-execute`
+- `project-three-layer-discipline`
+- `cli-token-saving-pattern`
+- `vibe-skill-pipeline`
+- `harness-iteration-engineering`
+- `industry-source-research`
+- `vibe-git-version-management`
+- `ai-figma-vector-production`
+- `requirement-alignment-log`
+- `okrts-root-cause-analysis`
+
+候选清单见 `registry/phase2_candidates.json`。当前常驻 skill 索引见 `registry/active_skills_index.json`。
+
+## 第三阶段分桶
+
+第二阶段之后，剩余 75 个资产已被初步分为四类：
+
+- 继续 skill 化：19
+- 保留 reference：40
+- 应脚本化：13
+- 待归档：3
+
+详见 `registry/phase3_asset_buckets.json` 与 `docs/phase3_bucket_plan.md`。

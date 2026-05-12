@@ -39,3 +39,22 @@ For each reviewed asset, output:
 - Main issue
 - Suggested action
 - Priority
+
+## Lifecycle recommendations
+
+Use these default actions:
+
+- `active`: keep loaded or easy to trigger because it saves meaningful work.
+- `candidate`: promising, but missing frontmatter, trigger clarity, workflow, or verification.
+- `needs_refactor`: too broad, too long, duplicated, stale, or mixing multiple jobs.
+- `scriptable`: deterministic enough to become a command-line tool.
+- `archived`: low-frequency or historical, useful to keep but not as active context.
+- `deprecated`: misleading, obsolete, or replaced by a better asset.
+
+## Audit workflow
+
+1. Start from `registry/skills_index.json` when available.
+2. Sort by high-risk signals: no frontmatter, no trigger description, very long files, duplicate topics, stale tool claims.
+3. Review only the smallest useful batch.
+4. Produce concrete actions: add frontmatter, split, merge, move to references, script, archive, or keep.
+5. Avoid rewriting the skill during audit unless the user asked for fixes too.

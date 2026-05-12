@@ -1,0 +1,15 @@
+{
+  "name": "darwin-skill",
+  "version": "0.1.0",
+  "description": "A local skill evolution system for creating, distilling, auditing, archiving, and managing AI agent skills.",
+  "interface": {
+    "displayName": "达尔文.skill",
+    "description": "用进废退、适者生存的本地 Skills 进化仓库。"
+  },
+  "skills": [
+    "./skills/darwin-skill-manager",
+    "./skills/darwin-skill-distiller",
+    "./skills/darwin-skill-auditor",
+    "./skills/darwin-skill-archivist"
+  ]
+}

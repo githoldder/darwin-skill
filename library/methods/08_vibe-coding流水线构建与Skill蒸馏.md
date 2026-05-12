@@ -1,3 +1,8 @@
+---
+name: vibe-skill-pipeline
+description: Use when a repeated AI-assisted workflow should be distilled into a reusable skill, deterministic script, Playwright automation, or low-token execution pipeline.
+---
+
 > 基于 Playwright CLI × AI 提炼总结 × Skill 复用 构建零边际成本开发流水线
 > 核心目标：**让重复任务只花一次 AI 推理成本，此后零消耗运行**
 

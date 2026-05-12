@@ -83,3 +83,20 @@ python3 scripts/scan_skills.py "/path/to/04-skills" "/path/to/提示词工程" -
 - `library/cases/09_vibe-coding-Harness工程规范.md`
 
 详见 `docs/phase1_plan.md`。
+
+## 第二阶段小批量蒸馏
+
+第二阶段先从 85 个资产中选择 10 个高价值候选，补充 `name` / `description` frontmatter，并蒸馏为常驻 skills：
+
+- `think-before-execute`
+- `project-three-layer-discipline`
+- `cli-token-saving-pattern`
+- `vibe-skill-pipeline`
+- `harness-iteration-engineering`
+- `industry-source-research`
+- `vibe-git-version-management`
+- `ai-figma-vector-production`
+- `requirement-alignment-log`
+- `okrts-root-cause-analysis`
+
+候选清单见 `registry/phase2_candidates.json`。当前常驻 skill 索引见 `registry/active_skills_index.json`。

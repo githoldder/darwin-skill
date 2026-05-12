@@ -1,0 +1,734 @@
+{
+  "schema_version": "0.2.0",
+  "generated_at": "2026-05-12T16:08:07.282801+00:00",
+  "sources": [
+    {
+      "path": "/Users/caolei/Desktop/darwin-skill/skills",
+      "file_count": 14
+    }
+  ],
+  "summary": {
+    "total_assets": 14,
+    "layer_counts": {
+      "cases": 2,
+      "models": 2,
+      "inbox": 6,
+      "methods": 4
+    },
+    "state_counts": {
+      "candidate": 5,
+      "active": 6,
+      "inbox": 3
+    },
+    "recommendation_counts": {
+      "expand_context": 5,
+      "keep_reviewing": 6,
+      "classify_layer": 3
+    }
+  },
+  "skills": [
+    {
+      "id": "ai-figma-vector-production/SKILL",
+      "name": "ai-figma-vector-production",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/ai-figma-vector-production/SKILL.md",
+      "relative_path": "ai-figma-vector-production/SKILL.md",
+      "line_count": 28,
+      "char_count": 1065,
+      "heading_count": 4,
+      "headings": [
+        {
+          "level": 1,
+          "title": "AI Figma Vector Production",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Checks",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "title": "Failure Handling",
+          "line": 25
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "cases",
+      "length_diagnosis": "too_short",
+      "recommendation": "expand_context",
+      "state": "candidate"
+    },
+    {
+      "id": "cli-token-saving-pattern/SKILL",
+      "name": "cli-token-saving-pattern",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/cli-token-saving-pattern/SKILL.md",
+      "relative_path": "cli-token-saving-pattern/SKILL.md",
+      "line_count": 30,
+      "char_count": 1190,
+      "heading_count": 5,
+      "headings": [
+        {
+          "level": 1,
+          "title": "CLI Token Saving Pattern",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Core Idea",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 12
+        },
+        {
+          "level": 2,
+          "title": "Good Candidates",
+          "line": 21
+        },
+        {
+          "level": 2,
+          "title": "Avoid",
+          "line": 27
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "darwin-skill-archivist/SKILL",
+      "name": "darwin-skill-archivist",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/darwin-skill-archivist/SKILL.md",
+      "relative_path": "darwin-skill-archivist/SKILL.md",
+      "line_count": 48,
+      "char_count": 1673,
+      "heading_count": 7,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Darwin Skill Archivist",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Purpose",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Archive criteria",
+          "line": 12
+        },
+        {
+          "level": 2,
+          "title": "Before archiving",
+          "line": 22
+        },
+        {
+          "level": 2,
+          "title": "Archive record",
+          "line": 32
+        },
+        {
+          "level": 2,
+          "title": "Split and merge guidance",
+          "line": 36
+        },
+        {
+          "level": 2,
+          "title": "Archive workflow",
+          "line": 42
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "inbox",
+      "length_diagnosis": "normal",
+      "recommendation": "classify_layer",
+      "state": "inbox"
+    },
+    {
+      "id": "darwin-skill-auditor/SKILL",
+      "name": "darwin-skill-auditor",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/darwin-skill-auditor/SKILL.md",
+      "relative_path": "darwin-skill-auditor/SKILL.md",
+      "line_count": 60,
+      "char_count": 2049,
+      "heading_count": 6,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Darwin Skill Auditor",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Audit dimensions",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Common diagnoses",
+          "line": 24
+        },
+        {
+          "level": 2,
+          "title": "Report format",
+          "line": 33
+        },
+        {
+          "level": 2,
+          "title": "Lifecycle recommendations",
+          "line": 43
+        },
+        {
+          "level": 2,
+          "title": "Audit workflow",
+          "line": 54
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "darwin-skill-distiller/SKILL",
+      "name": "darwin-skill-distiller",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/darwin-skill-distiller/SKILL.md",
+      "relative_path": "darwin-skill-distiller/SKILL.md",
+      "line_count": 69,
+      "char_count": 2013,
+      "heading_count": 15,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Darwin Skill Distiller",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Purpose",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Distillation checklist",
+          "line": 12
+        },
+        {
+          "level": 2,
+          "title": "Output structure",
+          "line": 29
+        },
+        {
+          "level": 1,
+          "title": "Skill Name",
+          "line": 39
+        },
+        {
+          "level": 2,
+          "title": "When to use",
+          "line": 41
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 42
+        },
+        {
+          "level": 2,
+          "title": "Inputs",
+          "line": 43
+        },
+        {
+          "level": 2,
+          "title": "Outputs",
+          "line": 44
+        },
+        {
+          "level": 2,
+          "title": "Tools",
+          "line": 45
+        },
+        {
+          "level": 2,
+          "title": "Quality checks",
+          "line": 46
+        },
+        {
+          "level": 2,
+          "title": "Failure handling",
+          "line": 47
+        },
+        {
+          "level": 2,
+          "title": "Maintenance notes",
+          "line": 48
+        },
+        {
+          "level": 2,
+          "title": "Distillation workflow",
+          "line": 53
+        },
+        {
+          "level": 2,
+          "title": "Good output constraints",
+          "line": 64
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "darwin-skill-manager/SKILL",
+      "name": "darwin-skill-manager",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/darwin-skill-manager/SKILL.md",
+      "relative_path": "darwin-skill-manager/SKILL.md",
+      "line_count": 87,
+      "char_count": 3195,
+      "heading_count": 8,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Darwin Skill Manager",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Mission",
+          "line": 10
+        },
+        {
+          "level": 2,
+          "title": "Default decision loop",
+          "line": 25
+        },
+        {
+          "level": 2,
+          "title": "Routing rules",
+          "line": 38
+        },
+        {
+          "level": 2,
+          "title": "First-phase workflow",
+          "line": 48
+        },
+        {
+          "level": 2,
+          "title": "Repository layers",
+          "line": 56
+        },
+        {
+          "level": 2,
+          "title": "Skill lifecycle states",
+          "line": 65
+        },
+        {
+          "level": 2,
+          "title": "Survival score",
+          "line": 78
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "harness-iteration-engineering/SKILL",
+      "name": "harness-iteration-engineering",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/harness-iteration-engineering/SKILL.md",
+      "relative_path": "harness-iteration-engineering/SKILL.md",
+      "line_count": 31,
+      "char_count": 1052,
+      "heading_count": 5,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Harness Iteration Engineering",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Purpose",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Three-Part Memory",
+          "line": 12
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 18
+        },
+        {
+          "level": 2,
+          "title": "Quality Checks",
+          "line": 27
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "cases",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "industry-source-research/SKILL",
+      "name": "industry-source-research",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/industry-source-research/SKILL.md",
+      "relative_path": "industry-source-research/SKILL.md",
+      "line_count": 32,
+      "char_count": 1206,
+      "heading_count": 4,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Industry Source Research",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Output",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "title": "Quality Checks",
+          "line": 28
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "inbox",
+      "length_diagnosis": "normal",
+      "recommendation": "classify_layer",
+      "state": "inbox"
+    },
+    {
+      "id": "okrts-root-cause-analysis/SKILL",
+      "name": "okrts-root-cause-analysis",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/okrts-root-cause-analysis/SKILL.md",
+      "relative_path": "okrts-root-cause-analysis/SKILL.md",
+      "line_count": 28,
+      "char_count": 1044,
+      "heading_count": 4,
+      "headings": [
+        {
+          "level": 1,
+          "title": "OKRTS Root Cause Analysis",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Models",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 14
+        },
+        {
+          "level": 2,
+          "title": "Quality Checks",
+          "line": 23
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "expand_context",
+      "state": "candidate"
+    },
+    {
+      "id": "project-three-layer-discipline/SKILL",
+      "name": "project-three-layer-discipline",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/project-three-layer-discipline/SKILL.md",
+      "relative_path": "project-three-layer-discipline/SKILL.md",
+      "line_count": 27,
+      "char_count": 1189,
+      "heading_count": 4,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Project Three-Layer Discipline",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Layers",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 14
+        },
+        {
+          "level": 2,
+          "title": "Quality Checks",
+          "line": 22
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "expand_context",
+      "state": "candidate"
+    },
+    {
+      "id": "requirement-alignment-log/SKILL",
+      "name": "requirement-alignment-log",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/requirement-alignment-log/SKILL.md",
+      "relative_path": "requirement-alignment-log/SKILL.md",
+      "line_count": 35,
+      "char_count": 960,
+      "heading_count": 5,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Requirement Alignment Log",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Output Template",
+          "line": 17
+        },
+        {
+          "level": 1,
+          "title": "Requirement Alignment Log N",
+          "line": 20
+        },
+        {
+          "level": 2,
+          "title": "Status Values",
+          "line": 30
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "inbox",
+      "length_diagnosis": "normal",
+      "recommendation": "classify_layer",
+      "state": "inbox"
+    },
+    {
+      "id": "think-before-execute/SKILL",
+      "name": "think-before-execute",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/think-before-execute/SKILL.md",
+      "relative_path": "think-before-execute/SKILL.md",
+      "line_count": 31,
+      "char_count": 1317,
+      "heading_count": 5,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Think Before Execute",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Purpose",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 12
+        },
+        {
+          "level": 2,
+          "title": "Guardrails",
+          "line": 21
+        },
+        {
+          "level": 2,
+          "title": "Output",
+          "line": 29
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "vibe-git-version-management/SKILL",
+      "name": "vibe-git-version-management",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/vibe-git-version-management/SKILL.md",
+      "relative_path": "vibe-git-version-management/SKILL.md",
+      "line_count": 26,
+      "char_count": 999,
+      "heading_count": 4,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Vibe Git Version Management",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Branching Rules",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "title": "Verification",
+          "line": 24
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "expand_context",
+      "state": "candidate"
+    },
+    {
+      "id": "vibe-skill-pipeline/SKILL",
+      "name": "vibe-skill-pipeline",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/vibe-skill-pipeline/SKILL.md",
+      "relative_path": "vibe-skill-pipeline/SKILL.md",
+      "line_count": 28,
+      "char_count": 1022,
+      "heading_count": 3,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Vibe Skill Pipeline",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Pipeline",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Distillation Checklist",
+          "line": 21
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "too_short",
+      "recommendation": "expand_context",
+      "state": "candidate"
+    }
+  ]
+}

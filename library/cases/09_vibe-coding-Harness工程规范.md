@@ -1,3 +1,8 @@
+---
+name: harness-iteration-engineering
+description: Use when planning long-running AI agent work with task queues, progress logs, git checkpoints, repeated fresh-context iterations, and explicit completion criteria.
+---
+
 # Ralph 组件核心原理
 
 > 来源：harness_engineering（Ralph组件）.excalidraw

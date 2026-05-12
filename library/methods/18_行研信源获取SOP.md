@@ -1,3 +1,8 @@
+---
+name: industry-source-research
+description: Use when finding authoritative industry research sources, official data, market reports, cross-validation evidence, and source lists for business or competitive analysis.
+---
+
 ## 目标
 在30分钟内定位并获取目标行业最新、最权威数据，支持决策/报告/竞品分析，避免二手解读偏差。
 

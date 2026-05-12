@@ -1,6 +1,5949 @@
 {
-  "schema_version": "0.1.0",
-  "generated_at": null,
-  "sources": [],
-  "skills": []
+  "schema_version": "0.2.0",
+  "generated_at": "2026-05-12T15:54:25.306899+00:00",
+  "sources": [
+    {
+      "path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills",
+      "file_count": 51
+    },
+    {
+      "path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程",
+      "file_count": 34
+    }
+  ],
+  "summary": {
+    "total_assets": 85,
+    "layer_counts": {
+      "models": 20,
+      "methods": 30,
+      "principles": 10,
+      "cases": 5,
+      "inbox": 20
+    },
+    "state_counts": {
+      "candidate": 83,
+      "active": 2
+    },
+    "recommendation_counts": {
+      "add_skill_frontmatter": 67,
+      "keep_reviewing": 2,
+      "add_trigger_description": 16
+    }
+  },
+  "skills": [
+    {
+      "id": "01_个人文件夹管理范式",
+      "name": "项目名称 Dashboard",
+      "file_name": "01_个人文件夹管理范式.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/01_个人文件夹管理范式.md",
+      "relative_path": "01_个人文件夹管理范式.md",
+      "line_count": 390,
+      "char_count": 6000,
+      "heading_count": 41,
+      "headings": [
+        {
+          "level": 2,
+          "title": "核心理念",
+          "line": 4
+        },
+        {
+          "level": 2,
+          "title": "目录结构",
+          "line": 14
+        },
+        {
+          "level": 2,
+          "title": "各目录详解",
+          "line": 28
+        },
+        {
+          "level": 3,
+          "title": "00_Inbox - 收件箱",
+          "line": 30
+        },
+        {
+          "level": 3,
+          "title": "10_Projects - 项目",
+          "line": 46
+        },
+        {
+          "level": 1,
+          "title": "项目名称 Dashboard",
+          "line": 67
+        },
+        {
+          "level": 2,
+          "title": "项目信息",
+          "line": 69
+        },
+        {
+          "level": 2,
+          "title": "进度看板",
+          "line": 74
+        },
+        {
+          "level": 3,
+          "title": "待办",
+          "line": 75
+        },
+        {
+          "level": 3,
+          "title": "进行中",
+          "line": 78
+        },
+        {
+          "level": 3,
+          "title": "已完成",
+          "line": 81
+        },
+        {
+          "level": 2,
+          "title": "关键链接",
+          "line": 84
+        },
+        {
+          "level": 2,
+          "title": "风险与阻碍",
+          "line": 89
+        },
+        {
+          "level": 1,
+          "title": "当前工作",
+          "line": 95
+        },
+        {
+          "level": 2,
+          "title": "今日/本周聚焦",
+          "line": 97
+        },
+        {
+          "level": 2,
+          "title": "上下文记录",
+          "line": 100
+        },
+        {
+          "level": 2,
+          "title": "决策日志",
+          "line": 105
+        },
+        {
+          "level": 3,
+          "title": "20_Areas - 领域",
+          "line": 113
+        },
+        {
+          "level": 3,
+          "title": "30_Resources - 资源",
+          "line": 145
+        },
+        {
+          "level": 3,
+          "title": "40_Archives - 归档",
+          "line": 173
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "models",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "02_文档管理与书写规范",
+      "name": "文档管理和书写规范",
+      "file_name": "02_文档管理与书写规范.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/02_文档管理与书写规范.md",
+      "relative_path": "02_文档管理与书写规范.md",
+      "line_count": 542,
+      "char_count": 7778,
+      "heading_count": 64,
+      "headings": [
+        {
+          "level": 1,
+          "title": "文档管理和书写规范",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "概述",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "title": "文档编写原则",
+          "line": 15
+        },
+        {
+          "level": 3,
+          "title": "核心原则",
+          "line": 17
+        },
+        {
+          "level": 3,
+          "title": "文档类型与格式",
+          "line": 27
+        },
+        {
+          "level": 2,
+          "title": "图表绘制规范",
+          "line": 40
+        },
+        {
+          "level": 3,
+          "title": "图表工具选择",
+          "line": 42
+        },
+        {
+          "level": 3,
+          "title": "Mermaid 语法速查",
+          "line": 53
+        },
+        {
+          "level": 3,
+          "title": "PlantUML 语法速查",
+          "line": 118
+        },
+        {
+          "level": 2,
+          "title": "软件生命周期文档体系",
+          "line": 185
+        },
+        {
+          "level": 3,
+          "title": "第一阶段：需求认知与领域建模",
+          "line": 189
+        },
+        {
+          "level": 3,
+          "title": "第二阶段：动态逻辑与流程编排",
+          "line": 206
+        },
+        {
+          "level": 3,
+          "title": "第三阶段：技术实现与契约定义",
+          "line": 221
+        },
+        {
+          "level": 3,
+          "title": "第四阶段：稳定性与容量治理",
+          "line": 240
+        },
+        {
+          "level": 2,
+          "title": "项目生命周期流程图",
+          "line": 258
+        },
+        {
+          "level": 3,
+          "title": "流程说明",
+          "line": 338
+        },
+        {
+          "level": 2,
+          "title": "文档模板",
+          "line": 355
+        },
+        {
+          "level": 3,
+          "title": "需求文档模板",
+          "line": 357
+        },
+        {
+          "level": 1,
+          "title": "需求文档：功能名称",
+          "line": 360
+        },
+        {
+          "level": 2,
+          "title": "1. 背景与目标",
+          "line": 362
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "too_long",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "03_项目三层规训框架",
+      "name": "03_项目三层规训框架",
+      "file_name": "03_项目三层规训框架.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/03_项目三层规训框架.md",
+      "relative_path": "03_项目三层规训框架.md",
+      "line_count": 384,
+      "char_count": 4843,
+      "heading_count": 44,
+      "headings": [
+        {
+          "level": 2,
+          "title": "框架概述",
+          "line": 4
+        },
+        {
+          "level": 2,
+          "title": "Layer 1: 需求对齐层（客户信息对齐）",
+          "line": 16
+        },
+        {
+          "level": 3,
+          "title": "核心原则",
+          "line": 18
+        },
+        {
+          "level": 3,
+          "title": "执行清单",
+          "line": 22
+        },
+        {
+          "level": 3,
+          "title": "输出格式",
+          "line": 28
+        },
+        {
+          "level": 2,
+          "title": "需求对齐总结",
+          "line": 33
+        },
+        {
+          "level": 3,
+          "title": "已知需求",
+          "line": 35
+        },
+        {
+          "level": 3,
+          "title": "假设需求",
+          "line": 39
+        },
+        {
+          "level": 3,
+          "title": "待确认点",
+          "line": 43
+        },
+        {
+          "level": 2,
+          "title": "执行内容",
+          "line": 49
+        },
+        {
+          "level": 3,
+          "title": "自检问题",
+          "line": 53
+        },
+        {
+          "level": 2,
+          "title": "Layer 2: PM 0-1 全流程层（从0到1打通）",
+          "line": 61
+        },
+        {
+          "level": 3,
+          "title": "核心原则",
+          "line": 63
+        },
+        {
+          "level": 3,
+          "title": "各阶段交付物",
+          "line": 67
+        },
+        {
+          "level": 3,
+          "title": "产品思维检查点",
+          "line": 77
+        },
+        {
+          "level": 2,
+          "title": "Layer 3: 项目经理里程碑层（顺产不夭折）",
+          "line": 85
+        },
+        {
+          "level": 3,
+          "title": "核心原则",
+          "line": 87
+        },
+        {
+          "level": 3,
+          "title": "每次迭代输出必须包含",
+          "line": 91
+        },
+        {
+          "level": 2,
+          "title": "项目状态报告",
+          "line": 94
+        },
+        {
+          "level": 3,
+          "title": "当前里程碑进度",
+          "line": 96
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "04_需求访谈与分析SOP",
+      "name": "需求对齐清单 SOP（极简版）",
+      "file_name": "04_需求访谈与分析SOP.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/04_需求访谈与分析SOP.md",
+      "relative_path": "04_需求访谈与分析SOP.md",
+      "line_count": 48,
+      "char_count": 649,
+      "heading_count": 8,
+      "headings": [
+        {
+          "level": 1,
+          "title": "需求对齐清单 SOP（极简版）",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "漏斗模型",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "输出模板",
+          "line": 17
+        },
+        {
+          "level": 1,
+          "title": "第N次需求对齐清单",
+          "line": 20
+        },
+        {
+          "level": 2,
+          "title": "需求变更汇总",
+          "line": 26
+        },
+        {
+          "level": 2,
+          "title": "待确认项",
+          "line": 34
+        },
+        {
+          "level": 2,
+          "title": "里程碑约束",
+          "line": 37
+        },
+        {
+          "level": 2,
+          "title": "使用规则",
+          "line": 44
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "05_大厂敏捷开发流水线规范",
+      "name": "国内互联网大厂敏捷开发工业流水线规范",
+      "file_name": "05_大厂敏捷开发流水线规范.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/05_大厂敏捷开发流水线规范.md",
+      "relative_path": "05_大厂敏捷开发流水线规范.md",
+      "line_count": 484,
+      "char_count": 9492,
+      "heading_count": 44,
+      "headings": [
+        {
+          "level": 1,
+          "title": "国内互联网大厂敏捷开发工业流水线规范",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "一、总纲：大厂研发流水线全景图",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "二、需求阶段",
+          "line": 27
+        },
+        {
+          "level": 3,
+          "title": "2.1 需求来源与分级",
+          "line": 29
+        },
+        {
+          "level": 3,
+          "title": "2.2 字节跳动需求规范",
+          "line": 45
+        },
+        {
+          "level": 3,
+          "title": "2.3 华为 IPD 需求管理",
+          "line": 52
+        },
+        {
+          "level": 3,
+          "title": "2.4 腾讯需求规范",
+          "line": 60
+        },
+        {
+          "level": 2,
+          "title": "三、架构设计阶段",
+          "line": 68
+        },
+        {
+          "level": 3,
+          "title": "3.1 方案评审规范",
+          "line": 70
+        },
+        {
+          "level": 3,
+          "title": "3.2 技术选型规范",
+          "line": 101
+        },
+        {
+          "level": 2,
+          "title": "四、开发阶段",
+          "line": 115
+        },
+        {
+          "level": 3,
+          "title": "4.1 Git 分支模型",
+          "line": 117
+        },
+        {
+          "level": 3,
+          "title": "4.2 代码规范",
+          "line": 146
+        },
+        {
+          "level": 3,
+          "title": "4.3 自测规范",
+          "line": 176
+        },
+        {
+          "level": 2,
+          "title": "五、CodeReview 规范",
+          "line": 190
+        },
+        {
+          "level": 3,
+          "title": "5.1 各厂 CR 机制对比",
+          "line": 192
+        },
+        {
+          "level": 3,
+          "title": "5.2 CR 检查清单",
+          "line": 202
+        },
+        {
+          "level": 2,
+          "title": "六、测试阶段",
+          "line": 223
+        },
+        {
+          "level": 3,
+          "title": "6.1 测试金字塔（各厂通用）",
+          "line": 225
+        },
+        {
+          "level": 3,
+          "title": "6.2 测试环境规范",
+          "line": 242
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "06_vibe-coding-CLI-token节省范式",
+      "name": "06_vibe-coding-CLI-token节省范式",
+      "file_name": "06_vibe-coding-CLI-token节省范式.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/06_vibe-coding-CLI-token节省范式.md",
+      "relative_path": "06_vibe-coding-CLI-token节省范式.md",
+      "line_count": 256,
+      "char_count": 8096,
+      "heading_count": 21,
+      "headings": [
+        {
+          "level": 2,
+          "title": "一、 0-1 产品构建：极简 Token 消耗的 CLI 矩阵",
+          "line": 1
+        },
+        {
+          "level": 3,
+          "title": "1. 市场调研与数据获取阶段",
+          "line": 5
+        },
+        {
+          "level": 3,
+          "title": "2. 产品定义与规范（PRD/Spec）阶段",
+          "line": 17
+        },
+        {
+          "level": 3,
+          "title": "3. 技术原型与开发管理",
+          "line": 24
+        },
+        {
+          "level": 3,
+          "title": "4. 验证与上线阶段",
+          "line": 33
+        },
+        {
+          "level": 2,
+          "title": "二、 闭环路径：从\"人工实践\"到\"自动化脚本\"",
+          "line": 42
+        },
+        {
+          "level": 3,
+          "title": "第一步：AI 辅助的 CLI 试错（实践层）",
+          "line": 46
+        },
+        {
+          "level": 3,
+          "title": "第二步：提取\"神经补丁\"（SOP 层）",
+          "line": 55
+        },
+        {
+          "level": 3,
+          "title": "第三步：SOP 的 Skill 化与脚本化（工具层）",
+          "line": 61
+        },
+        {
+          "level": 2,
+          "title": "三、 连接未来：VCP 作为你的\"Agent 协作网关\"",
+          "line": 74
+        },
+        {
+          "level": 3,
+          "title": "1. 🔍 信息获取与研究",
+          "line": 89
+        },
+        {
+          "level": 4,
+          "title": "1.1 多少 Token？（大幅节省）",
+          "line": 93
+        },
+        {
+          "level": 4,
+          "title": "1.2 花多久时间？（分级响应）",
+          "line": 100
+        },
+        {
+          "level": 4,
+          "title": "1.3 **`dawid-szewc/perplexity-cli`**",
+          "line": 116
+        },
+        {
+          "level": 3,
+          "title": "2. 📝 文档与需求管理",
+          "line": 125
+        },
+        {
+          "level": 3,
+          "title": "3. 💻 核心开发与代码管理",
+          "line": 144
+        },
+        {
+          "level": 3,
+          "title": "4. ⚙️ 后端服务与测试",
+          "line": 161
+        },
+        {
+          "level": 3,
+          "title": "5. 🚀 部署与上线",
+          "line": 182
+        },
+        {
+          "level": 3,
+          "title": "一、 文献与个人知识管理 (Zotero 替代/增强层)",
+          "line": 196
+        },
+        {
+          "level": 3,
+          "title": "二、 数据分析与处理 (Excel/BI 工具的 CLI 平替)",
+          "line": 209
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "07_vibe-coding-Git版本管理SOP",
+      "name": "07_vibe-coding-Git版本管理SOP",
+      "file_name": "07_vibe-coding-Git版本管理SOP.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/07_vibe-coding-Git版本管理SOP.md",
+      "relative_path": "07_vibe-coding-Git版本管理SOP.md",
+      "line_count": 77,
+      "char_count": 1448,
+      "heading_count": 7,
+      "headings": [
+        {
+          "level": 2,
+          "title": "🚀 Vibe Coding: AI 驱动型 Git 版本管理 SOP",
+          "line": 2
+        },
+        {
+          "level": 3,
+          "title": "一、 核心逻辑与价值",
+          "line": 6
+        },
+        {
+          "level": 3,
+          "title": "二、 基础三步走流程 (Basic Workflow)",
+          "line": 17
+        },
+        {
+          "level": 3,
+          "title": "三、 高阶分支管理策略 (Branching Strategy)",
+          "line": 29
+        },
+        {
+          "level": 4,
+          "title": "1. 典型场景",
+          "line": 33
+        },
+        {
+          "level": 4,
+          "title": "2. 分支操作 SOP",
+          "line": 44
+        },
+        {
+          "level": 3,
+          "title": "四、 开发者避坑准则",
+          "line": 66
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "principles",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "08_vibe-coding流水线构建与Skill蒸馏",
+      "name": "安装 playwright-cli",
+      "file_name": "08_vibe-coding流水线构建与Skill蒸馏.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/08_vibe-coding流水线构建与Skill蒸馏.md",
+      "relative_path": "08_vibe-coding流水线构建与Skill蒸馏.md",
+      "line_count": 324,
+      "char_count": 6373,
+      "heading_count": 40,
+      "headings": [
+        {
+          "level": 2,
+          "title": "一、核心思想：边际成本趋零",
+          "line": 6
+        },
+        {
+          "level": 3,
+          "title": "传统 Vibe Coding 的 Token 痛点",
+          "line": 8
+        },
+        {
+          "level": 3,
+          "title": "新范式：AI 蒸馏 + Skill 固化",
+          "line": 22
+        },
+        {
+          "level": 2,
+          "title": "二、流水线架构图",
+          "line": 33
+        },
+        {
+          "level": 2,
+          "title": "三、Token 节省效果",
+          "line": 73
+        },
+        {
+          "level": 3,
+          "title": "Playwright 基准测试数据",
+          "line": 75
+        },
+        {
+          "level": 3,
+          "title": "为什么能节省 10 倍？",
+          "line": 85
+        },
+        {
+          "level": 2,
+          "title": "四、实操：构建流水线步骤",
+          "line": 101
+        },
+        {
+          "level": 3,
+          "title": "Step 1：环境准备（一次性）",
+          "line": 103
+        },
+        {
+          "level": 1,
+          "title": "安装 playwright-cli",
+          "line": 106
+        },
+        {
+          "level": 1,
+          "title": "初始化浏览器环境",
+          "line": 109
+        },
+        {
+          "level": 1,
+          "title": "验证安装成功",
+          "line": 112
+        },
+        {
+          "level": 3,
+          "title": "Step 2：区分\"复杂任务\"和\"可固化任务\"",
+          "line": 121
+        },
+        {
+          "level": 3,
+          "title": "Step 3：AI 提炼 → 生成 Task Skill",
+          "line": 131
+        },
+        {
+          "level": 1,
+          "title": "AI 提炼后生成的脚本",
+          "line": 150
+        },
+        {
+          "level": 1,
+          "title": "crawl-competitor-prices.sh",
+          "line": 152
+        },
+        {
+          "level": 1,
+          "title": "Token 消耗：0（已固化）",
+          "line": 153
+        },
+        {
+          "level": 3,
+          "title": "Step 4：Skill 指导 → 迭代优化",
+          "line": 168
+        },
+        {
+          "level": 1,
+          "title": "Skill：竞品价格爬取",
+          "line": 173
+        },
+        {
+          "level": 2,
+          "title": "使用场景",
+          "line": 175
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "models",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "09_vibe-coding-Harness工程规范",
+      "name": "Ralph 组件核心原理",
+      "file_name": "09_vibe-coding-Harness工程规范.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/09_vibe-coding-Harness工程规范.md",
+      "relative_path": "09_vibe-coding-Harness工程规范.md",
+      "line_count": 128,
+      "char_count": 2183,
+      "heading_count": 14,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Ralph 组件核心原理",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "AI Agent 长时间运行的四大问题",
+          "line": 8
+        },
+        {
+          "level": 3,
+          "title": "根本原因",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "title": "Ralph 组件核心原理",
+          "line": 23
+        },
+        {
+          "level": 3,
+          "title": "每轮指令",
+          "line": 36
+        },
+        {
+          "level": 3,
+          "title": "核心优势",
+          "line": 46
+        },
+        {
+          "level": 2,
+          "title": "三件套记忆",
+          "line": 52
+        },
+        {
+          "level": 2,
+          "title": "实操环节",
+          "line": 62
+        },
+        {
+          "level": 3,
+          "title": "Step 1 — 准备阶段",
+          "line": 64
+        },
+        {
+          "level": 3,
+          "title": "Step 2 — 任务拆分",
+          "line": 69
+        },
+        {
+          "level": 3,
+          "title": "Step 3 — 执行迭代",
+          "line": 74
+        },
+        {
+          "level": 2,
+          "title": "重点注意事项",
+          "line": 80
+        },
+        {
+          "level": 2,
+          "title": "工作流图示",
+          "line": 93
+        },
+        {
+          "level": 2,
+          "title": "核心文件",
+          "line": 122
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "10_vibe-coding-Scrum个人团队工作流",
+      "name": "常工生鲜 - Scrum + Vibe Coding 个人团队开发工作流",
+      "file_name": "10_vibe-coding-Scrum个人团队工作流.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/10_vibe-coding-Scrum个人团队工作流.md",
+      "relative_path": "10_vibe-coding-Scrum个人团队工作流.md",
+      "line_count": 222,
+      "char_count": 5941,
+      "heading_count": 19,
+      "headings": [
+        {
+          "level": 1,
+          "title": "常工生鲜 - Scrum + Vibe Coding 个人团队开发工作流",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "一、核心原则",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "二、团队角色（单人模式）",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "title": "三、Sprint 周期结构（1周 Sprint）",
+          "line": 33
+        },
+        {
+          "level": 3,
+          "title": "Sprint 0（准备 Sprint，1次性）",
+          "line": 45
+        },
+        {
+          "level": 3,
+          "title": "Sprint N（第N个迭代）",
+          "line": 51
+        },
+        {
+          "level": 2,
+          "title": "四、Product Backlog 优先级框架",
+          "line": 75
+        },
+        {
+          "level": 3,
+          "title": "当前 MVP Backlog（按 ICE 排序）",
+          "line": 79
+        },
+        {
+          "level": 2,
+          "title": "五、Vibe Coding 开发流程（核心）",
+          "line": 94
+        },
+        {
+          "level": 3,
+          "title": "标准流程（Single Person）",
+          "line": 98
+        },
+        {
+          "level": 3,
+          "title": "详细步骤",
+          "line": 105
+        },
+        {
+          "level": 3,
+          "title": "Vibe Coding 禁忌",
+          "line": 132
+        },
+        {
+          "level": 2,
+          "title": "六、AI Agent 本地部署方案（与工作流集成）",
+          "line": 139
+        },
+        {
+          "level": 3,
+          "title": "架构选择",
+          "line": 143
+        },
+        {
+          "level": 3,
+          "title": "与 Scrum 的集成方式",
+          "line": 161
+        },
+        {
+          "level": 3,
+          "title": "本地部署 Checklist（每个 Sprint 结束时检查）",
+          "line": 169
+        },
+        {
+          "level": 2,
+          "title": "七、Definition of Done（DoD）",
+          "line": 177
+        },
+        {
+          "level": 2,
+          "title": "八、工具链清单",
+          "line": 190
+        },
+        {
+          "level": 2,
+          "title": "九、风险与对策",
+          "line": 210
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "11_前端UI-UX审美参照清单",
+      "name": "11_前端UI-UX审美参照清单",
+      "file_name": "11_前端UI-UX审美参照清单.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/11_前端UI-UX审美参照清单.md",
+      "relative_path": "11_前端UI-UX审美参照清单.md",
+      "line_count": 59,
+      "char_count": 2280,
+      "heading_count": 9,
+      "headings": [
+        {
+          "level": 2,
+          "title": "🟦 B端：逻辑、效率与系统感（Business & Enterprise）",
+          "line": 7
+        },
+        {
+          "level": 3,
+          "title": "1. 行业设计系统（Design Systems）",
+          "line": 11
+        },
+        {
+          "level": 3,
+          "title": "2. 垂直领域参考",
+          "line": 18
+        },
+        {
+          "level": 3,
+          "title": "3. 数据可视化（Data Viz）",
+          "line": 21
+        },
+        {
+          "level": 2,
+          "title": "🟧 C端：情绪、交互与视觉冲击（Consumer & Creative）",
+          "line": 26
+        },
+        {
+          "level": 3,
+          "title": "1. 交互与动效标杆",
+          "line": 29
+        },
+        {
+          "level": 3,
+          "title": "2. 移动端与产品流",
+          "line": 35
+        },
+        {
+          "level": 2,
+          "title": "🛠️ 工程师跨界审美工具包",
+          "line": 41
+        },
+        {
+          "level": 3,
+          "title": "💡 总结建议",
+          "line": 54
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "principles",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "12_AI-Figma建模与二次修改SOP",
+      "name": "📘 SOP：基于 AI 与 Figma 的矢量图表高效生产规范",
+      "file_name": "12_AI-Figma建模与二次修改SOP.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/12_AI-Figma建模与二次修改SOP.md",
+      "relative_path": "12_AI-Figma建模与二次修改SOP.md",
+      "line_count": 112,
+      "char_count": 2496,
+      "heading_count": 11,
+      "headings": [
+        {
+          "level": 1,
+          "title": "📘 SOP：基于 AI 与 Figma 的矢量图表高效生产规范",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "title": "1. 流程概述 (Process Overview)",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "title": "2. 角色与技能要求 (Roles & Skills)",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "title": "3. 标准作业程序 (Step-by-Step Procedure)",
+          "line": 28
+        },
+        {
+          "level": 3,
+          "title": "第一阶段：需求建模与逻辑核查 (Modeling)",
+          "line": 30
+        },
+        {
+          "level": 3,
+          "title": "第二阶段：SVG 源代码生成 (Generation)",
+          "line": 45
+        },
+        {
+          "level": 3,
+          "title": "第三阶段：Figma 渲染与二次创作 (Refinement)",
+          "line": 58
+        },
+        {
+          "level": 3,
+          "title": "第四阶段：成果导出 (Exporting)",
+          "line": 75
+        },
+        {
+          "level": 2,
+          "title": "4. 关键快捷键与工具指南 (Toolkit)",
+          "line": 88
+        },
+        {
+          "level": 2,
+          "title": "5. 异常处理与注意事项 (Troubleshooting)",
+          "line": 99
+        },
+        {
+          "level": 2,
+          "title": "6. 持续改进 (Maintenance)",
+          "line": 110
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "13_LaTeX工作流入口",
+      "name": "LaTeX 工作流入口",
+      "file_name": "13_LaTeX工作流入口.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/13_LaTeX工作流入口.md",
+      "relative_path": "13_LaTeX工作流入口.md",
+      "line_count": 23,
+      "char_count": 460,
+      "heading_count": 3,
+      "headings": [
+        {
+          "level": 1,
+          "title": "LaTeX 工作流入口",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "选路判定",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "路径执行",
+          "line": 9
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "cases",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "14_LaTeX工作流技能",
+      "name": "LaTeX 工作流技能",
+      "file_name": "14_LaTeX工作流技能.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/14_LaTeX工作流技能.md",
+      "relative_path": "14_LaTeX工作流技能.md",
+      "line_count": 26,
+      "char_count": 748,
+      "heading_count": 4,
+      "headings": [
+        {
+          "level": 1,
+          "title": "LaTeX 工作流技能",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "方案 1：本地工作流 (TeX Live + VS Code)",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "方案 2：云端工作流 (Overleaf)",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "title": "语法速查",
+          "line": 21
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "methods",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "15_LaTeX模板定制与修改",
+      "name": "LaTeX 模板定制修改 (CZU)",
+      "file_name": "15_LaTeX模板定制与修改.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/15_LaTeX模板定制与修改.md",
+      "relative_path": "15_LaTeX模板定制与修改.md",
+      "line_count": 37,
+      "char_count": 729,
+      "heading_count": 5,
+      "headings": [
+        {
+          "level": 1,
+          "title": "LaTeX 模板定制修改 (CZU)",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "核心原则",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "目录结构",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "修改场景",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "title": "排错速查",
+          "line": 34
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "principles",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "16_论文信息获取与处理全流程",
+      "name": "组合示例",
+      "file_name": "16_论文信息获取与处理全流程.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/16_论文信息获取与处理全流程.md",
+      "relative_path": "16_论文信息获取与处理全流程.md",
+      "line_count": 271,
+      "char_count": 3501,
+      "heading_count": 42,
+      "headings": [
+        {
+          "level": 2,
+          "title": "整体工作流",
+          "line": 4
+        },
+        {
+          "level": 2,
+          "title": "模块一：学术论文信息检索",
+          "line": 15
+        },
+        {
+          "level": 3,
+          "title": "检索渠道分类",
+          "line": 17
+        },
+        {
+          "level": 3,
+          "title": "检索语法",
+          "line": 27
+        },
+        {
+          "level": 1,
+          "title": "组合示例",
+          "line": 42
+        },
+        {
+          "level": 3,
+          "title": "检索策略",
+          "line": 46
+        },
+        {
+          "level": 4,
+          "title": "漏斗模型",
+          "line": 48
+        },
+        {
+          "level": 4,
+          "title": "检索词扩展",
+          "line": 60
+        },
+        {
+          "level": 2,
+          "title": "模块二：优质论文筛选",
+          "line": 69
+        },
+        {
+          "level": 3,
+          "title": "筛选标准（必读）",
+          "line": 71
+        },
+        {
+          "level": 3,
+          "title": "快速筛选流程",
+          "line": 80
+        },
+        {
+          "level": 3,
+          "title": "预警信号（遇到这些论文快跑）",
+          "line": 88
+        },
+        {
+          "level": 2,
+          "title": "模块三：关键信息截取",
+          "line": 97
+        },
+        {
+          "level": 3,
+          "title": "论文精读模板",
+          "line": 99
+        },
+        {
+          "level": 2,
+          "title": "论文信息",
+          "line": 102
+        },
+        {
+          "level": 2,
+          "title": "研究问题",
+          "line": 109
+        },
+        {
+          "level": 2,
+          "title": "核心方法",
+          "line": 114
+        },
+        {
+          "level": 2,
+          "title": "实验设置",
+          "line": 119
+        },
+        {
+          "level": 2,
+          "title": "核心结论",
+          "line": 124
+        },
+        {
+          "level": 2,
+          "title": "可借鉴点",
+          "line": 129
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "17_论文扩写与AI辅助指南",
+      "name": "论文内容扩写与 AI 辅助指南",
+      "file_name": "17_论文扩写与AI辅助指南.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/17_论文扩写与AI辅助指南.md",
+      "relative_path": "17_论文扩写与AI辅助指南.md",
+      "line_count": 254,
+      "char_count": 2992,
+      "heading_count": 36,
+      "headings": [
+        {
+          "level": 1,
+          "title": "论文内容扩写与 AI 辅助指南",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "核心问题诊断",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "title": "扩写工作流（核心方法论）",
+          "line": 15
+        },
+        {
+          "level": 3,
+          "title": "Step 1: 补充输入（必做！）",
+          "line": 17
+        },
+        {
+          "level": 4,
+          "title": "信息补充 SOP",
+          "line": 21
+        },
+        {
+          "level": 2,
+          "title": "扩写任务",
+          "line": 35
+        },
+        {
+          "level": 3,
+          "title": "目标段落",
+          "line": 37
+        },
+        {
+          "level": 3,
+          "title": "缺少的信息",
+          "line": 40
+        },
+        {
+          "level": 3,
+          "title": "已收集的补充材料",
+          "line": 44
+        },
+        {
+          "level": 3,
+          "title": "Step 2: 生成扩写（提示词模板）",
+          "line": 49
+        },
+        {
+          "level": 4,
+          "title": "模板 A：学术论文扩写",
+          "line": 51
+        },
+        {
+          "level": 2,
+          "title": "原文",
+          "line": 61
+        },
+        {
+          "level": 2,
+          "title": "补充材料",
+          "line": 64
+        },
+        {
+          "level": 2,
+          "title": "风格要求",
+          "line": 67
+        },
+        {
+          "level": 4,
+          "title": "模板 B：调研报告扩写",
+          "line": 73
+        },
+        {
+          "level": 2,
+          "title": "核心观点",
+          "line": 82
+        },
+        {
+          "level": 2,
+          "title": "支撑要点",
+          "line": 85
+        },
+        {
+          "level": 2,
+          "title": "补充数据/案例",
+          "line": 89
+        },
+        {
+          "level": 2,
+          "title": "风格",
+          "line": 92
+        },
+        {
+          "level": 4,
+          "title": "模板 C：商业文案扩写",
+          "line": 96
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "18_行研信源获取SOP",
+      "name": "18_行研信源获取SOP",
+      "file_name": "18_行研信源获取SOP.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/18_行研信源获取SOP.md",
+      "relative_path": "18_行研信源获取SOP.md",
+      "line_count": 42,
+      "char_count": 874,
+      "heading_count": 10,
+      "headings": [
+        {
+          "level": 2,
+          "title": "目标",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "前置条件",
+          "line": 4
+        },
+        {
+          "level": 2,
+          "title": "标准操作流程（4步法）",
+          "line": 8
+        },
+        {
+          "level": 3,
+          "title": "Step 1: 官方一手数据（5分钟，必做）",
+          "line": 10
+        },
+        {
+          "level": 3,
+          "title": "Step 2: 专业机构核心报告（10分钟）",
+          "line": 15
+        },
+        {
+          "level": 3,
+          "title": "Step 3: 辅助验证数据（10分钟）",
+          "line": 21
+        },
+        {
+          "level": 3,
+          "title": "Step 4: 存档与复用机制",
+          "line": 26
+        },
+        {
+          "level": 2,
+          "title": "质量校验Checklist",
+          "line": 31
+        },
+        {
+          "level": 2,
+          "title": "异常处理",
+          "line": 37
+        },
+        {
+          "level": 2,
+          "title": "输出物",
+          "line": 41
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "19_问题解决底层思路与执行方法论",
+      "name": "个人成长与职场进阶：从底层认知到高效执行",
+      "file_name": "19_问题解决底层思路与执行方法论.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/19_问题解决底层思路与执行方法论.md",
+      "relative_path": "19_问题解决底层思路与执行方法论.md",
+      "line_count": 41,
+      "char_count": 1016,
+      "heading_count": 10,
+      "headings": [
+        {
+          "level": 1,
+          "title": "个人成长与职场进阶：从底层认知到高效执行",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "第一部分：重塑底层认知（如何成为厉害的人）",
+          "line": 3
+        },
+        {
+          "level": 3,
+          "title": "1. 消除信息差",
+          "line": 5
+        },
+        {
+          "level": 3,
+          "title": "2. 结构化思维",
+          "line": 9
+        },
+        {
+          "level": 3,
+          "title": "3. 突破思维定式",
+          "line": 13
+        },
+        {
+          "level": 3,
+          "title": "4. 动力机制转换",
+          "line": 21
+        },
+        {
+          "level": 2,
+          "title": "第二部分：高效执行实操（如何提升工作能力）",
+          "line": 27
+        },
+        {
+          "level": 3,
+          "title": "1. 明确标准（SMART原则）",
+          "line": 29
+        },
+        {
+          "level": 3,
+          "title": "2. 请示工作（RIDE方案分析）",
+          "line": 32
+        },
+        {
+          "level": 3,
+          "title": "3. 沟通与复盘模型",
+          "line": 38
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "20_目标拆解与根因分析框架（OKRTS+5W）",
+      "name": "目标拆解与根因分析框架（OKRTS + 5W + 问题四象限）",
+      "file_name": "20_目标拆解与根因分析框架（OKRTS+5W）.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/20_目标拆解与根因分析框架（OKRTS+5W）.md",
+      "relative_path": "20_目标拆解与根因分析框架（OKRTS+5W）.md",
+      "line_count": 246,
+      "char_count": 7005,
+      "heading_count": 20,
+      "headings": [
+        {
+          "level": 1,
+          "title": "目标拆解与根因分析框架（OKRTS + 5W + 问题四象限）",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "框架总览",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "title": "模型一：OKRTS 金字塔模型（目标逐级拆解）",
+          "line": 17
+        },
+        {
+          "level": 3,
+          "title": "模型结构",
+          "line": 19
+        },
+        {
+          "level": 3,
+          "title": "层级说明",
+          "line": 44
+        },
+        {
+          "level": 3,
+          "title": "执行原则",
+          "line": 53
+        },
+        {
+          "level": 3,
+          "title": "操作清单",
+          "line": 60
+        },
+        {
+          "level": 2,
+          "title": "模型二：5W 根因分析法（漏斗模型）",
+          "line": 70
+        },
+        {
+          "level": 3,
+          "title": "模型结构",
+          "line": 72
+        },
+        {
+          "level": 3,
+          "title": "逐层追问指南",
+          "line": 104
+        },
+        {
+          "level": 3,
+          "title": "执行要点",
+          "line": 115
+        },
+        {
+          "level": 2,
+          "title": "模型三：问题关注四象限模型（分类应对）",
+          "line": 124
+        },
+        {
+          "level": 3,
+          "title": "四象限结构",
+          "line": 126
+        },
+        {
+          "level": 3,
+          "title": "问题分类与应对策略",
+          "line": 149
+        },
+        {
+          "level": 3,
+          "title": "资源分配原则",
+          "line": 158
+        },
+        {
+          "level": 3,
+          "title": "使用流程",
+          "line": 174
+        },
+        {
+          "level": 2,
+          "title": "三模型联动工作流",
+          "line": 183
+        },
+        {
+          "level": 3,
+          "title": "典型场景示例",
+          "line": 216
+        },
+        {
+          "level": 2,
+          "title": "关联技能",
+          "line": 233
+        },
+        {
+          "level": 2,
+          "title": "参考资源",
+          "line": 241
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/00_skill说明",
+      "name": "00_skill说明",
+      "file_name": "00_skill说明.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/00_skill说明.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/00_skill说明.md",
+      "line_count": 73,
+      "char_count": 1621,
+      "heading_count": 5,
+      "headings": [
+        {
+          "level": 1,
+          "title": "00_skill说明",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Skill 基本信息",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "Skill 构建过程",
+          "line": 18
+        },
+        {
+          "level": 2,
+          "title": "规范依据",
+          "line": 36
+        },
+        {
+          "level": 2,
+          "title": "与旧版对比",
+          "line": 61
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/01_国家标准索引",
+      "name": "国家标准索引",
+      "file_name": "01_国家标准索引.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/01_国家标准索引.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/01_国家标准索引.md",
+      "line_count": 335,
+      "char_count": 8014,
+      "heading_count": 31,
+      "headings": [
+        {
+          "level": 1,
+          "title": "国家标准索引",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "一、必须纳入 Skill 的标准清单",
+          "line": 9
+        },
+        {
+          "level": 3,
+          "title": "1.1 学位论文与学术写作标准",
+          "line": 11
+        },
+        {
+          "level": 4,
+          "title": "GB/T 7713.1—2025《信息与文献 编写规则 第1部分：学位论文》",
+          "line": 13
+        },
+        {
+          "level": 4,
+          "title": "GB/T 7713.2—2022《学术论文编写规则》",
+          "line": 29
+        },
+        {
+          "level": 4,
+          "title": "GB/T 7714—2015《信息与文献 参考文献著录规则》",
+          "line": 45
+        },
+        {
+          "level": 3,
+          "title": "1.2 语言文字规范标准",
+          "line": 63
+        },
+        {
+          "level": 4,
+          "title": "GB/T 15834—2011《标点符号用法》",
+          "line": 65
+        },
+        {
+          "level": 4,
+          "title": "GB/T 15835—2011《出版物上数字用法》",
+          "line": 80
+        },
+        {
+          "level": 3,
+          "title": "1.3 量和单位标准",
+          "line": 97
+        },
+        {
+          "level": 4,
+          "title": "GB/T 3100—2022《国际单位制及其应用》",
+          "line": 99
+        },
+        {
+          "level": 4,
+          "title": "GB/T 3101—1993《有关量、单位和符号的一般原则》",
+          "line": 114
+        },
+        {
+          "level": 3,
+          "title": "1.4 标准化文件编写标准",
+          "line": 130
+        },
+        {
+          "level": 4,
+          "title": "GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》",
+          "line": 132
+        },
+        {
+          "level": 3,
+          "title": "1.5 软件工程文档标准",
+          "line": 149
+        },
+        {
+          "level": 4,
+          "title": "GB/T 8567—2006《计算机软件文档编制规范》",
+          "line": 151
+        },
+        {
+          "level": 4,
+          "title": "GB/T 9385—2008《计算机软件需求规格说明规范》",
+          "line": 167
+        },
+        {
+          "level": 4,
+          "title": "GB/T 14394—2008《计算机软件可靠性和可维护性管理》",
+          "line": 183
+        },
+        {
+          "level": 4,
+          "title": "GB/T 16260.1—2006《软件工程 产品质量 第1部分：质量模型》",
+          "line": 197
+        },
+        {
+          "level": 3,
+          "title": "1.6 国际标准索引",
+          "line": 213
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/02_文档分类与生命周期",
+      "name": "文档分类与生命周期",
+      "file_name": "02_文档分类与生命周期.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/02_文档分类与生命周期.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/02_文档分类与生命周期.md",
+      "line_count": 342,
+      "char_count": 5853,
+      "heading_count": 32,
+      "headings": [
+        {
+          "level": 1,
+          "title": "文档分类与生命周期",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "一、文档分类体系",
+          "line": 7
+        },
+        {
+          "level": 3,
+          "title": "一级分类与二级分类",
+          "line": 9
+        },
+        {
+          "level": 2,
+          "title": "二、文档生命周期",
+          "line": 24
+        },
+        {
+          "level": 3,
+          "title": "2.1 文档生命周期流程",
+          "line": 26
+        },
+        {
+          "level": 3,
+          "title": "2.2 生命周期各阶段说明",
+          "line": 53
+        },
+        {
+          "level": 2,
+          "title": "三、文档状态机",
+          "line": 74
+        },
+        {
+          "level": 3,
+          "title": "状态定义",
+          "line": 90
+        },
+        {
+          "level": 2,
+          "title": "四、文档元数据规范",
+          "line": 102
+        },
+        {
+          "level": 3,
+          "title": "元数据字段说明",
+          "line": 124
+        },
+        {
+          "level": 2,
+          "title": "五、文档命名规范",
+          "line": 144
+        },
+        {
+          "level": 3,
+          "title": "5.1 通用命名规则",
+          "line": 146
+        },
+        {
+          "level": 3,
+          "title": "5.2 学术文档命名",
+          "line": 159
+        },
+        {
+          "level": 3,
+          "title": "5.3 软件工程文档命名",
+          "line": 169
+        },
+        {
+          "level": 3,
+          "title": "5.4 项目管理文档命名",
+          "line": 191
+        },
+        {
+          "level": 2,
+          "title": "六、文档版本控制规范",
+          "line": 204
+        },
+        {
+          "level": 3,
+          "title": "6.1 语义化版本（Semantic Versioning）",
+          "line": 206
+        },
+        {
+          "level": 3,
+          "title": "6.2 版本发布规则",
+          "line": 221
+        },
+        {
+          "level": 3,
+          "title": "6.3 变更记录格式（CHANGELOG）",
+          "line": 230
+        },
+        {
+          "level": 2,
+          "title": "变更记录",
+          "line": 235
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/03_学术文档规范",
+      "name": "学术文档规范",
+      "file_name": "03_学术文档规范.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/03_学术文档规范.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/03_学术文档规范.md",
+      "line_count": 403,
+      "char_count": 5243,
+      "heading_count": 49,
+      "headings": [
+        {
+          "level": 1,
+          "title": "学术文档规范",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "一、学术文档分类体系",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "二、学位论文标准结构（GB/T 7713.1—2025）",
+          "line": 21
+        },
+        {
+          "level": 3,
+          "title": "必置章节",
+          "line": 23
+        },
+        {
+          "level": 3,
+          "title": "各章节说明",
+          "line": 59
+        },
+        {
+          "level": 2,
+          "title": "三、学术论文标准结构（GB/T 7713.2—2022）",
+          "line": 75
+        },
+        {
+          "level": 2,
+          "title": "四、文献综述结构",
+          "line": 93
+        },
+        {
+          "level": 2,
+          "title": "五、开题报告结构",
+          "line": 120
+        },
+        {
+          "level": 2,
+          "title": "六、实验报告结构",
+          "line": 139
+        },
+        {
+          "level": 2,
+          "title": "七、调研报告结构",
+          "line": 158
+        },
+        {
+          "level": 2,
+          "title": "八、格式规范",
+          "line": 177
+        },
+        {
+          "level": 3,
+          "title": "8.1 摘要规范",
+          "line": 179
+        },
+        {
+          "level": 3,
+          "title": "8.2 关键词规范",
+          "line": 190
+        },
+        {
+          "level": 3,
+          "title": "8.3 图表规范",
+          "line": 197
+        },
+        {
+          "level": 3,
+          "title": "8.4 公式规范",
+          "line": 208
+        },
+        {
+          "level": 3,
+          "title": "8.5 参考文献规范（GB/T 7714—2015）",
+          "line": 215
+        },
+        {
+          "level": 2,
+          "title": "九、引用格式规范（GB/T 7714—2015 示例）",
+          "line": 221
+        },
+        {
+          "level": 3,
+          "title": "期刊文章",
+          "line": 223
+        },
+        {
+          "level": 3,
+          "title": "图书",
+          "line": 232
+        },
+        {
+          "level": 3,
+          "title": "学位论文",
+          "line": 241
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/04_软件工程文档规范",
+      "name": "软件工程文档规范",
+      "file_name": "04_软件工程文档规范.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/04_软件工程文档规范.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/04_软件工程文档规范.md",
+      "line_count": 278,
+      "char_count": 4052,
+      "heading_count": 23,
+      "headings": [
+        {
+          "level": 1,
+          "title": "软件工程文档规范",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "一、软件工程文档全景图",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "二、软件工程文档体系（轻量版 vs 完整版）",
+          "line": 54
+        },
+        {
+          "level": 3,
+          "title": "2.1 立项阶段",
+          "line": 56
+        },
+        {
+          "level": 4,
+          "title": "可行性分析报告",
+          "line": 58
+        },
+        {
+          "level": 3,
+          "title": "2.2 需求阶段",
+          "line": 79
+        },
+        {
+          "level": 4,
+          "title": "软件需求规格说明书（SRS）",
+          "line": 81
+        },
+        {
+          "level": 3,
+          "title": "2.3 设计阶段",
+          "line": 116
+        },
+        {
+          "level": 4,
+          "title": "概要设计说明书（HLD）",
+          "line": 118
+        },
+        {
+          "level": 4,
+          "title": "详细设计说明书（LLD）",
+          "line": 134
+        },
+        {
+          "level": 3,
+          "title": "2.4 测试阶段",
+          "line": 150
+        },
+        {
+          "level": 4,
+          "title": "测试计划",
+          "line": 152
+        },
+        {
+          "level": 4,
+          "title": "测试用例",
+          "line": 172
+        },
+        {
+          "level": 3,
+          "title": "2.5 部署与运维阶段",
+          "line": 186
+        },
+        {
+          "level": 4,
+          "title": "部署说明文档",
+          "line": 188
+        },
+        {
+          "level": 4,
+          "title": "用户手册",
+          "line": 203
+        },
+        {
+          "level": 2,
+          "title": "三、文档输出规范对照表",
+          "line": 215
+        },
+        {
+          "level": 2,
+          "title": "四、国家标准与国际标准映射",
+          "line": 231
+        },
+        {
+          "level": 2,
+          "title": "五、软件工程文档命名规范",
+          "line": 242
+        },
+        {
+          "level": 2,
+          "title": "六、软件工程文档质量检查清单",
+          "line": 256
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/05_产品与项目管理文档规范",
+      "name": "产品与项目管理文档规范",
+      "file_name": "05_产品与项目管理文档规范.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/05_产品与项目管理文档规范.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/05_产品与项目管理文档规范.md",
+      "line_count": 279,
+      "char_count": 3399,
+      "heading_count": 82,
+      "headings": [
+        {
+          "level": 1,
+          "title": "产品与项目管理文档规范",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "一、产品文档分类体系",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "二、PRD 模板",
+          "line": 20
+        },
+        {
+          "level": 1,
+          "title": "产品需求文档 v{版本}",
+          "line": 23
+        },
+        {
+          "level": 2,
+          "title": "文档信息",
+          "line": 25
+        },
+        {
+          "level": 2,
+          "title": "1. 产品概述",
+          "line": 32
+        },
+        {
+          "level": 3,
+          "title": "1.1 产品背景",
+          "line": 33
+        },
+        {
+          "level": 3,
+          "title": "1.2 产品目标",
+          "line": 34
+        },
+        {
+          "level": 3,
+          "title": "1.3 成功指标（KPI）",
+          "line": 35
+        },
+        {
+          "level": 2,
+          "title": "2. 用户与市场",
+          "line": 37
+        },
+        {
+          "level": 3,
+          "title": "2.1 目标用户画像",
+          "line": 38
+        },
+        {
+          "level": 3,
+          "title": "2.2 用户痛点",
+          "line": 39
+        },
+        {
+          "level": 3,
+          "title": "2.3 市场规模（可选）",
+          "line": 40
+        },
+        {
+          "level": 2,
+          "title": "3. 功能需求",
+          "line": 42
+        },
+        {
+          "level": 3,
+          "title": "3.1 [功能模块A]",
+          "line": 43
+        },
+        {
+          "level": 3,
+          "title": "3.2 [功能模块B]",
+          "line": 51
+        },
+        {
+          "level": 2,
+          "title": "4. 非功能需求",
+          "line": 54
+        },
+        {
+          "level": 3,
+          "title": "4.1 性能需求",
+          "line": 55
+        },
+        {
+          "level": 3,
+          "title": "4.2 安全性需求",
+          "line": 56
+        },
+        {
+          "level": 3,
+          "title": "4.3 可靠性需求",
+          "line": 57
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/06_图表与建模规范",
+      "name": "图表与建模规范",
+      "file_name": "06_图表与建模规范.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/06_图表与建模规范.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/06_图表与建模规范.md",
+      "line_count": 375,
+      "char_count": 6707,
+      "heading_count": 29,
+      "headings": [
+        {
+          "level": 1,
+          "title": "图表与建模规范",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "一、图表类型分类与适用场景",
+          "line": 7
+        },
+        {
+          "level": 3,
+          "title": "1.1 流程图（Flowchart）",
+          "line": 9
+        },
+        {
+          "level": 3,
+          "title": "1.2 活动图（Activity Diagram）",
+          "line": 28
+        },
+        {
+          "level": 3,
+          "title": "1.3 状态图（State Diagram）",
+          "line": 51
+        },
+        {
+          "level": 3,
+          "title": "1.4 时序图（Sequence Diagram）",
+          "line": 73
+        },
+        {
+          "level": 3,
+          "title": "1.5 用例图（Use Case Diagram）",
+          "line": 98
+        },
+        {
+          "level": 3,
+          "title": "1.6 类图（Class Diagram）",
+          "line": 118
+        },
+        {
+          "level": 3,
+          "title": "1.7 组件图（Component Diagram）",
+          "line": 151
+        },
+        {
+          "level": 3,
+          "title": "1.8 部署图（Deployment Diagram）",
+          "line": 160
+        },
+        {
+          "level": 3,
+          "title": "1.9 E-R 图（Entity Relationship Diagram）",
+          "line": 169
+        },
+        {
+          "level": 3,
+          "title": "1.10 数据流图（DFD）",
+          "line": 200
+        },
+        {
+          "level": 3,
+          "title": "1.11 架构图（Architecture Diagram）",
+          "line": 209
+        },
+        {
+          "level": 3,
+          "title": "1.12 甘特图（Gantt Chart）",
+          "line": 218
+        },
+        {
+          "level": 3,
+          "title": "1.13 思维导图（Mind Map）",
+          "line": 243
+        },
+        {
+          "level": 3,
+          "title": "1.14 UI 流程图（Wireflow）",
+          "line": 252
+        },
+        {
+          "level": 3,
+          "title": "1.15 原型图（Prototype）",
+          "line": 261
+        },
+        {
+          "level": 3,
+          "title": "1.16 数据可视化图",
+          "line": 270
+        },
+        {
+          "level": 2,
+          "title": "二、图表编号与引用规范",
+          "line": 281
+        },
+        {
+          "level": 3,
+          "title": "2.1 编号规则",
+          "line": 283
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/07_引用与参考文献规范",
+      "name": "引用与参考文献规范",
+      "file_name": "07_引用与参考文献规范.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/07_引用与参考文献规范.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/07_引用与参考文献规范.md",
+      "line_count": 283,
+      "char_count": 5828,
+      "heading_count": 34,
+      "headings": [
+        {
+          "level": 1,
+          "title": "引用与参考文献规范",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "一、资料来源分级制度",
+          "line": 7
+        },
+        {
+          "level": 3,
+          "title": "五级分级体系",
+          "line": 9
+        },
+        {
+          "level": 3,
+          "title": "判断标准",
+          "line": 19
+        },
+        {
+          "level": 2,
+          "title": "二、资料元数据表",
+          "line": 29
+        },
+        {
+          "level": 2,
+          "title": "三、证据链记录模板",
+          "line": 50
+        },
+        {
+          "level": 3,
+          "title": "证据链三要素：结论 → 证据 → 引用",
+          "line": 52
+        },
+        {
+          "level": 3,
+          "title": "证据链记录表示例",
+          "line": 64
+        },
+        {
+          "level": 2,
+          "title": "四、参考文献管理规则（全流程）",
+          "line": 74
+        },
+        {
+          "level": 3,
+          "title": "4.1 收集阶段",
+          "line": 76
+        },
+        {
+          "level": 3,
+          "title": "4.2 整理阶段",
+          "line": 81
+        },
+        {
+          "level": 3,
+          "title": "4.3 格式化阶段",
+          "line": 86
+        },
+        {
+          "level": 3,
+          "title": "4.4 复核阶段",
+          "line": 91
+        },
+        {
+          "level": 2,
+          "title": "五、GB/T 7714—2015 各类引用著录格式",
+          "line": 98
+        },
+        {
+          "level": 3,
+          "title": "5.1 期刊文章",
+          "line": 100
+        },
+        {
+          "level": 3,
+          "title": "5.2 图书",
+          "line": 112
+        },
+        {
+          "level": 3,
+          "title": "5.3 学位论文",
+          "line": 125
+        },
+        {
+          "level": 3,
+          "title": "5.4 国家标准",
+          "line": 136
+        },
+        {
+          "level": 3,
+          "title": "5.5 国际标准",
+          "line": 148
+        },
+        {
+          "level": 3,
+          "title": "5.6 论文集/CONFERENCE",
+          "line": 160
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/08_文档命名与版本控制",
+      "name": "文档命名与版本控制",
+      "file_name": "08_文档命名与版本控制.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/08_文档命名与版本控制.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/08_文档命名与版本控制.md",
+      "line_count": 260,
+      "char_count": 4569,
+      "heading_count": 28,
+      "headings": [
+        {
+          "level": 1,
+          "title": "文档命名与版本控制",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "一、文档命名规范（完整版）",
+          "line": 7
+        },
+        {
+          "level": 3,
+          "title": "1.1 通用命名规则",
+          "line": 9
+        },
+        {
+          "level": 3,
+          "title": "1.2 各类型文档命名对照表",
+          "line": 23
+        },
+        {
+          "level": 2,
+          "title": "二、语义化版本（Semantic Versioning）",
+          "line": 46
+        },
+        {
+          "level": 3,
+          "title": "2.1 版本号格式",
+          "line": 48
+        },
+        {
+          "level": 3,
+          "title": "2.2 版本变更规则",
+          "line": 59
+        },
+        {
+          "level": 3,
+          "title": "2.3 版本状态",
+          "line": 68
+        },
+        {
+          "level": 2,
+          "title": "三、变更记录（CHANGELOG）规范",
+          "line": 79
+        },
+        {
+          "level": 3,
+          "title": "3.1 变更记录位置",
+          "line": 81
+        },
+        {
+          "level": 3,
+          "title": "3.2 变更记录格式",
+          "line": 87
+        },
+        {
+          "level": 2,
+          "title": "变更记录",
+          "line": 90
+        },
+        {
+          "level": 3,
+          "title": "v1.2.0 (2024-04-20) - 次版本更新",
+          "line": 92
+        },
+        {
+          "level": 3,
+          "title": "v1.1.0 (2024-04-10) - 次版本更新",
+          "line": 112
+        },
+        {
+          "level": 3,
+          "title": "v1.0.0 (2024-04-01) - 正式发布",
+          "line": 121
+        },
+        {
+          "level": 3,
+          "title": "v0.2.0 (2024-03-20) - 内部审查版",
+          "line": 131
+        },
+        {
+          "level": 3,
+          "title": "v0.1.0 (2024-03-15) - 初稿",
+          "line": 139
+        },
+        {
+          "level": 3,
+          "title": "3.3 变更类型关键词",
+          "line": 145
+        },
+        {
+          "level": 2,
+          "title": "四、Git 提交规范",
+          "line": 159
+        },
+        {
+          "level": 3,
+          "title": "4.1 提交信息格式",
+          "line": 161
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/09_文档质量审查清单",
+      "name": "文档质量审查清单",
+      "file_name": "09_文档质量审查清单.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/09_文档质量审查清单.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/09_文档质量审查清单.md",
+      "line_count": 403,
+      "char_count": 6705,
+      "heading_count": 37,
+      "headings": [
+        {
+          "level": 1,
+          "title": "文档质量审查清单",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "一、文档质量评分模型（10分制）",
+          "line": 7
+        },
+        {
+          "level": 3,
+          "title": "评分等级",
+          "line": 9
+        },
+        {
+          "level": 3,
+          "title": "评分维度权重",
+          "line": 18
+        },
+        {
+          "level": 2,
+          "title": "二、各维度评分细则",
+          "line": 39
+        },
+        {
+          "level": 3,
+          "title": "2.1 结构完整性（15%）",
+          "line": 41
+        },
+        {
+          "level": 3,
+          "title": "2.2 内容准确性（20%）",
+          "line": 59
+        },
+        {
+          "level": 3,
+          "title": "2.3 逻辑连贯性（15%）",
+          "line": 76
+        },
+        {
+          "level": 3,
+          "title": "2.4 标准符合性（15%）",
+          "line": 92
+        },
+        {
+          "level": 3,
+          "title": "2.5 证据充分性（10%）",
+          "line": 109
+        },
+        {
+          "level": 3,
+          "title": "2.6 可执行性（10%）",
+          "line": 125
+        },
+        {
+          "level": 3,
+          "title": "2.7 可维护性（5%）",
+          "line": 141
+        },
+        {
+          "level": 3,
+          "title": "2.8 可读性（5%）",
+          "line": 150
+        },
+        {
+          "level": 3,
+          "title": "2.9 版本可追踪性（5%）",
+          "line": 159
+        },
+        {
+          "level": 2,
+          "title": "三、一票否决项",
+          "line": 170
+        },
+        {
+          "level": 2,
+          "title": "四、常见问题库（20个）",
+          "line": 187
+        },
+        {
+          "level": 2,
+          "title": "五、AI 辅助审查 Prompt",
+          "line": 214
+        },
+        {
+          "level": 2,
+          "title": "六、人工审查表（打印版）",
+          "line": 247
+        },
+        {
+          "level": 3,
+          "title": "文档质量审查表",
+          "line": 249
+        },
+        {
+          "level": 4,
+          "title": "A. 结构完整性（15分）",
+          "line": 255
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/10_Agent调研任务库",
+      "name": "Agent 调研任务库",
+      "file_name": "10_Agent调研任务库.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/10_Agent调研任务库.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/10_Agent调研任务库.md",
+      "line_count": 179,
+      "char_count": 2502,
+      "heading_count": 14,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Agent 调研任务库",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "一、周期性调研任务",
+          "line": 7
+        },
+        {
+          "level": 3,
+          "title": "任务 1：国家标准动态监控（月度）",
+          "line": 9
+        },
+        {
+          "level": 3,
+          "title": "任务 2：国际标准版本检查（季度）",
+          "line": 32
+        },
+        {
+          "level": 3,
+          "title": "任务 3：模板库适用性审查（季度）",
+          "line": 49
+        },
+        {
+          "level": 3,
+          "title": "任务 4：常见问题库更新（半年度）",
+          "line": 64
+        },
+        {
+          "level": 2,
+          "title": "二、一次性调研任务（触发式）",
+          "line": 80
+        },
+        {
+          "level": 3,
+          "title": "任务 5：新标准发布响应",
+          "line": 82
+        },
+        {
+          "level": 3,
+          "title": "任务 6：用户反馈处理",
+          "line": 97
+        },
+        {
+          "level": 2,
+          "title": "三、Agent 调研执行 Prompt",
+          "line": 110
+        },
+        {
+          "level": 2,
+          "title": "四、调研日志格式",
+          "line": 138
+        },
+        {
+          "level": 1,
+          "title": "调研日志：[任务名称]",
+          "line": 143
+        },
+        {
+          "level": 2,
+          "title": "五、任务状态追踪",
+          "line": 162
+        },
+        {
+          "level": 2,
+          "title": "六、Skill 版本管理",
+          "line": 175
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/README",
+      "name": "02_国家标准驱动的文档管理与工程化写作规范",
+      "file_name": "README.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/README.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/README.md",
+      "line_count": 154,
+      "char_count": 3225,
+      "heading_count": 9,
+      "headings": [
+        {
+          "level": 1,
+          "title": "02_国家标准驱动的文档管理与工程化写作规范",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "1. Skill 定位",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "2. 适用范围",
+          "line": 20
+        },
+        {
+          "level": 2,
+          "title": "3. 目录结构",
+          "line": 37
+        },
+        {
+          "level": 2,
+          "title": "4. 核心原则",
+          "line": 92
+        },
+        {
+          "level": 2,
+          "title": "5. 标准体系",
+          "line": 105
+        },
+        {
+          "level": 2,
+          "title": "6. 使用流程",
+          "line": 117
+        },
+        {
+          "level": 2,
+          "title": "7. 版本与维护",
+          "line": 139
+        },
+        {
+          "level": 2,
+          "title": "8. 相关 Skill",
+          "line": 148
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/SRS检查清单",
+      "name": "软件需求规格说明书（SRS）检查清单",
+      "file_name": "SRS检查清单.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/SRS检查清单.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/SRS检查清单.md",
+      "line_count": 98,
+      "char_count": 1384,
+      "heading_count": 15,
+      "headings": [
+        {
+          "level": 1,
+          "title": "软件需求规格说明书（SRS）检查清单",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "A. 引言部分",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "B. 总体描述",
+          "line": 16
+        },
+        {
+          "level": 2,
+          "title": "C. 需求规格（核心部分）",
+          "line": 25
+        },
+        {
+          "level": 3,
+          "title": "C.1 功能需求",
+          "line": 27
+        },
+        {
+          "level": 3,
+          "title": "C.2 非功能需求",
+          "line": 35
+        },
+        {
+          "level": 2,
+          "title": "D. 接口需求",
+          "line": 46
+        },
+        {
+          "level": 3,
+          "title": "D.1 用户接口",
+          "line": 48
+        },
+        {
+          "level": 3,
+          "title": "D.2 硬件接口",
+          "line": 53
+        },
+        {
+          "level": 3,
+          "title": "D.3 软件接口",
+          "line": 56
+        },
+        {
+          "level": 3,
+          "title": "D.4 通信接口",
+          "line": 61
+        },
+        {
+          "level": 2,
+          "title": "E. 可验证性",
+          "line": 67
+        },
+        {
+          "level": 2,
+          "title": "F. 可追踪性",
+          "line": 76
+        },
+        {
+          "level": 2,
+          "title": "G. 标准符合性",
+          "line": 84
+        },
+        {
+          "level": 2,
+          "title": "H. 完整性自检",
+          "line": 93
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/引用格式检查清单",
+      "name": "引用格式检查清单",
+      "file_name": "引用格式检查清单.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/引用格式检查清单.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/引用格式检查清单.md",
+      "line_count": 106,
+      "char_count": 1666,
+      "heading_count": 13,
+      "headings": [
+        {
+          "level": 1,
+          "title": "引用格式检查清单",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "A. 引用格式自检",
+          "line": 7
+        },
+        {
+          "level": 3,
+          "title": "A.1 期刊文章",
+          "line": 9
+        },
+        {
+          "level": 3,
+          "title": "A.2 图书",
+          "line": 16
+        },
+        {
+          "level": 3,
+          "title": "A.3 学位论文",
+          "line": 23
+        },
+        {
+          "level": 3,
+          "title": "A.4 国家标准",
+          "line": 28
+        },
+        {
+          "level": 3,
+          "title": "A.5 国际标准",
+          "line": 33
+        },
+        {
+          "level": 3,
+          "title": "A.6 网页资源",
+          "line": 38
+        },
+        {
+          "level": 2,
+          "title": "B. 引用一致性自检",
+          "line": 46
+        },
+        {
+          "level": 2,
+          "title": "C. 引用质量自检",
+          "line": 56
+        },
+        {
+          "level": 2,
+          "title": "D. 常见错误警示",
+          "line": 67
+        },
+        {
+          "level": 2,
+          "title": "E. GB/T 7714—2015 著录格式速查",
+          "line": 82
+        },
+        {
+          "level": 2,
+          "title": "F. 工具推荐",
+          "line": 98
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/毕业论文检查清单",
+      "name": "毕业论文检查清单",
+      "file_name": "毕业论文检查清单.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/毕业论文检查清单.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/毕业论文检查清单.md",
+      "line_count": 90,
+      "char_count": 1334,
+      "heading_count": 8,
+      "headings": [
+        {
+          "level": 1,
+          "title": "毕业论文检查清单",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "A. 形式审查",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "B. 结构审查",
+          "line": 24
+        },
+        {
+          "level": 2,
+          "title": "C. 内容审查",
+          "line": 36
+        },
+        {
+          "level": 2,
+          "title": "D. 标准符合性",
+          "line": 48
+        },
+        {
+          "level": 2,
+          "title": "E. 引用与参考文献",
+          "line": 59
+        },
+        {
+          "level": 2,
+          "title": "F. 答辩准备",
+          "line": 71
+        },
+        {
+          "level": 2,
+          "title": "G. 提交前最终确认",
+          "line": 83
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/测试文档检查清单",
+      "name": "测试文档检查清单",
+      "file_name": "测试文档检查清单.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/测试文档检查清单.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/测试文档检查清单.md",
+      "line_count": 85,
+      "char_count": 1159,
+      "heading_count": 16,
+      "headings": [
+        {
+          "level": 1,
+          "title": "测试文档检查清单",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "A. 测试计划检查清单",
+          "line": 7
+        },
+        {
+          "level": 3,
+          "title": "A.1 测试范围",
+          "line": 9
+        },
+        {
+          "level": 3,
+          "title": "A.2 测试策略",
+          "line": 14
+        },
+        {
+          "level": 3,
+          "title": "A.3 测试环境",
+          "line": 19
+        },
+        {
+          "level": 3,
+          "title": "A.4 测试资源",
+          "line": 24
+        },
+        {
+          "level": 2,
+          "title": "B. 测试用例检查清单",
+          "line": 31
+        },
+        {
+          "level": 3,
+          "title": "B.1 基本信息",
+          "line": 33
+        },
+        {
+          "level": 3,
+          "title": "B.2 用例设计",
+          "line": 39
+        },
+        {
+          "level": 3,
+          "title": "B.3 预期结果",
+          "line": 47
+        },
+        {
+          "level": 3,
+          "title": "B.4 可执行性",
+          "line": 52
+        },
+        {
+          "level": 2,
+          "title": "C. 测试报告检查清单",
+          "line": 59
+        },
+        {
+          "level": 3,
+          "title": "C.1 执行情况",
+          "line": 61
+        },
+        {
+          "level": 3,
+          "title": "C.2 缺陷分析",
+          "line": 66
+        },
+        {
+          "level": 3,
+          "title": "C.3 测试结论",
+          "line": 71
+        },
+        {
+          "level": 2,
+          "title": "D. 测试文档质量自检",
+          "line": 78
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/软件设计文档检查清单",
+      "name": "软件设计文档检查清单",
+      "file_name": "软件设计文档检查清单.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/软件设计文档检查清单.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/checklists/软件设计文档检查清单.md",
+      "line_count": 102,
+      "char_count": 1470,
+      "heading_count": 15,
+      "headings": [
+        {
+          "level": 1,
+          "title": "软件设计文档检查清单",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "A. 概要设计（HLD）检查清单",
+          "line": 7
+        },
+        {
+          "level": 3,
+          "title": "A.1 引言",
+          "line": 9
+        },
+        {
+          "level": 3,
+          "title": "A.2 总体设计",
+          "line": 14
+        },
+        {
+          "level": 3,
+          "title": "A.3 接口设计",
+          "line": 20
+        },
+        {
+          "level": 3,
+          "title": "A.4 数据设计",
+          "line": 26
+        },
+        {
+          "level": 3,
+          "title": "A.5 运行设计",
+          "line": 32
+        },
+        {
+          "level": 3,
+          "title": "A.6 安全设计",
+          "line": 37
+        },
+        {
+          "level": 3,
+          "title": "A.7 关键技术问题",
+          "line": 43
+        },
+        {
+          "level": 2,
+          "title": "B. 详细设计（LLD）检查清单",
+          "line": 50
+        },
+        {
+          "level": 3,
+          "title": "B.1 模块详细设计",
+          "line": 52
+        },
+        {
+          "level": 3,
+          "title": "B.2 数据库详细设计",
+          "line": 62
+        },
+        {
+          "level": 3,
+          "title": "B.3 接口详细设计",
+          "line": 71
+        },
+        {
+          "level": 2,
+          "title": "C. 设计评审自检",
+          "line": 82
+        },
+        {
+          "level": 2,
+          "title": "D. 常见设计问题",
+          "line": 94
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/README",
+      "name": "文档模板库",
+      "file_name": "README.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/README.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/README.md",
+      "line_count": 84,
+      "char_count": 1864,
+      "heading_count": 8,
+      "headings": [
+        {
+          "level": 1,
+          "title": "文档模板库",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "模板索引",
+          "line": 7
+        },
+        {
+          "level": 3,
+          "title": "学术类模板",
+          "line": 9
+        },
+        {
+          "level": 3,
+          "title": "软件工程类模板",
+          "line": 19
+        },
+        {
+          "level": 3,
+          "title": "项目管理类模板",
+          "line": 35
+        },
+        {
+          "level": 2,
+          "title": "使用说明",
+          "line": 45
+        },
+        {
+          "level": 2,
+          "title": "模板质量标准",
+          "line": 54
+        },
+        {
+          "level": 2,
+          "title": "如何创建新模板",
+          "line": 67
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/学术类/课程论文模板",
+      "name": "课程论文模板",
+      "file_name": "课程论文模板.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/学术类/课程论文模板.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/学术类/课程论文模板.md",
+      "line_count": 206,
+      "char_count": 2456,
+      "heading_count": 31,
+      "headings": [
+        {
+          "level": 1,
+          "title": "课程论文模板",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "文档目的",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "适用场景",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "目标读者",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "title": "参考标准",
+          "line": 19
+        },
+        {
+          "level": 2,
+          "title": "文档结构",
+          "line": 27
+        },
+        {
+          "level": 2,
+          "title": "检查清单",
+          "line": 39
+        },
+        {
+          "level": 2,
+          "title": "常见错误",
+          "line": 52
+        },
+        {
+          "level": 1,
+          "title": "完整正文模板",
+          "line": 62
+        },
+        {
+          "level": 1,
+          "title": "《课程名称》课程论文",
+          "line": 67
+        },
+        {
+          "level": 2,
+          "title": "封面",
+          "line": 73
+        },
+        {
+          "level": 2,
+          "title": "摘要",
+          "line": 88
+        },
+        {
+          "level": 2,
+          "title": "Abstract",
+          "line": 96
+        },
+        {
+          "level": 2,
+          "title": "1 引言",
+          "line": 104
+        },
+        {
+          "level": 3,
+          "title": "1.1 研究背景",
+          "line": 108
+        },
+        {
+          "level": 3,
+          "title": "1.2 研究现状",
+          "line": 112
+        },
+        {
+          "level": 3,
+          "title": "1.3 研究目的与意义",
+          "line": 116
+        },
+        {
+          "level": 2,
+          "title": "2 [正文第一章节标题]",
+          "line": 122
+        },
+        {
+          "level": 3,
+          "title": "2.1 [小节标题]",
+          "line": 126
+        },
+        {
+          "level": 4,
+          "title": "2.1.1 [子小节标题]",
+          "line": 130
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/数据库设计说明书模板",
+      "name": "数据库设计说明书模板",
+      "file_name": "数据库设计说明书模板.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/数据库设计说明书模板.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/数据库设计说明书模板.md",
+      "line_count": 222,
+      "char_count": 4553,
+      "heading_count": 16,
+      "headings": [
+        {
+          "level": 1,
+          "title": "数据库设计说明书模板",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "文档元数据",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "模板正文",
+          "line": 22
+        },
+        {
+          "level": 1,
+          "title": "数据库设计说明书 v{版本}",
+          "line": 25
+        },
+        {
+          "level": 2,
+          "title": "1. 引言",
+          "line": 29
+        },
+        {
+          "level": 3,
+          "title": "1.1 目的",
+          "line": 31
+        },
+        {
+          "level": 3,
+          "title": "1.2 设计原则",
+          "line": 35
+        },
+        {
+          "level": 2,
+          "title": "2. 概念模型（E-R图）",
+          "line": 44
+        },
+        {
+          "level": 2,
+          "title": "3. 逻辑模型",
+          "line": 91
+        },
+        {
+          "level": 3,
+          "title": "3.1 users 表（用户表）",
+          "line": 93
+        },
+        {
+          "level": 3,
+          "title": "3.2 products 表（商品表）",
+          "line": 113
+        },
+        {
+          "level": 3,
+          "title": "3.3 orders 表（订单表）",
+          "line": 135
+        },
+        {
+          "level": 3,
+          "title": "3.4 order_items 表（订单项表）",
+          "line": 168
+        },
+        {
+          "level": 3,
+          "title": "3.5 carts 表（购物车表）",
+          "line": 179
+        },
+        {
+          "level": 2,
+          "title": "4. 命名规范",
+          "line": 199
+        },
+        {
+          "level": 2,
+          "title": "检查清单",
+          "line": 212
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/概要设计说明书模板",
+      "name": "概要设计说明书（HLD）模板",
+      "file_name": "概要设计说明书模板.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/概要设计说明书模板.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/概要设计说明书模板.md",
+      "line_count": 341,
+      "char_count": 5011,
+      "heading_count": 26,
+      "headings": [
+        {
+          "level": 1,
+          "title": "概要设计说明书（HLD）模板",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "文档元数据",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "模板正文",
+          "line": 22
+        },
+        {
+          "level": 1,
+          "title": "概要设计说明书 v{版本}",
+          "line": 25
+        },
+        {
+          "level": 2,
+          "title": "1. 引言",
+          "line": 40
+        },
+        {
+          "level": 3,
+          "title": "1.1 目的",
+          "line": 42
+        },
+        {
+          "level": 3,
+          "title": "1.2 范围",
+          "line": 48
+        },
+        {
+          "level": 3,
+          "title": "1.3 定义与缩略语",
+          "line": 52
+        },
+        {
+          "level": 3,
+          "title": "1.4 参考资料",
+          "line": 59
+        },
+        {
+          "level": 2,
+          "title": "2. 系统架构设计",
+          "line": 68
+        },
+        {
+          "level": 3,
+          "title": "2.1 总体架构图",
+          "line": 70
+        },
+        {
+          "level": 3,
+          "title": "2.2 技术选型",
+          "line": 105
+        },
+        {
+          "level": 3,
+          "title": "2.3 模块划分",
+          "line": 116
+        },
+        {
+          "level": 3,
+          "title": "2.4 分层架构",
+          "line": 126
+        },
+        {
+          "level": 2,
+          "title": "3. 接口设计",
+          "line": 137
+        },
+        {
+          "level": 3,
+          "title": "3.1 接口概览",
+          "line": 139
+        },
+        {
+          "level": 3,
+          "title": "3.2 详细接口规格",
+          "line": 148
+        },
+        {
+          "level": 2,
+          "title": "4. 数据库设计（概要）",
+          "line": 215
+        },
+        {
+          "level": 3,
+          "title": "4.1 数据库选型",
+          "line": 217
+        },
+        {
+          "level": 3,
+          "title": "4.2 核心集合设计",
+          "line": 224
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/测试报告模板",
+      "name": "测试报告模板",
+      "file_name": "测试报告模板.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/测试报告模板.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/测试报告模板.md",
+      "line_count": 151,
+      "char_count": 2172,
+      "heading_count": 21,
+      "headings": [
+        {
+          "level": 1,
+          "title": "测试报告模板",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "模板正文",
+          "line": 7
+        },
+        {
+          "level": 1,
+          "title": "测试报告 v{版本}",
+          "line": 10
+        },
+        {
+          "level": 2,
+          "title": "1. 测试概述",
+          "line": 25
+        },
+        {
+          "level": 3,
+          "title": "1.1 测试背景",
+          "line": 27
+        },
+        {
+          "level": 3,
+          "title": "1.2 测试范围",
+          "line": 29
+        },
+        {
+          "level": 3,
+          "title": "1.3 测试环境",
+          "line": 38
+        },
+        {
+          "level": 2,
+          "title": "2. 测试执行情况",
+          "line": 49
+        },
+        {
+          "level": 3,
+          "title": "2.1 用例执行统计",
+          "line": 51
+        },
+        {
+          "level": 3,
+          "title": "2.2 缺陷统计",
+          "line": 63
+        },
+        {
+          "level": 2,
+          "title": "3. 测试结果分析",
+          "line": 75
+        },
+        {
+          "level": 3,
+          "title": "3.1 功能测试结果",
+          "line": 77
+        },
+        {
+          "level": 3,
+          "title": "3.2 遗留缺陷",
+          "line": 86
+        },
+        {
+          "level": 2,
+          "title": "4. 测试结论",
+          "line": 97
+        },
+        {
+          "level": 3,
+          "title": "4.1 质量评估",
+          "line": 99
+        },
+        {
+          "level": 3,
+          "title": "4.2 测试结论",
+          "line": 108
+        },
+        {
+          "level": 3,
+          "title": "4.3 验收建议",
+          "line": 118
+        },
+        {
+          "level": 2,
+          "title": "5. 附录",
+          "line": 128
+        },
+        {
+          "level": 3,
+          "title": "5.1 测试用例执行明细",
+          "line": 130
+        },
+        {
+          "level": 3,
+          "title": "5.2 缺陷详情",
+          "line": 137
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "inbox",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/详细设计说明书模板",
+      "name": "详细设计说明书（LLD）模板",
+      "file_name": "详细设计说明书模板.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/详细设计说明书模板.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/详细设计说明书模板.md",
+      "line_count": 184,
+      "char_count": 2622,
+      "heading_count": 17,
+      "headings": [
+        {
+          "level": 1,
+          "title": "详细设计说明书（LLD）模板",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "文档元数据",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "模板正文",
+          "line": 22
+        },
+        {
+          "level": 1,
+          "title": "详细设计说明书 v{版本}",
+          "line": 25
+        },
+        {
+          "level": 2,
+          "title": "1. 引言",
+          "line": 29
+        },
+        {
+          "level": 3,
+          "title": "1.1 目的",
+          "line": 31
+        },
+        {
+          "level": 3,
+          "title": "1.2 范围",
+          "line": 35
+        },
+        {
+          "level": 3,
+          "title": "1.3 参考资料",
+          "line": 41
+        },
+        {
+          "level": 2,
+          "title": "2. 模块详细设计",
+          "line": 50
+        },
+        {
+          "level": 3,
+          "title": "2.1 [模块A] 模块",
+          "line": 52
+        },
+        {
+          "level": 4,
+          "title": "2.1.1 模块概述",
+          "line": 54
+        },
+        {
+          "level": 4,
+          "title": "2.1.2 类设计",
+          "line": 63
+        },
+        {
+          "level": 4,
+          "title": "2.1.3 方法详细设计",
+          "line": 89
+        },
+        {
+          "level": 4,
+          "title": "2.1.4 数据库操作",
+          "line": 111
+        },
+        {
+          "level": 2,
+          "title": "3. 接口详细设计",
+          "line": 121
+        },
+        {
+          "level": 3,
+          "title": "3.1 [接口A] 接口",
+          "line": 123
+        },
+        {
+          "level": 2,
+          "title": "检查清单",
+          "line": 175
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "inbox",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/软件需求规格说明书SRS模板",
+      "name": "软件需求规格说明书（SRS）模板",
+      "file_name": "软件需求规格说明书SRS模板.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/软件需求规格说明书SRS模板.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/软件工程类/软件需求规格说明书SRS模板.md",
+      "line_count": 309,
+      "char_count": 4196,
+      "heading_count": 38,
+      "headings": [
+        {
+          "level": 1,
+          "title": "软件需求规格说明书（SRS）模板",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "文档元数据",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "模板正文",
+          "line": 23
+        },
+        {
+          "level": 1,
+          "title": "软件需求规格说明书",
+          "line": 26
+        },
+        {
+          "level": 2,
+          "title": "1. 引言",
+          "line": 41
+        },
+        {
+          "level": 3,
+          "title": "1.1 目的",
+          "line": 43
+        },
+        {
+          "level": 3,
+          "title": "1.2 范围",
+          "line": 51
+        },
+        {
+          "level": 3,
+          "title": "1.3 定义与缩略语",
+          "line": 59
+        },
+        {
+          "level": 3,
+          "title": "1.4 参考资料",
+          "line": 66
+        },
+        {
+          "level": 2,
+          "title": "2. 总体描述",
+          "line": 75
+        },
+        {
+          "level": 3,
+          "title": "2.1 产品前景",
+          "line": 77
+        },
+        {
+          "level": 3,
+          "title": "2.2 用户特征",
+          "line": 81
+        },
+        {
+          "level": 3,
+          "title": "2.3 约束条件",
+          "line": 88
+        },
+        {
+          "level": 3,
+          "title": "2.4 假设与依赖",
+          "line": 98
+        },
+        {
+          "level": 2,
+          "title": "3. 需求规格（核心章节）",
+          "line": 107
+        },
+        {
+          "level": 3,
+          "title": "3.1 功能需求",
+          "line": 111
+        },
+        {
+          "level": 4,
+          "title": "3.1.1 [功能模块A]",
+          "line": 113
+        },
+        {
+          "level": 4,
+          "title": "3.1.2 [功能模块B]",
+          "line": 139
+        },
+        {
+          "level": 3,
+          "title": "3.2 非功能需求",
+          "line": 143
+        },
+        {
+          "level": 4,
+          "title": "3.2.1 性能需求",
+          "line": 145
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/项目管理类/会议纪要模板",
+      "name": "会议纪要模板",
+      "file_name": "会议纪要模板.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/项目管理类/会议纪要模板.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/项目管理类/会议纪要模板.md",
+      "line_count": 103,
+      "char_count": 1186,
+      "heading_count": 13,
+      "headings": [
+        {
+          "level": 1,
+          "title": "会议纪要模板",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "模板正文",
+          "line": 7
+        },
+        {
+          "level": 1,
+          "title": "会议纪要",
+          "line": 10
+        },
+        {
+          "level": 2,
+          "title": "会议基本信息",
+          "line": 12
+        },
+        {
+          "level": 2,
+          "title": "1. 会议议程",
+          "line": 28
+        },
+        {
+          "level": 2,
+          "title": "2. 讨论内容",
+          "line": 36
+        },
+        {
+          "level": 3,
+          "title": "2.1 [议题A]",
+          "line": 38
+        },
+        {
+          "level": 3,
+          "title": "2.2 [议题B]",
+          "line": 56
+        },
+        {
+          "level": 2,
+          "title": "3. 本次会议决议",
+          "line": 62
+        },
+        {
+          "level": 2,
+          "title": "4. 风险与问题",
+          "line": 71
+        },
+        {
+          "level": 2,
+          "title": "5. 下次会议安排",
+          "line": 79
+        },
+        {
+          "level": 2,
+          "title": "6. 附件",
+          "line": 89
+        },
+        {
+          "level": 2,
+          "title": "使用说明",
+          "line": 97
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "inbox",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/项目管理类/项目复盘模板",
+      "name": "项目复盘模板",
+      "file_name": "项目复盘模板.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/项目管理类/项目复盘模板.md",
+      "relative_path": "skills_library/02_国家标准驱动的文档管理与工程化写作规范/templates/项目管理类/项目复盘模板.md",
+      "line_count": 146,
+      "char_count": 1967,
+      "heading_count": 16,
+      "headings": [
+        {
+          "level": 1,
+          "title": "项目复盘模板",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "模板正文",
+          "line": 7
+        },
+        {
+          "level": 1,
+          "title": "项目复盘报告 v{版本}",
+          "line": 10
+        },
+        {
+          "level": 2,
+          "title": "1. 项目回顾",
+          "line": 24
+        },
+        {
+          "level": 3,
+          "title": "1.1 项目目标",
+          "line": 26
+        },
+        {
+          "level": 3,
+          "title": "1.2 实际成果",
+          "line": 30
+        },
+        {
+          "level": 3,
+          "title": "1.3 关键指标对比",
+          "line": 34
+        },
+        {
+          "level": 2,
+          "title": "2. 做得好（What Went Well）",
+          "line": 46
+        },
+        {
+          "level": 2,
+          "title": "3. 需改进（What Didn't Go Well）",
+          "line": 60
+        },
+        {
+          "level": 3,
+          "title": "3.1 问题分类统计",
+          "line": 69
+        },
+        {
+          "level": 2,
+          "title": "4. 核心教训（Lessons Learned）",
+          "line": 81
+        },
+        {
+          "level": 2,
+          "title": "5. 下次项目行动计划",
+          "line": 96
+        },
+        {
+          "level": 3,
+          "title": "5.1 过程改进承诺",
+          "line": 105
+        },
+        {
+          "level": 2,
+          "title": "6. 项目资产归档",
+          "line": 115
+        },
+        {
+          "level": 2,
+          "title": "7. 签名确认",
+          "line": 128
+        },
+        {
+          "level": 2,
+          "title": "填写说明",
+          "line": 139
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/Valyu调研skill",
+      "name": "Skill: Valyu CLI 调研技能",
+      "file_name": "Valyu调研skill.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/Valyu调研skill.md",
+      "relative_path": "skills_library/Valyu调研skill.md",
+      "line_count": 86,
+      "char_count": 1167,
+      "heading_count": 23,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Skill: Valyu CLI 调研技能",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "使用场景",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "前置条件",
+          "line": 6
+        },
+        {
+          "level": 1,
+          "title": "1. 安装",
+          "line": 8
+        },
+        {
+          "level": 1,
+          "title": "2. 认证（必需）",
+          "line": 11
+        },
+        {
+          "level": 1,
+          "title": "或设置环境变量",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "title": "检查认证",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "title": "调研命令",
+          "line": 22
+        },
+        {
+          "level": 3,
+          "title": "1. 基础搜索",
+          "line": 24
+        },
+        {
+          "level": 1,
+          "title": "网页搜索",
+          "line": 26
+        },
+        {
+          "level": 1,
+          "title": "学术论文搜索",
+          "line": 29
+        },
+        {
+          "level": 1,
+          "title": "金融数据搜索",
+          "line": 32
+        },
+        {
+          "level": 3,
+          "title": "2. AI问答",
+          "line": 36
+        },
+        {
+          "level": 3,
+          "title": "3. 深度研究",
+          "line": 41
+        },
+        {
+          "level": 3,
+          "title": "4. 内容提取",
+          "line": 46
+        },
+        {
+          "level": 2,
+          "title": "数据处理",
+          "line": 51
+        },
+        {
+          "level": 1,
+          "title": "搜索结果转CSV",
+          "line": 54
+        },
+        {
+          "level": 2,
+          "title": "踩坑记录",
+          "line": 59
+        },
+        {
+          "level": 3,
+          "title": "2026-04-27 ✅ 已解决",
+          "line": 61
+        },
+        {
+          "level": 3,
+          "title": "常用参数",
+          "line": 67
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "cases",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/before_analyese",
+      "name": "think-before-execute",
+      "file_name": "before_analyese.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/before_analyese.md",
+      "relative_path": "skills_library/before_analyese.md",
+      "line_count": 271,
+      "char_count": 5536,
+      "heading_count": 25,
+      "headings": [
+        {
+          "level": 2,
+          "title": "与 brainstorming 的协调",
+          "line": 23
+        },
+        {
+          "level": 1,
+          "title": "任务处理准则：先思考，后执行",
+          "line": 38
+        },
+        {
+          "level": 2,
+          "title": "默认工程策略 (Default Engineering Policy)",
+          "line": 40
+        },
+        {
+          "level": 2,
+          "title": "防止过度设计 (Anti Over-Engineering)",
+          "line": 54
+        },
+        {
+          "level": 2,
+          "title": "阶段 1：内部审计与思考 (Internal Audit)",
+          "line": 68
+        },
+        {
+          "level": 2,
+          "title": "前置分流：任务分类",
+          "line": 72
+        },
+        {
+          "level": 3,
+          "title": "1.1 目标提取 (Goal Extraction)",
+          "line": 89
+        },
+        {
+          "level": 3,
+          "title": "1.2 上下文充分性检查 (Context Sufficiency)",
+          "line": 92
+        },
+        {
+          "level": 3,
+          "title": "1.3 依赖项审查 (Dependency Audit)",
+          "line": 104
+        },
+        {
+          "level": 3,
+          "title": "1.4 可行性预警 (Sanity Check)",
+          "line": 109
+        },
+        {
+          "level": 3,
+          "title": "1.5 识别风险点与路径分歧",
+          "line": 114
+        },
+        {
+          "level": 3,
+          "title": "1.6 评估返工成本",
+          "line": 117
+        },
+        {
+          "level": 2,
+          "title": "阶段 2：评估与决策 (Assessment)",
+          "line": 122
+        },
+        {
+          "level": 3,
+          "title": "条件 A：直接执行",
+          "line": 126
+        },
+        {
+          "level": 3,
+          "title": "条件 B：触发结构化征询",
+          "line": 137
+        },
+        {
+          "level": 2,
+          "title": "阶段 3：结构化追问 (Structured Inquiry)",
+          "line": 149
+        },
+        {
+          "level": 3,
+          "title": "可行性/架构冲突预警（可选模块）",
+          "line": 151
+        },
+        {
+          "level": 3,
+          "title": "标准征询格式",
+          "line": 165
+        },
+        {
+          "level": 3,
+          "title": "征询格式说明",
+          "line": 179
+        },
+        {
+          "level": 3,
+          "title": "征询设计原则",
+          "line": 187
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "Coordinates with brainstorming",
+        "Enforces",
+        "Skip for",
+        "Trigger for tasks involving",
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "principles",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "skills_library/document",
+      "name": "一、这个 Skill 应该升级成什么",
+      "file_name": "document.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/document.md",
+      "relative_path": "skills_library/document.md",
+      "line_count": 802,
+      "char_count": 11373,
+      "heading_count": 34,
+      "headings": [
+        {
+          "level": 1,
+          "title": "一、这个 Skill 应该升级成什么",
+          "line": 7
+        },
+        {
+          "level": 1,
+          "title": "二、核心重构方向",
+          "line": 19
+        },
+        {
+          "level": 2,
+          "title": "1. 标准索引层",
+          "line": 23
+        },
+        {
+          "level": 2,
+          "title": "2. 文档分类层",
+          "line": 48
+        },
+        {
+          "level": 2,
+          "title": "3. 标准映射层",
+          "line": 63
+        },
+        {
+          "level": 2,
+          "title": "4. 文档质量验收层",
+          "line": 80
+        },
+        {
+          "level": 2,
+          "title": "文档验收清单",
+          "line": 85
+        },
+        {
+          "level": 3,
+          "title": "A. 结构完整性",
+          "line": 87
+        },
+        {
+          "level": 3,
+          "title": "B. 内容完整性",
+          "line": 93
+        },
+        {
+          "level": 3,
+          "title": "C. 标准符合性",
+          "line": 100
+        },
+        {
+          "level": 3,
+          "title": "D. 可执行性",
+          "line": 107
+        },
+        {
+          "level": 3,
+          "title": "E. 可维护性",
+          "line": 112
+        },
+        {
+          "level": 2,
+          "title": "5. 文档生命周期层",
+          "line": 121
+        },
+        {
+          "level": 2,
+          "title": "6. 目录结构层",
+          "line": 144
+        },
+        {
+          "level": 1,
+          "title": "三、给 Agent 的总控提示词",
+          "line": 189
+        },
+        {
+          "level": 1,
+          "title": "四、子 Agent 任务拆分",
+          "line": 253
+        },
+        {
+          "level": 2,
+          "title": "Agent 1：国家标准索引 Agent",
+          "line": 255
+        },
+        {
+          "level": 2,
+          "title": "Agent 2：软件工程文档标准 Agent",
+          "line": 295
+        },
+        {
+          "level": 2,
+          "title": "Agent 3：学术写作与毕业论文规范 Agent",
+          "line": 331
+        },
+        {
+          "level": 2,
+          "title": "Agent 4：文档分类与生命周期 Agent",
+          "line": 368
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "too_long",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/达尔文",
+      "name": "达尔文",
+      "file_name": "达尔文.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/达尔文.md",
+      "relative_path": "skills_library/达尔文.md",
+      "line_count": 19,
+      "char_count": 753,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "principles",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "skills_library/需求文档更新skill",
+      "name": "Skill: 需求文档更新流水线",
+      "file_name": "需求文档更新skill.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/000_个人看板/脚手架&通用模版&工具/04-skills/skills_library/需求文档更新skill.md",
+      "relative_path": "skills_library/需求文档更新skill.md",
+      "line_count": 24,
+      "char_count": 390,
+      "heading_count": 7,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Skill: 需求文档更新流水线",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "使用场景",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "执行命令",
+          "line": 6
+        },
+        {
+          "level": 1,
+          "title": "1. 更新需求分析文档",
+          "line": 8
+        },
+        {
+          "level": 1,
+          "title": "2. 更新功能矩阵CSV",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "title": "注意事项",
+          "line": 15
+        },
+        {
+          "level": 2,
+          "title": "更新日志",
+          "line": 20
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "001_提示词基础/001_Simplify",
+      "name": "001_Simplify",
+      "file_name": "001_Simplify.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/001_提示词基础/001_Simplify.md",
+      "relative_path": "001_提示词基础/001_Simplify.md",
+      "line_count": 8,
+      "char_count": 370,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "copilot-command-context-menu-enabled",
+        "copilot-command-context-menu-order",
+        "copilot-command-last-used",
+        "copilot-command-model-key",
+        "copilot-command-slash-enabled"
+      ],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "001_提示词基础/002_Summarize",
+      "name": "002_Summarize",
+      "file_name": "002_Summarize.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/001_提示词基础/002_Summarize.md",
+      "relative_path": "001_提示词基础/002_Summarize.md",
+      "line_count": 8,
+      "char_count": 307,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "copilot-command-context-menu-enabled",
+        "copilot-command-context-menu-order",
+        "copilot-command-last-used",
+        "copilot-command-model-key",
+        "copilot-command-slash-enabled"
+      ],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "001_提示词基础/003_Make_longer",
+      "name": "003_Make_longer",
+      "file_name": "003_Make_longer.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/001_提示词基础/003_Make_longer.md",
+      "relative_path": "001_提示词基础/003_Make_longer.md",
+      "line_count": 12,
+      "char_count": 381,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "copilot-command-context-menu-enabled",
+        "copilot-command-context-menu-order",
+        "copilot-command-last-used",
+        "copilot-command-model-key",
+        "copilot-command-slash-enabled"
+      ],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "001_提示词基础/004_Make_shorter",
+      "name": "004_Make_shorter",
+      "file_name": "004_Make_shorter.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/001_提示词基础/004_Make_shorter.md",
+      "relative_path": "001_提示词基础/004_Make_shorter.md",
+      "line_count": 12,
+      "char_count": 375,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "copilot-command-context-menu-enabled",
+        "copilot-command-context-menu-order",
+        "copilot-command-last-used",
+        "copilot-command-model-key",
+        "copilot-command-slash-enabled"
+      ],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "001_提示词基础/005_Fix_grammar_and_spelling",
+      "name": "005_Fix_grammar_and_spelling",
+      "file_name": "005_Fix_grammar_and_spelling.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/001_提示词基础/005_Fix_grammar_and_spelling.md",
+      "relative_path": "001_提示词基础/005_Fix_grammar_and_spelling.md",
+      "line_count": 8,
+      "char_count": 352,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "copilot-command-context-menu-enabled",
+        "copilot-command-context-menu-order",
+        "copilot-command-last-used",
+        "copilot-command-model-key",
+        "copilot-command-slash-enabled"
+      ],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "001_提示词基础/006_Translate_to_Chinese",
+      "name": "006_Translate_to_Chinese",
+      "file_name": "006_Translate_to_Chinese.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/001_提示词基础/006_Translate_to_Chinese.md",
+      "relative_path": "001_提示词基础/006_Translate_to_Chinese.md",
+      "line_count": 12,
+      "char_count": 381,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "copilot-command-context-menu-enabled",
+        "copilot-command-context-menu-order",
+        "copilot-command-last-used",
+        "copilot-command-model-key",
+        "copilot-command-slash-enabled"
+      ],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "001_提示词基础/007_Emojify",
+      "name": "007_Emojify",
+      "file_name": "007_Emojify.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/001_提示词基础/007_Emojify.md",
+      "relative_path": "001_提示词基础/007_Emojify.md",
+      "line_count": 13,
+      "char_count": 484,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "copilot-command-context-menu-enabled",
+        "copilot-command-context-menu-order",
+        "copilot-command-last-used",
+        "copilot-command-model-key",
+        "copilot-command-slash-enabled"
+      ],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "002_内容处理/001_Generate_table_of_contents",
+      "name": "001_Generate_table_of_contents",
+      "file_name": "001_Generate_table_of_contents.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/002_内容处理/001_Generate_table_of_contents.md",
+      "relative_path": "002_内容处理/001_Generate_table_of_contents.md",
+      "line_count": 8,
+      "char_count": 357,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "copilot-command-context-menu-enabled",
+        "copilot-command-context-menu-order",
+        "copilot-command-last-used",
+        "copilot-command-model-key",
+        "copilot-command-slash-enabled"
+      ],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "002_内容处理/002_Generate_glossary",
+      "name": "002_Generate_glossary",
+      "file_name": "002_Generate_glossary.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/002_内容处理/002_Generate_glossary.md",
+      "relative_path": "002_内容处理/002_Generate_glossary.md",
+      "line_count": 8,
+      "char_count": 353,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "copilot-command-context-menu-enabled",
+        "copilot-command-context-menu-order",
+        "copilot-command-last-used",
+        "copilot-command-model-key",
+        "copilot-command-slash-enabled"
+      ],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "002_内容处理/003_Remove_URLs",
+      "name": "003_Remove_URLs",
+      "file_name": "003_Remove_URLs.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/002_内容处理/003_Remove_URLs.md",
+      "relative_path": "002_内容处理/003_Remove_URLs.md",
+      "line_count": 8,
+      "char_count": 347,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "copilot-command-context-menu-enabled",
+        "copilot-command-context-menu-order",
+        "copilot-command-last-used",
+        "copilot-command-model-key",
+        "copilot-command-slash-enabled"
+      ],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "002_内容处理/004_Rewrite_as_tweet",
+      "name": "004_Rewrite_as_tweet",
+      "file_name": "004_Rewrite_as_tweet.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/002_内容处理/004_Rewrite_as_tweet.md",
+      "relative_path": "002_内容处理/004_Rewrite_as_tweet.md",
+      "line_count": 12,
+      "char_count": 376,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "copilot-command-context-menu-enabled",
+        "copilot-command-context-menu-order",
+        "copilot-command-last-used",
+        "copilot-command-model-key",
+        "copilot-command-slash-enabled"
+      ],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "002_内容处理/005_Rewrite_as_tweet_thread",
+      "name": "005_Rewrite_as_tweet_thread",
+      "file_name": "005_Rewrite_as_tweet_thread.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/002_内容处理/005_Rewrite_as_tweet_thread.md",
+      "relative_path": "002_内容处理/005_Rewrite_as_tweet_thread.md",
+      "line_count": 18,
+      "char_count": 500,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "copilot-command-context-menu-enabled",
+        "copilot-command-context-menu-order",
+        "copilot-command-last-used",
+        "copilot-command-model-key",
+        "copilot-command-slash-enabled"
+      ],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "002_内容处理/006_Explain_like_I_am_5",
+      "name": "006_Explain_like_I_am_5",
+      "file_name": "006_Explain_like_I_am_5.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/002_内容处理/006_Explain_like_I_am_5.md",
+      "relative_path": "002_内容处理/006_Explain_like_I_am_5.md",
+      "line_count": 12,
+      "char_count": 390,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "copilot-command-context-menu-enabled",
+        "copilot-command-context-menu-order",
+        "copilot-command-last-used",
+        "copilot-command-model-key",
+        "copilot-command-slash-enabled"
+      ],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "003_思维框架/001_金字塔原理",
+      "name": "001_金字塔原理",
+      "file_name": "001_金字塔原理.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/003_思维框架/001_金字塔原理.md",
+      "relative_path": "003_思维框架/001_金字塔原理.md",
+      "line_count": 143,
+      "char_count": 1958,
+      "heading_count": 1,
+      "headings": [
+        {
+          "level": 3,
+          "title": "**应用技巧**",
+          "line": 83
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "principles",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "003_思维框架/002_SCQA模型",
+      "name": "002_SCQA模型",
+      "file_name": "002_SCQA模型.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/003_思维框架/002_SCQA模型.md",
+      "relative_path": "003_思维框架/002_SCQA模型.md",
+      "line_count": 144,
+      "char_count": 2309,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "003_思维框架/003_STAR法则",
+      "name": "003_STAR法则",
+      "file_name": "003_STAR法则.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/003_思维框架/003_STAR法则.md",
+      "relative_path": "003_思维框架/003_STAR法则.md",
+      "line_count": 144,
+      "char_count": 2582,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "copilot-command-context-menu-enabled",
+        "copilot-command-context-menu-order",
+        "copilot-command-last-used",
+        "copilot-command-model-key",
+        "copilot-command-slash-enabled"
+      ],
+      "has_trigger_description": false,
+      "layer": "principles",
+      "length_diagnosis": "normal",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "003_思维框架/004_六项思考帽模型思考家",
+      "name": "004_六项思考帽模型思考家",
+      "file_name": "004_六项思考帽模型思考家.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/003_思维框架/004_六项思考帽模型思考家.md",
+      "relative_path": "003_思维框架/004_六项思考帽模型思考家.md",
+      "line_count": 28,
+      "char_count": 645,
+      "heading_count": 6,
+      "headings": [
+        {
+          "level": 2,
+          "title": "Background :",
+          "line": 2
+        },
+        {
+          "level": 2,
+          "title": "Preferences :",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Goals :",
+          "line": 10
+        },
+        {
+          "level": 2,
+          "title": "Constrains :",
+          "line": 15
+        },
+        {
+          "level": 2,
+          "title": "Skills :",
+          "line": 19
+        },
+        {
+          "level": 2,
+          "title": "OutputFormat :",
+          "line": 24
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "models",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "003_思维框架/005_逻辑学与逻辑中的谬误",
+      "name": "005_逻辑学与逻辑中的谬误",
+      "file_name": "005_逻辑学与逻辑中的谬误.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/003_思维框架/005_逻辑学与逻辑中的谬误.md",
+      "relative_path": "003_思维框架/005_逻辑学与逻辑中的谬误.md",
+      "line_count": 76,
+      "char_count": 1326,
+      "heading_count": 3,
+      "headings": [
+        {
+          "level": 3,
+          "title": "逻辑学在中国国内的发展",
+          "line": 5
+        },
+        {
+          "level": 5,
+          "title": "学校里学到的一般都是形式逻辑",
+          "line": 9
+        },
+        {
+          "level": 4,
+          "title": "最常见的谬误",
+          "line": 13
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "tags"
+      ],
+      "has_trigger_description": false,
+      "layer": "principles",
+      "length_diagnosis": "normal",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "003_思维框架/006_SCAMPER框架",
+      "name": "006_SCAMPER框架",
+      "file_name": "006_SCAMPER框架.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/003_思维框架/006_SCAMPER框架.md",
+      "relative_path": "003_思维框架/006_SCAMPER框架.md",
+      "line_count": 251,
+      "char_count": 3665,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "principles",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "004_营销框架/001_AIDA模型",
+      "name": "001_AIDA模型",
+      "file_name": "001_AIDA模型.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/004_营销框架/001_AIDA模型.md",
+      "relative_path": "004_营销框架/001_AIDA模型.md",
+      "line_count": 145,
+      "char_count": 2397,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "004_营销框架/002_FAB技巧",
+      "name": "002_FAB技巧",
+      "file_name": "002_FAB技巧.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/004_营销框架/002_FAB技巧.md",
+      "relative_path": "004_营销框架/002_FAB技巧.md",
+      "line_count": 125,
+      "char_count": 2006,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "004_营销框架/003_PAS框架",
+      "name": "003_PAS框架",
+      "file_name": "003_PAS框架.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/004_营销框架/003_PAS框架.md",
+      "relative_path": "004_营销框架/003_PAS框架.md",
+      "line_count": 146,
+      "char_count": 2545,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "005_叙事结构/001_三幕剧结构",
+      "name": "001_三幕剧结构",
+      "file_name": "001_三幕剧结构.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/005_叙事结构/001_三幕剧结构.md",
+      "relative_path": "005_叙事结构/001_三幕剧结构.md",
+      "line_count": 61,
+      "char_count": 1014,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "inbox",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "005_叙事结构/002_五幕剧结构",
+      "name": "002_五幕剧结构",
+      "file_name": "002_五幕剧结构.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/005_叙事结构/002_五幕剧结构.md",
+      "relative_path": "005_叙事结构/002_五幕剧结构.md",
+      "line_count": 134,
+      "char_count": 1926,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "005_叙事结构/003_英雄之旅",
+      "name": "003_英雄之旅",
+      "file_name": "003_英雄之旅.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/005_叙事结构/003_英雄之旅.md",
+      "relative_path": "005_叙事结构/003_英雄之旅.md",
+      "line_count": 146,
+      "char_count": 2170,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "principles",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "006_应用场景/001_常青笔记生成器",
+      "name": "001_常青笔记生成器",
+      "file_name": "001_常青笔记生成器.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/001_常青笔记生成器.md",
+      "relative_path": "006_应用场景/001_常青笔记生成器.md",
+      "line_count": 72,
+      "char_count": 2457,
+      "heading_count": 8,
+      "headings": [
+        {
+          "level": 2,
+          "title": "定位:",
+          "line": 2
+        },
+        {
+          "level": 2,
+          "title": "目标:",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "交流风格:",
+          "line": 16
+        },
+        {
+          "level": 2,
+          "title": "常青笔记的表达结构",
+          "line": 25
+        },
+        {
+          "level": 2,
+          "title": "常青笔记的特征：",
+          "line": 37
+        },
+        {
+          "level": 2,
+          "title": "常青笔记的评估标准",
+          "line": 49
+        },
+        {
+          "level": 2,
+          "title": "案例",
+          "line": 58
+        },
+        {
+          "level": 2,
+          "title": "工作流程:",
+          "line": 64
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "cases",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "006_应用场景/002_内容扩写大师",
+      "name": "002_内容扩写大师",
+      "file_name": "002_内容扩写大师.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/002_内容扩写大师.md",
+      "relative_path": "006_应用场景/002_内容扩写大师.md",
+      "line_count": 36,
+      "char_count": 862,
+      "heading_count": 6,
+      "headings": [
+        {
+          "level": 2,
+          "title": "Background",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "Goals",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Constrains",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "title": "Skills",
+          "line": 19
+        },
+        {
+          "level": 2,
+          "title": "Workflows",
+          "line": 25
+        },
+        {
+          "level": 2,
+          "title": "Initialization",
+          "line": 34
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "006_应用场景/003_总结文章",
+      "name": "003_总结文章",
+      "file_name": "003_总结文章.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/003_总结文章.md",
+      "relative_path": "006_应用场景/003_总结文章.md",
+      "line_count": 9,
+      "char_count": 195,
+      "heading_count": 1,
+      "headings": [
+        {
+          "level": 2,
+          "title": "工作流程：",
+          "line": 2
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "methods",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "006_应用场景/004_周报生成",
+      "name": "📅 周报模板",
+      "file_name": "004_周报生成.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/004_周报生成.md",
+      "relative_path": "006_应用场景/004_周报生成.md",
+      "line_count": 55,
+      "char_count": 536,
+      "heading_count": 10,
+      "headings": [
+        {
+          "level": 1,
+          "title": "📅 周报模板",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "📌 本周概览",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "📊 本周工作内容",
+          "line": 9
+        },
+        {
+          "level": 3,
+          "title": "1. 重点工作进展",
+          "line": 11
+        },
+        {
+          "level": 3,
+          "title": "2. 日常工作",
+          "line": 22
+        },
+        {
+          "level": 2,
+          "title": "🎯 下周计划",
+          "line": 27
+        },
+        {
+          "level": 2,
+          "title": "🚩 风险与挑战",
+          "line": 37
+        },
+        {
+          "level": 2,
+          "title": "💡 经验与反思",
+          "line": 42
+        },
+        {
+          "level": 2,
+          "title": "📅 重要日期提醒",
+          "line": 47
+        },
+        {
+          "level": 2,
+          "title": "📝 备注",
+          "line": 52
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "006_应用场景/005_智能周报编写助手",
+      "name": "005_智能周报编写助手",
+      "file_name": "005_智能周报编写助手.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/005_智能周报编写助手.md",
+      "relative_path": "006_应用场景/005_智能周报编写助手.md",
+      "line_count": 48,
+      "char_count": 670,
+      "heading_count": 7,
+      "headings": [
+        {
+          "level": 2,
+          "title": "Profile：",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "技能:",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "目标:",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "title": "约束:",
+          "line": 16
+        },
+        {
+          "level": 2,
+          "title": "工作流程:",
+          "line": 21
+        },
+        {
+          "level": 2,
+          "title": "输出格式:",
+          "line": 28
+        },
+        {
+          "level": 2,
+          "title": "建议:",
+          "line": 43
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "006_应用场景/006_简易待办事项",
+      "name": "006_简易待办事项",
+      "file_name": "006_简易待办事项.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/006_简易待办事项.md",
+      "relative_path": "006_应用场景/006_简易待办事项.md",
+      "line_count": 11,
+      "char_count": 99,
+      "heading_count": 2,
+      "headings": [
+        {
+          "level": 2,
+          "title": "待办任务",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "已完成",
+          "line": 7
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": false,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "006_应用场景/007_Dataview插件示例",
+      "name": "007_Dataview插件示例",
+      "file_name": "007_Dataview插件示例.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/007_Dataview插件示例.md",
+      "relative_path": "006_应用场景/007_Dataview插件示例.md",
+      "line_count": 54,
+      "char_count": 782,
+      "heading_count": 0,
+      "headings": [],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "copilot-command-context-menu-enabled",
+        "copilot-command-context-menu-order",
+        "copilot-command-last-used",
+        "copilot-command-model-key",
+        "copilot-command-slash-enabled"
+      ],
+      "has_trigger_description": false,
+      "layer": "cases",
+      "length_diagnosis": "normal",
+      "recommendation": "add_trigger_description",
+      "state": "candidate"
+    },
+    {
+      "id": "006_应用场景/008_产品开发核心指令",
+      "name": "产品开发核心指令集：自顶向下设计框架",
+      "file_name": "008_产品开发核心指令.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/006_应用场景/008_产品开发核心指令.md",
+      "relative_path": "006_应用场景/008_产品开发核心指令.md",
+      "line_count": 61,
+      "char_count": 1181,
+      "heading_count": 8,
+      "headings": [
+        {
+          "level": 1,
+          "title": "产品开发核心指令集：自顶向下设计框架",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "1. 角色设定",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "2. 核心分析模块 (基于 OCR 方法论)",
+          "line": 7
+        },
+        {
+          "level": 3,
+          "title": "第一阶段：宏观商业推演 (BRD)",
+          "line": 11
+        },
+        {
+          "level": 3,
+          "title": "第二阶段：市场与竞争研究 (MRD)",
+          "line": 21
+        },
+        {
+          "level": 3,
+          "title": "第三阶段：微观用户洞察 (UCD)",
+          "line": 30
+        },
+        {
+          "level": 2,
+          "title": "3. 任务执行规范",
+          "line": 46
+        },
+        {
+          "level": 2,
+          "title": "4. 待处理项目上下文 (根据我的规划)",
+          "line": 59
+        }
+      ],
+      "has_frontmatter": false,
+      "frontmatter_keys": [],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "add_skill_frontmatter",
+      "state": "candidate"
+    },
+    {
+      "id": "西蒙学习法-考研学习助手",
+      "name": "西蒙学习法 - 考研学习助手提示词",
+      "file_name": "西蒙学习法-考研学习助手.md",
+      "source_path": "/Users/caolei/Desktop/Obsidian_root/002_知识体系构建/005-人工智能/030_工具与实践/032_提示词工程/西蒙学习法-考研学习助手.md",
+      "relative_path": "西蒙学习法-考研学习助手.md",
+      "line_count": 225,
+      "char_count": 3888,
+      "heading_count": 20,
+      "headings": [
+        {
+          "level": 1,
+          "title": "西蒙学习法 - 考研学习助手提示词",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "使用方式",
+          "line": 14
+        },
+        {
+          "level": 2,
+          "title": "提示词正文",
+          "line": 20
+        },
+        {
+          "level": 2,
+          "title": "西蒙学习法核心理念",
+          "line": 25
+        },
+        {
+          "level": 2,
+          "title": "你的职责",
+          "line": 39
+        },
+        {
+          "level": 3,
+          "title": "1. 输入阶段协助",
+          "line": 43
+        },
+        {
+          "level": 3,
+          "title": "2. 输出阶段协助",
+          "line": 49
+        },
+        {
+          "level": 3,
+          "title": "3. 测试阶段协助",
+          "line": 55
+        },
+        {
+          "level": 3,
+          "title": "4. 信息压缩协助",
+          "line": 61
+        },
+        {
+          "level": 2,
+          "title": "当前学习场景",
+          "line": 66
+        },
+        {
+          "level": 2,
+          "title": "交互格式",
+          "line": 74
+        },
+        {
+          "level": 2,
+          "title": "使用示例",
+          "line": 102
+        },
+        {
+          "level": 3,
+          "title": "示例1：数学学习",
+          "line": 104
+        },
+        {
+          "level": 3,
+          "title": "示例2：408数据结构",
+          "line": 135
+        },
+        {
+          "level": 2,
+          "title": "进阶用法",
+          "line": 183
+        },
+        {
+          "level": 3,
+          "title": "针对不同科目的变体",
+          "line": 185
+        },
+        {
+          "level": 4,
+          "title": "数学版（强调公式推导和计算）",
+          "line": 187
+        },
+        {
+          "level": 4,
+          "title": "408版（强调概念理解和代码实现）",
+          "line": 196
+        },
+        {
+          "level": 4,
+          "title": "英语版（强调记忆和应用）",
+          "line": 205
+        },
+        {
+          "level": 2,
+          "title": "相关链接",
+          "line": 216
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "date",
+        "tags",
+        "version"
+      ],
+      "has_trigger_description": true,
+      "layer": "cases",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    }
+  ]
 }

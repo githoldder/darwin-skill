@@ -35,6 +35,24 @@ When working on a user task, check whether the task has any of these signals:
 
 If yes, mention that the task is a candidate for skill distillation and propose a lightweight next step.
 
+## Routing rules
+
+Use this skill as the front door, then route to a child skill when the intent is clear:
+
+- Distill: use `darwin-skill-distiller` when a real task, prompt, SOP, or repeated workflow should become a compact reusable skill.
+- Audit: use `darwin-skill-auditor` when a skill library needs quality review, redundancy detection, lifecycle state decisions, or missing-trigger checks.
+- Archive: use `darwin-skill-archivist` when an asset should be merged, split, retired, moved out of active use, or preserved as historical reference.
+- Script: create or update a deterministic script when the workflow has stable inputs, stable outputs, and repeatable command steps.
+- Ask: ask the user only when the target asset, source directory, or intended lifecycle decision is ambiguous enough that guessing would cause churn.
+
+## First-phase workflow
+
+1. Run `scripts/scan_skills.py` on the source directory.
+2. Review `registry/skills_index.json` summary counts.
+3. Move a small batch of high-value assets into `library/principles`, `library/models`, `library/methods`, or `library/cases`.
+4. Distill only the assets that are ready to become active `skills/*/SKILL.md`.
+5. Record major moves, splits, merges, and archive decisions in `registry/evolution_log.md`.
+
 ## Repository layers
 
 Classify knowledge into four layers:

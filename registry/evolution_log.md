@@ -17,3 +17,11 @@
 - Distilled 10 active skills under `skills/*/SKILL.md`.
 - Added `registry/phase2_candidates.json` to preserve candidate-to-skill lineage.
 - Generated `registry/active_skills_index.json`; current active skill count is 14 including the Darwin core skills.
+
+## 2026-05-13 - Phase 3 asset bucketing
+
+- Bucketed the remaining 75 inventory assets after excluding the 10 phase-2 distillations.
+- Added `scripts/bucket_phase3_assets.py` so the bucketing pass can be regenerated.
+- Added `registry/phase3_asset_buckets.json`.
+- Current machine-assisted split: 19 continue-to-skill, 40 reference, 13 scriptable, 3 archive.
+- Added `docs/phase3_bucket_plan.md` to document the decision logic and next-stage work.

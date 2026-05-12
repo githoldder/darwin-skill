@@ -25,3 +25,12 @@
 - Added `registry/phase3_asset_buckets.json`.
 - Current machine-assisted split: 19 continue-to-skill, 40 reference, 13 scriptable, 3 archive.
 - Added `docs/phase3_bucket_plan.md` to document the decision logic and next-stage work.
+
+## 2026-05-13 - Phase 3 execution batch 1
+
+- Selected 8 assets from the continue-to-skill bucket.
+- Migrated their source material into `library/` with `name` and `description` frontmatter.
+- Distilled 8 new active skills for sprint workflow, paper research, paper expansion, document governance, document naming, document audit, standards monitoring, and requirements sync.
+- Added `registry/phase3_batch1_candidates.json`.
+- Refreshed `registry/active_skills_index.json`; active skill inventory now contains 22 skill files.
+- Designed the first `text-transform` script family with `scripts/text_transform.py`, `docs/text_transform_family.md`, and `registry/text_transform_family.json`.

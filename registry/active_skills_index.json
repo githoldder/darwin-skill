@@ -1,29 +1,30 @@
 {
   "schema_version": "0.2.0",
-  "generated_at": "2026-05-12T16:08:07.282801+00:00",
+  "generated_at": "2026-05-12T16:58:14.063024+00:00",
   "sources": [
     {
       "path": "/Users/caolei/Desktop/darwin-skill/skills",
-      "file_count": 14
+      "file_count": 22
     }
   ],
   "summary": {
-    "total_assets": 14,
+    "total_assets": 22,
     "layer_counts": {
       "cases": 2,
-      "models": 2,
-      "inbox": 6,
-      "methods": 4
+      "models": 3,
+      "inbox": 11,
+      "methods": 5,
+      "principles": 1
     },
     "state_counts": {
-      "candidate": 5,
+      "candidate": 11,
       "active": 6,
-      "inbox": 3
+      "inbox": 5
     },
     "recommendation_counts": {
-      "expand_context": 5,
+      "expand_context": 11,
       "keep_reviewing": 6,
-      "classify_layer": 3
+      "classify_layer": 5
     }
   },
   "skills": [
@@ -385,6 +386,127 @@
       "state": "active"
     },
     {
+      "id": "document-lifecycle-governance/SKILL",
+      "name": "document-lifecycle-governance",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/document-lifecycle-governance/SKILL.md",
+      "relative_path": "document-lifecycle-governance/SKILL.md",
+      "line_count": 28,
+      "char_count": 890,
+      "heading_count": 4,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Document Lifecycle Governance",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Outputs",
+          "line": 16
+        },
+        {
+          "level": 2,
+          "title": "Quality Checks",
+          "line": 24
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "principles",
+      "length_diagnosis": "too_short",
+      "recommendation": "expand_context",
+      "state": "candidate"
+    },
+    {
+      "id": "document-naming-versioning/SKILL",
+      "name": "document-naming-versioning",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/document-naming-versioning/SKILL.md",
+      "relative_path": "document-naming-versioning/SKILL.md",
+      "line_count": 20,
+      "char_count": 678,
+      "heading_count": 3,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Document Naming Versioning",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Quality Checks",
+          "line": 16
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "too_short",
+      "recommendation": "expand_context",
+      "state": "candidate"
+    },
+    {
+      "id": "document-quality-audit/SKILL",
+      "name": "document-quality-audit",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/document-quality-audit/SKILL.md",
+      "relative_path": "document-quality-audit/SKILL.md",
+      "line_count": 35,
+      "char_count": 843,
+      "heading_count": 4,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Document Quality Audit",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Audit Dimensions",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 20
+        },
+        {
+          "level": 2,
+          "title": "Output",
+          "line": 28
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "inbox",
+      "length_diagnosis": "normal",
+      "recommendation": "classify_layer",
+      "state": "inbox"
+    },
+    {
       "id": "harness-iteration-engineering/SKILL",
       "name": "harness-iteration-engineering",
       "file_name": "SKILL.md",
@@ -516,6 +638,90 @@
       "state": "candidate"
     },
     {
+      "id": "paper-expansion-assistant/SKILL",
+      "name": "paper-expansion-assistant",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/paper-expansion-assistant/SKILL.md",
+      "relative_path": "paper-expansion-assistant/SKILL.md",
+      "line_count": 27,
+      "char_count": 897,
+      "heading_count": 4,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Paper Expansion Assistant",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Expansion Modes",
+          "line": 16
+        },
+        {
+          "level": 2,
+          "title": "Quality Checks",
+          "line": 23
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "expand_context",
+      "state": "candidate"
+    },
+    {
+      "id": "paper-research-workflow/SKILL",
+      "name": "paper-research-workflow",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/paper-research-workflow/SKILL.md",
+      "relative_path": "paper-research-workflow/SKILL.md",
+      "line_count": 29,
+      "char_count": 881,
+      "heading_count": 4,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Paper Research Workflow",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Outputs",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "title": "Quality Checks",
+          "line": 25
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "expand_context",
+      "state": "candidate"
+    },
+    {
       "id": "project-three-layer-discipline/SKILL",
       "name": "project-three-layer-discipline",
       "file_name": "SKILL.md",
@@ -603,6 +809,127 @@
       "length_diagnosis": "normal",
       "recommendation": "classify_layer",
       "state": "inbox"
+    },
+    {
+      "id": "requirements-doc-update-pipeline/SKILL",
+      "name": "requirements-doc-update-pipeline",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/requirements-doc-update-pipeline/SKILL.md",
+      "relative_path": "requirements-doc-update-pipeline/SKILL.md",
+      "line_count": 20,
+      "char_count": 805,
+      "heading_count": 3,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Requirements Doc Update Pipeline",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Quality Checks",
+          "line": 16
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "too_short",
+      "recommendation": "expand_context",
+      "state": "candidate"
+    },
+    {
+      "id": "solo-scrum-vibe-workflow/SKILL",
+      "name": "solo-scrum-vibe-workflow",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/solo-scrum-vibe-workflow/SKILL.md",
+      "relative_path": "solo-scrum-vibe-workflow/SKILL.md",
+      "line_count": 30,
+      "char_count": 963,
+      "heading_count": 4,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Solo Scrum Vibe Workflow",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Expected Artifacts",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "title": "Quality Checks",
+          "line": 26
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "inbox",
+      "length_diagnosis": "normal",
+      "recommendation": "classify_layer",
+      "state": "inbox"
+    },
+    {
+      "id": "standards-monitoring-task-bank/SKILL",
+      "name": "standards-monitoring-task-bank",
+      "file_name": "SKILL.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/skills/standards-monitoring-task-bank/SKILL.md",
+      "relative_path": "standards-monitoring-task-bank/SKILL.md",
+      "line_count": 28,
+      "char_count": 888,
+      "heading_count": 4,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Standards Monitoring Task Bank",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Good Task Types",
+          "line": 16
+        },
+        {
+          "level": 2,
+          "title": "Quality Checks",
+          "line": 24
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "inbox",
+      "length_diagnosis": "too_short",
+      "recommendation": "expand_context",
+      "state": "candidate"
     },
     {
       "id": "think-before-execute/SKILL",

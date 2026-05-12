@@ -111,3 +111,32 @@ python3 scripts/scan_skills.py "/path/to/04-skills" "/path/to/提示词工程" -
 - 待归档：3
 
 详见 `registry/phase3_asset_buckets.json` 与 `docs/phase3_bucket_plan.md`。
+
+## 第三批标准 Skill
+
+基于 `继续 skill 化` 桶，已完成 8 个新增常驻 skill：
+
+- `solo-scrum-vibe-workflow`
+- `paper-research-workflow`
+- `paper-expansion-assistant`
+- `document-lifecycle-governance`
+- `document-naming-versioning`
+- `document-quality-audit`
+- `standards-monitoring-task-bank`
+- `requirements-doc-update-pipeline`
+
+候选映射见 `registry/phase3_batch1_candidates.json`。当前 active skills 索引已刷新。
+
+## Text Transform 脚本族
+
+首个脚本族已落地：
+
+- `scripts/text_transform.py`
+- `docs/text_transform_family.md`
+- `registry/text_transform_family.json`
+
+当前实现了：
+
+- URL 清理
+- Markdown 目录生成
+- 空白规范化

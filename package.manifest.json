@@ -1,0 +1,17 @@
+{
+  "name": "darwin-skill",
+  "version": "1.0.0",
+  "profiles": {
+    "full": {
+      "plugin": ".codex-plugin/plugin.json",
+      "description": "Full package with Darwin core mechanism, author-provided skills, scripts, registry, and library references."
+    },
+    "pure": {
+      "plugin": "packages/pure/.codex-plugin/plugin.json",
+      "description": "Pure package with only Darwin core mechanism for managing the user's own local skills."
+    }
+  },
+  "authorProvidedSkillCount": 18,
+  "coreSkillCount": 4,
+  "logo": "assets/logo.svg"
+}

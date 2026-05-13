@@ -1,0 +1,17 @@
+{
+  "name": "darwin-skill-pure",
+  "version": "1.0.0",
+  "description": "Pure Darwin mechanism package for maintaining a user's own local AI agent skills without bundled personal workflow skills.",
+  "interface": {
+    "displayName": "达尔文.skill Pure",
+    "description": "只包含扫描、蒸馏、审查、归档机制的纯净版。",
+    "icon": "./assets/logo.svg"
+  },
+  "packageProfile": "pure",
+  "skills": [
+    "./skills/darwin-skill-manager",
+    "./skills/darwin-skill-distiller",
+    "./skills/darwin-skill-auditor",
+    "./skills/darwin-skill-archivist"
+  ]
+}

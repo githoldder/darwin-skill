@@ -1,15 +1,35 @@
 {
   "name": "darwin-skill",
-  "version": "0.1.0",
-  "description": "A local skill evolution system for creating, distilling, auditing, archiving, and managing AI agent skills.",
+  "version": "1.0.0",
+  "description": "A local skill evolution plugin for scanning, distilling, auditing, scripting, packaging, and archiving AI agent skills.",
   "interface": {
     "displayName": "达尔文.skill",
-    "description": "用进废退、适者生存的本地 Skills 进化仓库。"
+    "description": "用进废退、适者生存的本地 Skills 进化插件。",
+    "icon": "./assets/logo.svg"
   },
+  "packageProfile": "full",
   "skills": [
     "./skills/darwin-skill-manager",
     "./skills/darwin-skill-distiller",
     "./skills/darwin-skill-auditor",
-    "./skills/darwin-skill-archivist"
+    "./skills/darwin-skill-archivist",
+    "./skills/think-before-execute",
+    "./skills/project-three-layer-discipline",
+    "./skills/cli-token-saving-pattern",
+    "./skills/vibe-skill-pipeline",
+    "./skills/harness-iteration-engineering",
+    "./skills/industry-source-research",
+    "./skills/vibe-git-version-management",
+    "./skills/ai-figma-vector-production",
+    "./skills/requirement-alignment-log",
+    "./skills/okrts-root-cause-analysis",
+    "./skills/solo-scrum-vibe-workflow",
+    "./skills/paper-research-workflow",
+    "./skills/paper-expansion-assistant",
+    "./skills/document-lifecycle-governance",
+    "./skills/document-naming-versioning",
+    "./skills/document-quality-audit",
+    "./skills/standards-monitoring-task-bank",
+    "./skills/requirements-doc-update-pipeline"
   ]
 }

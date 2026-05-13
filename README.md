@@ -75,12 +75,12 @@ python3 scripts/scan_skills.py "/path/to/04-skills" "/path/to/提示词工程" -
 
 当前已迁移 6 个核心资产作为第一阶段样本：
 
-- `library/principles/before_analyese.md`
-- `library/models/03_项目三层规训框架.md`
-- `library/models/06_vibe-coding-CLI-token节省范式.md`
-- `library/methods/08_vibe-coding流水线构建与Skill蒸馏.md`
-- `library/methods/18_行研信源获取SOP.md`
-- `library/cases/09_vibe-coding-Harness工程规范.md`
+- `library/principles/01-before_analyese.md`
+- `library/models/03-项目三层规训框架.md`
+- `library/models/06-vibe-coding-CLI-token节省范式.md`
+- `library/methods/08-vibe-coding流水线构建与Skill蒸馏.md`
+- `library/methods/18-行研信源获取SOP.md`
+- `library/cases/09-vibe-coding-Harness工程规范.md`
 
 详见 `docs/phase1_plan.md`。
 
@@ -140,3 +140,7 @@ python3 scripts/scan_skills.py "/path/to/04-skills" "/path/to/提示词工程" -
 - URL 清理
 - Markdown 目录生成
 - 空白规范化
+
+## OB Skills 同步
+
+`library/` 中的原始资产副本统一采用 `01-...` 编号命名方式。最近一次同步覆盖了 `before_analyese.md`、`02_文档管理与书写规范.md`、`03_项目三层规训框架.md`、`06_vibe-coding-CLI-token节省范式.md`、LaTeX 工作流 13-15，以及 `skills_library/document.md`。

@@ -5,37 +5,37 @@
   "candidates": [
     {
       "name": "solo-scrum-vibe-workflow",
-      "source": "library/methods/10_vibe-coding-Scrum个人团队工作流.md",
+      "source": "library/methods/10-vibe-coding-Scrum个人团队工作流.md",
       "skill_path": "skills/solo-scrum-vibe-workflow/SKILL.md"
     },
     {
       "name": "paper-research-workflow",
-      "source": "library/methods/16_论文信息获取与处理全流程.md",
+      "source": "library/methods/16-论文信息获取与处理全流程.md",
       "skill_path": "skills/paper-research-workflow/SKILL.md"
     },
     {
       "name": "paper-expansion-assistant",
-      "source": "library/methods/17_论文扩写与AI辅助指南.md",
+      "source": "library/methods/17-论文扩写与AI辅助指南.md",
       "skill_path": "skills/paper-expansion-assistant/SKILL.md"
     },
     {
       "name": "document-lifecycle-governance",
-      "source": "library/models/02_文档分类与生命周期.md",
+      "source": "library/models/02-文档分类与生命周期.md",
       "skill_path": "skills/document-lifecycle-governance/SKILL.md"
     },
     {
       "name": "document-naming-versioning",
-      "source": "library/methods/08_文档命名与版本控制.md",
+      "source": "library/methods/08-文档命名与版本控制.md",
       "skill_path": "skills/document-naming-versioning/SKILL.md"
     },
     {
       "name": "document-quality-audit",
-      "source": "library/methods/09_文档质量审查清单.md",
+      "source": "library/methods/09-文档质量审查清单.md",
       "skill_path": "skills/document-quality-audit/SKILL.md"
     },
     {
       "name": "standards-monitoring-task-bank",
-      "source": "library/methods/10_Agent调研任务库.md",
+      "source": "library/methods/10-Agent调研任务库.md",
       "skill_path": "skills/standards-monitoring-task-bank/SKILL.md"
     },
     {

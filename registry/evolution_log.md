@@ -34,3 +34,12 @@
 - Added `registry/phase3_batch1_candidates.json`.
 - Refreshed `registry/active_skills_index.json`; active skill inventory now contains 22 skill files.
 - Designed the first `text-transform` script family with `scripts/text_transform.py`, `docs/text_transform_family.md`, and `registry/text_transform_family.json`.
+
+## 2026-05-13 - Phase 3 OB sync patch
+
+- Resynced recently modified Obsidian skill sources into `library/`.
+- Renamed original library assets from `03_...` style to `03-...` style for stable source-asset naming.
+- Added the updated standards-driven document management source and document-management upgrade note.
+- Added updated LaTeX workflow source assets 13-15.
+- Synced the updated `before_analyese.md` source into the active `think-before-execute` skill.
+- Regenerated source and library inventory indexes.

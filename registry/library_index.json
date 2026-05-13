@@ -1,0 +1,2424 @@
+{
+  "schema_version": "0.2.0",
+  "generated_at": "2026-05-13T12:11:30.986871+00:00",
+  "sources": [
+    {
+      "path": "/Users/caolei/Desktop/darwin-skill/library",
+      "file_count": 23
+    }
+  ],
+  "summary": {
+    "total_assets": 23,
+    "layer_counts": {
+      "methods": 13,
+      "models": 8,
+      "principles": 2
+    },
+    "state_counts": {
+      "active": 20,
+      "needs_refactor": 2,
+      "candidate": 1
+    },
+    "recommendation_counts": {
+      "keep_reviewing": 20,
+      "split_or_move_references": 2,
+      "expand_context": 1
+    }
+  },
+  "skills": [
+    {
+      "id": "cases/09-vibe-coding-Harness工程规范",
+      "name": "harness-iteration-engineering",
+      "file_name": "09-vibe-coding-Harness工程规范.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/cases/09-vibe-coding-Harness工程规范.md",
+      "relative_path": "cases/09-vibe-coding-Harness工程规范.md",
+      "line_count": 133,
+      "char_count": 2405,
+      "heading_count": 14,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Ralph 组件核心原理",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "AI Agent 长时间运行的四大问题",
+          "line": 13
+        },
+        {
+          "level": 3,
+          "title": "根本原因",
+          "line": 22
+        },
+        {
+          "level": 2,
+          "title": "Ralph 组件核心原理",
+          "line": 28
+        },
+        {
+          "level": 3,
+          "title": "每轮指令",
+          "line": 41
+        },
+        {
+          "level": 3,
+          "title": "核心优势",
+          "line": 51
+        },
+        {
+          "level": 2,
+          "title": "三件套记忆",
+          "line": 57
+        },
+        {
+          "level": 2,
+          "title": "实操环节",
+          "line": 67
+        },
+        {
+          "level": 3,
+          "title": "Step 1 — 准备阶段",
+          "line": 69
+        },
+        {
+          "level": 3,
+          "title": "Step 2 — 任务拆分",
+          "line": 74
+        },
+        {
+          "level": 3,
+          "title": "Step 3 — 执行迭代",
+          "line": 79
+        },
+        {
+          "level": 2,
+          "title": "重点注意事项",
+          "line": 85
+        },
+        {
+          "level": 2,
+          "title": "工作流图示",
+          "line": 98
+        },
+        {
+          "level": 2,
+          "title": "核心文件",
+          "line": 127
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "methods/02-文档管理与工程化写作规范",
+      "name": "standards-driven-document-management",
+      "file_name": "02-文档管理与工程化写作规范.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/02-文档管理与工程化写作规范.md",
+      "relative_path": "methods/02-文档管理与工程化写作规范.md",
+      "line_count": 872,
+      "char_count": 17521,
+      "heading_count": 87,
+      "headings": [
+        {
+          "level": 1,
+          "title": "文档管理与工程化写作规范",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "一、Skill 定位与目标",
+          "line": 12
+        },
+        {
+          "level": 2,
+          "title": "二、国家标准索引",
+          "line": 43
+        },
+        {
+          "level": 3,
+          "title": "2.1 必依标准清单（软件工程）",
+          "line": 47
+        },
+        {
+          "level": 3,
+          "title": "2.2 必依标准清单（学术写作）",
+          "line": 56
+        },
+        {
+          "level": 3,
+          "title": "2.3 国际标准索引（参考）",
+          "line": 68
+        },
+        {
+          "level": 3,
+          "title": "2.4 标准速查表（按文档类型）",
+          "line": 78
+        },
+        {
+          "level": 2,
+          "title": "三、文档分类体系",
+          "line": 95
+        },
+        {
+          "level": 3,
+          "title": "3.1 一级分类总表",
+          "line": 97
+        },
+        {
+          "level": 3,
+          "title": "3.2 文档元数据规范",
+          "line": 110
+        },
+        {
+          "level": 3,
+          "title": "3.3 文档状态机",
+          "line": 132
+        },
+        {
+          "level": 2,
+          "title": "四、软件工程文档体系",
+          "line": 150
+        },
+        {
+          "level": 3,
+          "title": "4.1 软件工程文档全景图",
+          "line": 154
+        },
+        {
+          "level": 3,
+          "title": "4.2 各阶段文档速查",
+          "line": 199
+        },
+        {
+          "level": 2,
+          "title": "五、软件生命周期文档详细规范",
+          "line": 213
+        },
+        {
+          "level": 3,
+          "title": "5.1 可行性分析报告（FA）",
+          "line": 215
+        },
+        {
+          "level": 3,
+          "title": "5.2 软件需求规格说明书（SRS）",
+          "line": 232
+        },
+        {
+          "level": 3,
+          "title": "5.3 概要设计说明书（HLD）",
+          "line": 267
+        },
+        {
+          "level": 3,
+          "title": "5.4 详细设计说明书（LLD）",
+          "line": 285
+        },
+        {
+          "level": 3,
+          "title": "5.5 测试文档",
+          "line": 303
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "too_long",
+      "recommendation": "split_or_move_references",
+      "state": "needs_refactor"
+    },
+    {
+      "id": "methods/02-文档管理升级建议",
+      "name": "document-management-upgrade-plan",
+      "file_name": "02-文档管理升级建议.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/02-文档管理升级建议.md",
+      "relative_path": "methods/02-文档管理升级建议.md",
+      "line_count": 807,
+      "char_count": 12124,
+      "heading_count": 34,
+      "headings": [
+        {
+          "level": 1,
+          "title": "一、这个 Skill 应该升级成什么",
+          "line": 12
+        },
+        {
+          "level": 1,
+          "title": "二、核心重构方向",
+          "line": 24
+        },
+        {
+          "level": 2,
+          "title": "1. 标准索引层",
+          "line": 28
+        },
+        {
+          "level": 2,
+          "title": "2. 文档分类层",
+          "line": 53
+        },
+        {
+          "level": 2,
+          "title": "3. 标准映射层",
+          "line": 68
+        },
+        {
+          "level": 2,
+          "title": "4. 文档质量验收层",
+          "line": 85
+        },
+        {
+          "level": 2,
+          "title": "文档验收清单",
+          "line": 90
+        },
+        {
+          "level": 3,
+          "title": "A. 结构完整性",
+          "line": 92
+        },
+        {
+          "level": 3,
+          "title": "B. 内容完整性",
+          "line": 98
+        },
+        {
+          "level": 3,
+          "title": "C. 标准符合性",
+          "line": 105
+        },
+        {
+          "level": 3,
+          "title": "D. 可执行性",
+          "line": 112
+        },
+        {
+          "level": 3,
+          "title": "E. 可维护性",
+          "line": 117
+        },
+        {
+          "level": 2,
+          "title": "5. 文档生命周期层",
+          "line": 126
+        },
+        {
+          "level": 2,
+          "title": "6. 目录结构层",
+          "line": 149
+        },
+        {
+          "level": 1,
+          "title": "三、给 Agent 的总控提示词",
+          "line": 194
+        },
+        {
+          "level": 1,
+          "title": "四、子 Agent 任务拆分",
+          "line": 258
+        },
+        {
+          "level": 2,
+          "title": "Agent 1：国家标准索引 Agent",
+          "line": 260
+        },
+        {
+          "level": 2,
+          "title": "Agent 2：软件工程文档标准 Agent",
+          "line": 300
+        },
+        {
+          "level": 2,
+          "title": "Agent 3：学术写作与毕业论文规范 Agent",
+          "line": 336
+        },
+        {
+          "level": 2,
+          "title": "Agent 4：文档分类与生命周期 Agent",
+          "line": 373
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "too_long",
+      "recommendation": "split_or_move_references",
+      "state": "needs_refactor"
+    },
+    {
+      "id": "methods/04-需求访谈与分析SOP",
+      "name": "requirement-alignment-log",
+      "file_name": "04-需求访谈与分析SOP.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/04-需求访谈与分析SOP.md",
+      "relative_path": "methods/04-需求访谈与分析SOP.md",
+      "line_count": 53,
+      "char_count": 863,
+      "heading_count": 8,
+      "headings": [
+        {
+          "level": 1,
+          "title": "需求对齐清单 SOP（极简版）",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "漏斗模型",
+          "line": 12
+        },
+        {
+          "level": 2,
+          "title": "输出模板",
+          "line": 22
+        },
+        {
+          "level": 1,
+          "title": "第N次需求对齐清单",
+          "line": 25
+        },
+        {
+          "level": 2,
+          "title": "需求变更汇总",
+          "line": 31
+        },
+        {
+          "level": 2,
+          "title": "待确认项",
+          "line": 39
+        },
+        {
+          "level": 2,
+          "title": "里程碑约束",
+          "line": 42
+        },
+        {
+          "level": 2,
+          "title": "使用规则",
+          "line": 49
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "methods/07-vibe-coding-Git版本管理SOP",
+      "name": "vibe-git-version-management",
+      "file_name": "07-vibe-coding-Git版本管理SOP.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/07-vibe-coding-Git版本管理SOP.md",
+      "relative_path": "methods/07-vibe-coding-Git版本管理SOP.md",
+      "line_count": 82,
+      "char_count": 1639,
+      "heading_count": 7,
+      "headings": [
+        {
+          "level": 2,
+          "title": "🚀 Vibe Coding: AI 驱动型 Git 版本管理 SOP",
+          "line": 7
+        },
+        {
+          "level": 3,
+          "title": "一、 核心逻辑与价值",
+          "line": 11
+        },
+        {
+          "level": 3,
+          "title": "二、 基础三步走流程 (Basic Workflow)",
+          "line": 22
+        },
+        {
+          "level": 3,
+          "title": "三、 高阶分支管理策略 (Branching Strategy)",
+          "line": 34
+        },
+        {
+          "level": 4,
+          "title": "1. 典型场景",
+          "line": 38
+        },
+        {
+          "level": 4,
+          "title": "2. 分支操作 SOP",
+          "line": 49
+        },
+        {
+          "level": 3,
+          "title": "四、 开发者避坑准则",
+          "line": 71
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "principles",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "methods/08-vibe-coding流水线构建与Skill蒸馏",
+      "name": "vibe-skill-pipeline",
+      "file_name": "08-vibe-coding流水线构建与Skill蒸馏.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/08-vibe-coding流水线构建与Skill蒸馏.md",
+      "relative_path": "methods/08-vibe-coding流水线构建与Skill蒸馏.md",
+      "line_count": 329,
+      "char_count": 6584,
+      "heading_count": 40,
+      "headings": [
+        {
+          "level": 2,
+          "title": "一、核心思想：边际成本趋零",
+          "line": 11
+        },
+        {
+          "level": 3,
+          "title": "传统 Vibe Coding 的 Token 痛点",
+          "line": 13
+        },
+        {
+          "level": 3,
+          "title": "新范式：AI 蒸馏 + Skill 固化",
+          "line": 27
+        },
+        {
+          "level": 2,
+          "title": "二、流水线架构图",
+          "line": 38
+        },
+        {
+          "level": 2,
+          "title": "三、Token 节省效果",
+          "line": 78
+        },
+        {
+          "level": 3,
+          "title": "Playwright 基准测试数据",
+          "line": 80
+        },
+        {
+          "level": 3,
+          "title": "为什么能节省 10 倍？",
+          "line": 90
+        },
+        {
+          "level": 2,
+          "title": "四、实操：构建流水线步骤",
+          "line": 106
+        },
+        {
+          "level": 3,
+          "title": "Step 1：环境准备（一次性）",
+          "line": 108
+        },
+        {
+          "level": 1,
+          "title": "安装 playwright-cli",
+          "line": 111
+        },
+        {
+          "level": 1,
+          "title": "初始化浏览器环境",
+          "line": 114
+        },
+        {
+          "level": 1,
+          "title": "验证安装成功",
+          "line": 117
+        },
+        {
+          "level": 3,
+          "title": "Step 2：区分\"复杂任务\"和\"可固化任务\"",
+          "line": 126
+        },
+        {
+          "level": 3,
+          "title": "Step 3：AI 提炼 → 生成 Task Skill",
+          "line": 136
+        },
+        {
+          "level": 1,
+          "title": "AI 提炼后生成的脚本",
+          "line": 155
+        },
+        {
+          "level": 1,
+          "title": "crawl-competitor-prices.sh",
+          "line": 157
+        },
+        {
+          "level": 1,
+          "title": "Token 消耗：0（已固化）",
+          "line": 158
+        },
+        {
+          "level": 3,
+          "title": "Step 4：Skill 指导 → 迭代优化",
+          "line": 173
+        },
+        {
+          "level": 1,
+          "title": "Skill：竞品价格爬取",
+          "line": 178
+        },
+        {
+          "level": 2,
+          "title": "使用场景",
+          "line": 180
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "methods/08-文档命名与版本控制",
+      "name": "document-naming-versioning",
+      "file_name": "08-文档命名与版本控制.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/08-文档命名与版本控制.md",
+      "relative_path": "methods/08-文档命名与版本控制.md",
+      "line_count": 265,
+      "char_count": 4754,
+      "heading_count": 28,
+      "headings": [
+        {
+          "level": 1,
+          "title": "文档命名与版本控制",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "一、文档命名规范（完整版）",
+          "line": 12
+        },
+        {
+          "level": 3,
+          "title": "1.1 通用命名规则",
+          "line": 14
+        },
+        {
+          "level": 3,
+          "title": "1.2 各类型文档命名对照表",
+          "line": 28
+        },
+        {
+          "level": 2,
+          "title": "二、语义化版本（Semantic Versioning）",
+          "line": 51
+        },
+        {
+          "level": 3,
+          "title": "2.1 版本号格式",
+          "line": 53
+        },
+        {
+          "level": 3,
+          "title": "2.2 版本变更规则",
+          "line": 64
+        },
+        {
+          "level": 3,
+          "title": "2.3 版本状态",
+          "line": 73
+        },
+        {
+          "level": 2,
+          "title": "三、变更记录（CHANGELOG）规范",
+          "line": 84
+        },
+        {
+          "level": 3,
+          "title": "3.1 变更记录位置",
+          "line": 86
+        },
+        {
+          "level": 3,
+          "title": "3.2 变更记录格式",
+          "line": 92
+        },
+        {
+          "level": 2,
+          "title": "变更记录",
+          "line": 95
+        },
+        {
+          "level": 3,
+          "title": "v1.2.0 (2024-04-20) - 次版本更新",
+          "line": 97
+        },
+        {
+          "level": 3,
+          "title": "v1.1.0 (2024-04-10) - 次版本更新",
+          "line": 117
+        },
+        {
+          "level": 3,
+          "title": "v1.0.0 (2024-04-01) - 正式发布",
+          "line": 126
+        },
+        {
+          "level": 3,
+          "title": "v0.2.0 (2024-03-20) - 内部审查版",
+          "line": 136
+        },
+        {
+          "level": 3,
+          "title": "v0.1.0 (2024-03-15) - 初稿",
+          "line": 144
+        },
+        {
+          "level": 3,
+          "title": "3.3 变更类型关键词",
+          "line": 150
+        },
+        {
+          "level": 2,
+          "title": "四、Git 提交规范",
+          "line": 164
+        },
+        {
+          "level": 3,
+          "title": "4.1 提交信息格式",
+          "line": 166
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "methods/09-文档质量审查清单",
+      "name": "document-quality-audit",
+      "file_name": "09-文档质量审查清单.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/09-文档质量审查清单.md",
+      "relative_path": "methods/09-文档质量审查清单.md",
+      "line_count": 408,
+      "char_count": 6922,
+      "heading_count": 37,
+      "headings": [
+        {
+          "level": 1,
+          "title": "文档质量审查清单",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "一、文档质量评分模型（10分制）",
+          "line": 12
+        },
+        {
+          "level": 3,
+          "title": "评分等级",
+          "line": 14
+        },
+        {
+          "level": 3,
+          "title": "评分维度权重",
+          "line": 23
+        },
+        {
+          "level": 2,
+          "title": "二、各维度评分细则",
+          "line": 44
+        },
+        {
+          "level": 3,
+          "title": "2.1 结构完整性（15%）",
+          "line": 46
+        },
+        {
+          "level": 3,
+          "title": "2.2 内容准确性（20%）",
+          "line": 64
+        },
+        {
+          "level": 3,
+          "title": "2.3 逻辑连贯性（15%）",
+          "line": 81
+        },
+        {
+          "level": 3,
+          "title": "2.4 标准符合性（15%）",
+          "line": 97
+        },
+        {
+          "level": 3,
+          "title": "2.5 证据充分性（10%）",
+          "line": 114
+        },
+        {
+          "level": 3,
+          "title": "2.6 可执行性（10%）",
+          "line": 130
+        },
+        {
+          "level": 3,
+          "title": "2.7 可维护性（5%）",
+          "line": 146
+        },
+        {
+          "level": 3,
+          "title": "2.8 可读性（5%）",
+          "line": 155
+        },
+        {
+          "level": 3,
+          "title": "2.9 版本可追踪性（5%）",
+          "line": 164
+        },
+        {
+          "level": 2,
+          "title": "三、一票否决项",
+          "line": 175
+        },
+        {
+          "level": 2,
+          "title": "四、常见问题库（20个）",
+          "line": 192
+        },
+        {
+          "level": 2,
+          "title": "五、AI 辅助审查 Prompt",
+          "line": 219
+        },
+        {
+          "level": 2,
+          "title": "六、人工审查表（打印版）",
+          "line": 252
+        },
+        {
+          "level": 3,
+          "title": "文档质量审查表",
+          "line": 254
+        },
+        {
+          "level": 4,
+          "title": "A. 结构完整性（15分）",
+          "line": 260
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "methods/10-Agent调研任务库",
+      "name": "standards-monitoring-task-bank",
+      "file_name": "10-Agent调研任务库.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/10-Agent调研任务库.md",
+      "relative_path": "methods/10-Agent调研任务库.md",
+      "line_count": 184,
+      "char_count": 2718,
+      "heading_count": 14,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Agent 调研任务库",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "一、周期性调研任务",
+          "line": 12
+        },
+        {
+          "level": 3,
+          "title": "任务 1：国家标准动态监控（月度）",
+          "line": 14
+        },
+        {
+          "level": 3,
+          "title": "任务 2：国际标准版本检查（季度）",
+          "line": 37
+        },
+        {
+          "level": 3,
+          "title": "任务 3：模板库适用性审查（季度）",
+          "line": 54
+        },
+        {
+          "level": 3,
+          "title": "任务 4：常见问题库更新（半年度）",
+          "line": 69
+        },
+        {
+          "level": 2,
+          "title": "二、一次性调研任务（触发式）",
+          "line": 85
+        },
+        {
+          "level": 3,
+          "title": "任务 5：新标准发布响应",
+          "line": 87
+        },
+        {
+          "level": 3,
+          "title": "任务 6：用户反馈处理",
+          "line": 102
+        },
+        {
+          "level": 2,
+          "title": "三、Agent 调研执行 Prompt",
+          "line": 115
+        },
+        {
+          "level": 2,
+          "title": "四、调研日志格式",
+          "line": 143
+        },
+        {
+          "level": 1,
+          "title": "调研日志：[任务名称]",
+          "line": 148
+        },
+        {
+          "level": 2,
+          "title": "五、任务状态追踪",
+          "line": 167
+        },
+        {
+          "level": 2,
+          "title": "六、Skill 版本管理",
+          "line": 180
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "methods/10-vibe-coding-Scrum个人团队工作流",
+      "name": "solo-scrum-vibe-workflow",
+      "file_name": "10-vibe-coding-Scrum个人团队工作流.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/10-vibe-coding-Scrum个人团队工作流.md",
+      "relative_path": "methods/10-vibe-coding-Scrum个人团队工作流.md",
+      "line_count": 227,
+      "char_count": 6164,
+      "heading_count": 19,
+      "headings": [
+        {
+          "level": 1,
+          "title": "常工生鲜 - Scrum + Vibe Coding 个人团队开发工作流",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "一、核心原则",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "title": "二、团队角色（单人模式）",
+          "line": 22
+        },
+        {
+          "level": 2,
+          "title": "三、Sprint 周期结构（1周 Sprint）",
+          "line": 38
+        },
+        {
+          "level": 3,
+          "title": "Sprint 0（准备 Sprint，1次性）",
+          "line": 50
+        },
+        {
+          "level": 3,
+          "title": "Sprint N（第N个迭代）",
+          "line": 56
+        },
+        {
+          "level": 2,
+          "title": "四、Product Backlog 优先级框架",
+          "line": 80
+        },
+        {
+          "level": 3,
+          "title": "当前 MVP Backlog（按 ICE 排序）",
+          "line": 84
+        },
+        {
+          "level": 2,
+          "title": "五、Vibe Coding 开发流程（核心）",
+          "line": 99
+        },
+        {
+          "level": 3,
+          "title": "标准流程（Single Person）",
+          "line": 103
+        },
+        {
+          "level": 3,
+          "title": "详细步骤",
+          "line": 110
+        },
+        {
+          "level": 3,
+          "title": "Vibe Coding 禁忌",
+          "line": 137
+        },
+        {
+          "level": 2,
+          "title": "六、AI Agent 本地部署方案（与工作流集成）",
+          "line": 144
+        },
+        {
+          "level": 3,
+          "title": "架构选择",
+          "line": 148
+        },
+        {
+          "level": 3,
+          "title": "与 Scrum 的集成方式",
+          "line": 166
+        },
+        {
+          "level": 3,
+          "title": "本地部署 Checklist（每个 Sprint 结束时检查）",
+          "line": 174
+        },
+        {
+          "level": 2,
+          "title": "七、Definition of Done（DoD）",
+          "line": 182
+        },
+        {
+          "level": 2,
+          "title": "八、工具链清单",
+          "line": 195
+        },
+        {
+          "level": 2,
+          "title": "九、风险与对策",
+          "line": 215
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "methods/12-AI-Figma建模与二次修改SOP",
+      "name": "ai-figma-vector-production",
+      "file_name": "12-AI-Figma建模与二次修改SOP.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/12-AI-Figma建模与二次修改SOP.md",
+      "relative_path": "methods/12-AI-Figma建模与二次修改SOP.md",
+      "line_count": 117,
+      "char_count": 2704,
+      "heading_count": 11,
+      "headings": [
+        {
+          "level": 1,
+          "title": "📘 SOP：基于 AI 与 Figma 的矢量图表高效生产规范",
+          "line": 10
+        },
+        {
+          "level": 2,
+          "title": "1. 流程概述 (Process Overview)",
+          "line": 18
+        },
+        {
+          "level": 2,
+          "title": "2. 角色与技能要求 (Roles & Skills)",
+          "line": 22
+        },
+        {
+          "level": 2,
+          "title": "3. 标准作业程序 (Step-by-Step Procedure)",
+          "line": 33
+        },
+        {
+          "level": 3,
+          "title": "第一阶段：需求建模与逻辑核查 (Modeling)",
+          "line": 35
+        },
+        {
+          "level": 3,
+          "title": "第二阶段：SVG 源代码生成 (Generation)",
+          "line": 50
+        },
+        {
+          "level": 3,
+          "title": "第三阶段：Figma 渲染与二次创作 (Refinement)",
+          "line": 63
+        },
+        {
+          "level": 3,
+          "title": "第四阶段：成果导出 (Exporting)",
+          "line": 80
+        },
+        {
+          "level": 2,
+          "title": "4. 关键快捷键与工具指南 (Toolkit)",
+          "line": 93
+        },
+        {
+          "level": 2,
+          "title": "5. 异常处理与注意事项 (Troubleshooting)",
+          "line": 104
+        },
+        {
+          "level": 2,
+          "title": "6. 持续改进 (Maintenance)",
+          "line": 115
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "methods/13-LaTeX工作流入口",
+      "name": "latex-workflow-router",
+      "file_name": "13-LaTeX工作流入口.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/13-LaTeX工作流入口.md",
+      "relative_path": "methods/13-LaTeX工作流入口.md",
+      "line_count": 196,
+      "char_count": 5419,
+      "heading_count": 14,
+      "headings": [
+        {
+          "level": 1,
+          "title": "LaTeX 工作流入口",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "一、场景判定（必读）",
+          "line": 14
+        },
+        {
+          "level": 2,
+          "title": "二、完整流水线框架（核心认知）",
+          "line": 36
+        },
+        {
+          "level": 3,
+          "title": "2.1 四工具角色与数据流向",
+          "line": 38
+        },
+        {
+          "level": 3,
+          "title": "2.2 工具链配置推荐",
+          "line": 66
+        },
+        {
+          "level": 3,
+          "title": "2.3 关键约束（必知）",
+          "line": 74
+        },
+        {
+          "level": 2,
+          "title": "三、路径执行",
+          "line": 83
+        },
+        {
+          "level": 3,
+          "title": "路径 A：新手本地化",
+          "line": 85
+        },
+        {
+          "level": 3,
+          "title": "路径 B：Overleaf 云端（无需安装）",
+          "line": 109
+        },
+        {
+          "level": 3,
+          "title": "路径 C：本地模板实践（推荐做学术论文的人）",
+          "line": 118
+        },
+        {
+          "level": 3,
+          "title": "路径 D：常工院毕设",
+          "line": 137
+        },
+        {
+          "level": 3,
+          "title": "路径 E：全流程自动化（面向学术论文写作者）",
+          "line": 144
+        },
+        {
+          "level": 2,
+          "title": "四、质量检查清单",
+          "line": 173
+        },
+        {
+          "level": 2,
+          "title": "五、关联技能",
+          "line": 185
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "methods/14-LaTeX工作流技能",
+      "name": "latex-reference-lifecycle",
+      "file_name": "14-LaTeX工作流技能.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/14-LaTeX工作流技能.md",
+      "relative_path": "methods/14-LaTeX工作流技能.md",
+      "line_count": 263,
+      "char_count": 6197,
+      "heading_count": 31,
+      "headings": [
+        {
+          "level": 1,
+          "title": "LaTeX 参考文献全生命周期管理",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "一、核心架构：四阶段闭环",
+          "line": 14
+        },
+        {
+          "level": 2,
+          "title": "二、阶段 1：采集（Zotero 作为文献基座）",
+          "line": 35
+        },
+        {
+          "level": 3,
+          "title": "2.1 安装与配置",
+          "line": 37
+        },
+        {
+          "level": 3,
+          "title": "2.2 采集来源",
+          "line": 46
+        },
+        {
+          "level": 3,
+          "title": "2.3 必做配置：生成唯一 cite key",
+          "line": 55
+        },
+        {
+          "level": 3,
+          "title": "2.4 组织策略",
+          "line": 66
+        },
+        {
+          "level": 2,
+          "title": "三、阶段 2：管理（Zotero 内部组织）",
+          "line": 76
+        },
+        {
+          "level": 3,
+          "title": "3.1 元数据补全 SOP",
+          "line": 78
+        },
+        {
+          "level": 3,
+          "title": "3.2 自动化抓取 DOI",
+          "line": 90
+        },
+        {
+          "level": 3,
+          "title": "3.3 与 Obsidian 联动",
+          "line": 94
+        },
+        {
+          "level": 2,
+          "title": "四、阶段 3：导出（Better BibTeX 自动导出）",
+          "line": 104
+        },
+        {
+          "level": 3,
+          "title": "4.1 导出配置",
+          "line": 106
+        },
+        {
+          "level": 3,
+          "title": "4.2 持续同步方案",
+          "line": 117
+        },
+        {
+          "level": 3,
+          "title": "4.3 多语言处理",
+          "line": 126
+        },
+        {
+          "level": 2,
+          "title": "五、阶段 4：渲染（LaTeX 集成）",
+          "line": 136
+        },
+        {
+          "level": 3,
+          "title": "5.1 基础引用方式",
+          "line": 138
+        },
+        {
+          "level": 3,
+          "title": "5.2 编译链（必须按顺序执行）",
+          "line": 152
+        },
+        {
+          "level": 3,
+          "title": "5.3 常见引用格式切换",
+          "line": 163
+        },
+        {
+          "level": 3,
+          "title": "5.4 文本编辑器集成",
+          "line": 172
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "methods/15-LaTeX模板定制与修改",
+      "name": "latex-template-adaptation",
+      "file_name": "15-LaTeX模板定制与修改.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/15-LaTeX模板定制与修改.md",
+      "relative_path": "methods/15-LaTeX模板定制与修改.md",
+      "line_count": 324,
+      "char_count": 6654,
+      "heading_count": 34,
+      "headings": [
+        {
+          "level": 1,
+          "title": "LaTeX 模板适配与工具配置",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "一、模板来源：LatexCenterTool 项目枢纽",
+          "line": 14
+        },
+        {
+          "level": 3,
+          "title": "1.1 选择模板",
+          "line": 27
+        },
+        {
+          "level": 3,
+          "title": "1.2 初始化项目",
+          "line": 36
+        },
+        {
+          "level": 1,
+          "title": "克隆总仓库",
+          "line": 39
+        },
+        {
+          "level": 1,
+          "title": "同步所有子项目",
+          "line": 43
+        },
+        {
+          "level": 1,
+          "title": "仅同步论文模板",
+          "line": 46
+        },
+        {
+          "level": 1,
+          "title": "查看当前 subtree HEAD（与上游同步状态）",
+          "line": 49
+        },
+        {
+          "level": 2,
+          "title": "二、目录结构理解",
+          "line": 55
+        },
+        {
+          "level": 3,
+          "title": "2.1 标准论文模板结构",
+          "line": 57
+        },
+        {
+          "level": 3,
+          "title": "2.2 文件风险等级",
+          "line": 84
+        },
+        {
+          "level": 2,
+          "title": "三、编译配置",
+          "line": 98
+        },
+        {
+          "level": 3,
+          "title": "3.1 命令行完整编译链（必跑）",
+          "line": 100
+        },
+        {
+          "level": 1,
+          "title": "完整三步编译（xelatex → biber → xelatex*2）",
+          "line": 103
+        },
+        {
+          "level": 1,
+          "title": "或者用 latexmk（自动检测依赖和循环次数）",
+          "line": 109
+        },
+        {
+          "level": 1,
+          "title": "清理辅助文件（编译出 PDF 后执行）",
+          "line": 112
+        },
+        {
+          "level": 3,
+          "title": "3.2 VS Code LaTeX Workshop 配置",
+          "line": 116
+        },
+        {
+          "level": 3,
+          "title": "3.3 Overleaf 配置（无需本地）",
+          "line": 145
+        },
+        {
+          "level": 2,
+          "title": "四、常见修改场景",
+          "line": 154
+        },
+        {
+          "level": 3,
+          "title": "4.1 仅改内容（在 chapters/*.tex 中）",
+          "line": 156
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "methods/16-论文信息获取与处理全流程",
+      "name": "paper-research-workflow",
+      "file_name": "16-论文信息获取与处理全流程.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/16-论文信息获取与处理全流程.md",
+      "relative_path": "methods/16-论文信息获取与处理全流程.md",
+      "line_count": 276,
+      "char_count": 3716,
+      "heading_count": 42,
+      "headings": [
+        {
+          "level": 2,
+          "title": "整体工作流",
+          "line": 9
+        },
+        {
+          "level": 2,
+          "title": "模块一：学术论文信息检索",
+          "line": 20
+        },
+        {
+          "level": 3,
+          "title": "检索渠道分类",
+          "line": 22
+        },
+        {
+          "level": 3,
+          "title": "检索语法",
+          "line": 32
+        },
+        {
+          "level": 1,
+          "title": "组合示例",
+          "line": 47
+        },
+        {
+          "level": 3,
+          "title": "检索策略",
+          "line": 51
+        },
+        {
+          "level": 4,
+          "title": "漏斗模型",
+          "line": 53
+        },
+        {
+          "level": 4,
+          "title": "检索词扩展",
+          "line": 65
+        },
+        {
+          "level": 2,
+          "title": "模块二：优质论文筛选",
+          "line": 74
+        },
+        {
+          "level": 3,
+          "title": "筛选标准（必读）",
+          "line": 76
+        },
+        {
+          "level": 3,
+          "title": "快速筛选流程",
+          "line": 85
+        },
+        {
+          "level": 3,
+          "title": "预警信号（遇到这些论文快跑）",
+          "line": 93
+        },
+        {
+          "level": 2,
+          "title": "模块三：关键信息截取",
+          "line": 102
+        },
+        {
+          "level": 3,
+          "title": "论文精读模板",
+          "line": 104
+        },
+        {
+          "level": 2,
+          "title": "论文信息",
+          "line": 107
+        },
+        {
+          "level": 2,
+          "title": "研究问题",
+          "line": 114
+        },
+        {
+          "level": 2,
+          "title": "核心方法",
+          "line": 119
+        },
+        {
+          "level": 2,
+          "title": "实验设置",
+          "line": 124
+        },
+        {
+          "level": 2,
+          "title": "核心结论",
+          "line": 129
+        },
+        {
+          "level": 2,
+          "title": "可借鉴点",
+          "line": 134
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "methods/17-论文扩写与AI辅助指南",
+      "name": "paper-expansion-assistant",
+      "file_name": "17-论文扩写与AI辅助指南.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/17-论文扩写与AI辅助指南.md",
+      "relative_path": "methods/17-论文扩写与AI辅助指南.md",
+      "line_count": 259,
+      "char_count": 3205,
+      "heading_count": 36,
+      "headings": [
+        {
+          "level": 1,
+          "title": "论文内容扩写与 AI 辅助指南",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "核心问题诊断",
+          "line": 10
+        },
+        {
+          "level": 2,
+          "title": "扩写工作流（核心方法论）",
+          "line": 20
+        },
+        {
+          "level": 3,
+          "title": "Step 1: 补充输入（必做！）",
+          "line": 22
+        },
+        {
+          "level": 4,
+          "title": "信息补充 SOP",
+          "line": 26
+        },
+        {
+          "level": 2,
+          "title": "扩写任务",
+          "line": 40
+        },
+        {
+          "level": 3,
+          "title": "目标段落",
+          "line": 42
+        },
+        {
+          "level": 3,
+          "title": "缺少的信息",
+          "line": 45
+        },
+        {
+          "level": 3,
+          "title": "已收集的补充材料",
+          "line": 49
+        },
+        {
+          "level": 3,
+          "title": "Step 2: 生成扩写（提示词模板）",
+          "line": 54
+        },
+        {
+          "level": 4,
+          "title": "模板 A：学术论文扩写",
+          "line": 56
+        },
+        {
+          "level": 2,
+          "title": "原文",
+          "line": 66
+        },
+        {
+          "level": 2,
+          "title": "补充材料",
+          "line": 69
+        },
+        {
+          "level": 2,
+          "title": "风格要求",
+          "line": 72
+        },
+        {
+          "level": 4,
+          "title": "模板 B：调研报告扩写",
+          "line": 78
+        },
+        {
+          "level": 2,
+          "title": "核心观点",
+          "line": 87
+        },
+        {
+          "level": 2,
+          "title": "支撑要点",
+          "line": 90
+        },
+        {
+          "level": 2,
+          "title": "补充数据/案例",
+          "line": 94
+        },
+        {
+          "level": 2,
+          "title": "风格",
+          "line": 97
+        },
+        {
+          "level": 4,
+          "title": "模板 C：商业文案扩写",
+          "line": 101
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "methods/18-行研信源获取SOP",
+      "name": "industry-source-research",
+      "file_name": "18-行研信源获取SOP.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/18-行研信源获取SOP.md",
+      "relative_path": "methods/18-行研信源获取SOP.md",
+      "line_count": 47,
+      "char_count": 1099,
+      "heading_count": 10,
+      "headings": [
+        {
+          "level": 2,
+          "title": "目标",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "前置条件",
+          "line": 9
+        },
+        {
+          "level": 2,
+          "title": "标准操作流程（4步法）",
+          "line": 13
+        },
+        {
+          "level": 3,
+          "title": "Step 1: 官方一手数据（5分钟，必做）",
+          "line": 15
+        },
+        {
+          "level": 3,
+          "title": "Step 2: 专业机构核心报告（10分钟）",
+          "line": 20
+        },
+        {
+          "level": 3,
+          "title": "Step 3: 辅助验证数据（10分钟）",
+          "line": 26
+        },
+        {
+          "level": 3,
+          "title": "Step 4: 存档与复用机制",
+          "line": 31
+        },
+        {
+          "level": 2,
+          "title": "质量校验Checklist",
+          "line": 36
+        },
+        {
+          "level": 2,
+          "title": "异常处理",
+          "line": 42
+        },
+        {
+          "level": 2,
+          "title": "输出物",
+          "line": 46
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "methods/需求文档更新skill",
+      "name": "requirements-doc-update-pipeline",
+      "file_name": "需求文档更新skill.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/methods/需求文档更新skill.md",
+      "relative_path": "methods/需求文档更新skill.md",
+      "line_count": 29,
+      "char_count": 592,
+      "heading_count": 7,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Skill: 需求文档更新流水线",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "使用场景",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "执行命令",
+          "line": 11
+        },
+        {
+          "level": 1,
+          "title": "1. 更新需求分析文档",
+          "line": 13
+        },
+        {
+          "level": 1,
+          "title": "2. 更新功能矩阵CSV",
+          "line": 16
+        },
+        {
+          "level": 2,
+          "title": "注意事项",
+          "line": 20
+        },
+        {
+          "level": 2,
+          "title": "更新日志",
+          "line": 25
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "too_short",
+      "recommendation": "expand_context",
+      "state": "candidate"
+    },
+    {
+      "id": "models/02-文档分类与生命周期",
+      "name": "document-lifecycle-governance",
+      "file_name": "02-文档分类与生命周期.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/models/02-文档分类与生命周期.md",
+      "relative_path": "models/02-文档分类与生命周期.md",
+      "line_count": 347,
+      "char_count": 6070,
+      "heading_count": 32,
+      "headings": [
+        {
+          "level": 1,
+          "title": "文档分类与生命周期",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "一、文档分类体系",
+          "line": 12
+        },
+        {
+          "level": 3,
+          "title": "一级分类与二级分类",
+          "line": 14
+        },
+        {
+          "level": 2,
+          "title": "二、文档生命周期",
+          "line": 29
+        },
+        {
+          "level": 3,
+          "title": "2.1 文档生命周期流程",
+          "line": 31
+        },
+        {
+          "level": 3,
+          "title": "2.2 生命周期各阶段说明",
+          "line": 58
+        },
+        {
+          "level": 2,
+          "title": "三、文档状态机",
+          "line": 79
+        },
+        {
+          "level": 3,
+          "title": "状态定义",
+          "line": 95
+        },
+        {
+          "level": 2,
+          "title": "四、文档元数据规范",
+          "line": 107
+        },
+        {
+          "level": 3,
+          "title": "元数据字段说明",
+          "line": 129
+        },
+        {
+          "level": 2,
+          "title": "五、文档命名规范",
+          "line": 149
+        },
+        {
+          "level": 3,
+          "title": "5.1 通用命名规则",
+          "line": 151
+        },
+        {
+          "level": 3,
+          "title": "5.2 学术文档命名",
+          "line": 164
+        },
+        {
+          "level": 3,
+          "title": "5.3 软件工程文档命名",
+          "line": 174
+        },
+        {
+          "level": 3,
+          "title": "5.4 项目管理文档命名",
+          "line": 196
+        },
+        {
+          "level": 2,
+          "title": "六、文档版本控制规范",
+          "line": 209
+        },
+        {
+          "level": 3,
+          "title": "6.1 语义化版本（Semantic Versioning）",
+          "line": 211
+        },
+        {
+          "level": 3,
+          "title": "6.2 版本发布规则",
+          "line": 226
+        },
+        {
+          "level": 3,
+          "title": "6.3 变更记录格式（CHANGELOG）",
+          "line": 235
+        },
+        {
+          "level": 2,
+          "title": "变更记录",
+          "line": 240
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "methods",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "models/03-项目三层规训框架",
+      "name": "project-three-layer-discipline",
+      "file_name": "03-项目三层规训框架.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/models/03-项目三层规训框架.md",
+      "relative_path": "models/03-项目三层规训框架.md",
+      "line_count": 204,
+      "char_count": 2793,
+      "heading_count": 32,
+      "headings": [
+        {
+          "level": 1,
+          "title": "项目三层规训框架",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "核心理念",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "三层框架（所有项目均适用）",
+          "line": 21
+        },
+        {
+          "level": 2,
+          "title": "A类路线：文档先行（需求清晰）",
+          "line": 31
+        },
+        {
+          "level": 3,
+          "title": "流程",
+          "line": 33
+        },
+        {
+          "level": 3,
+          "title": "PRD 必须包含",
+          "line": 47
+        },
+        {
+          "level": 2,
+          "title": "PRD",
+          "line": 50
+        },
+        {
+          "level": 3,
+          "title": "术语表",
+          "line": 52
+        },
+        {
+          "level": 3,
+          "title": "交互方式",
+          "line": 55
+        },
+        {
+          "level": 3,
+          "title": "验收标准",
+          "line": 58
+        },
+        {
+          "level": 2,
+          "title": "PRD.json（任务拆分）",
+          "line": 63
+        },
+        {
+          "level": 3,
+          "title": "执行铁律",
+          "line": 75
+        },
+        {
+          "level": 2,
+          "title": "B类路线：原型先行（只有 idea）",
+          "line": 84
+        },
+        {
+          "level": 3,
+          "title": "流程",
+          "line": 86
+        },
+        {
+          "level": 3,
+          "title": "触发切换的信号",
+          "line": 98
+        },
+        {
+          "level": 3,
+          "title": "切换操作",
+          "line": 105
+        },
+        {
+          "level": 2,
+          "title": "三层详解",
+          "line": 113
+        },
+        {
+          "level": 3,
+          "title": "Layer 1：需求对齐层",
+          "line": 115
+        },
+        {
+          "level": 2,
+          "title": "需求对齐总结",
+          "line": 120
+        },
+        {
+          "level": 3,
+          "title": "已知需求",
+          "line": 122
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "models/06-vibe-coding-CLI-token节省范式",
+      "name": "cli-token-saving-pattern",
+      "file_name": "06-vibe-coding-CLI-token节省范式.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/models/06-vibe-coding-CLI-token节省范式.md",
+      "relative_path": "models/06-vibe-coding-CLI-token节省范式.md",
+      "line_count": 151,
+      "char_count": 4420,
+      "heading_count": 13,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Vibe Coding CLI 工具链与 Token 节省范式",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "核心理念",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "Phase 1：信息获取",
+          "line": 16
+        },
+        {
+          "level": 2,
+          "title": "Phase 2：文档与需求管理",
+          "line": 28
+        },
+        {
+          "level": 2,
+          "title": "Phase 3：开发与代码管理",
+          "line": 38
+        },
+        {
+          "level": 2,
+          "title": "Phase 4：测试",
+          "line": 52
+        },
+        {
+          "level": 2,
+          "title": "Phase 5：部署上线（Layer 3）",
+          "line": 62
+        },
+        {
+          "level": 3,
+          "title": "场景A：国内开发 → 国内上线",
+          "line": 64
+        },
+        {
+          "level": 3,
+          "title": "场景B：国内开发 → 国外上线",
+          "line": 85
+        },
+        {
+          "level": 3,
+          "title": "场景对比",
+          "line": 103
+        },
+        {
+          "level": 2,
+          "title": "闭环路径：实践 → SOP → 脚本",
+          "line": 115
+        },
+        {
+          "level": 2,
+          "title": "图表即代码（Diagrams as Code）",
+          "line": 131
+        },
+        {
+          "level": 2,
+          "title": "工具优先级速查",
+          "line": 143
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "models/20-目标拆解与根因分析框架（OKRTS+5W）",
+      "name": "okrts-root-cause-analysis",
+      "file_name": "20-目标拆解与根因分析框架（OKRTS+5W）.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/models/20-目标拆解与根因分析框架（OKRTS+5W）.md",
+      "relative_path": "models/20-目标拆解与根因分析框架（OKRTS+5W）.md",
+      "line_count": 251,
+      "char_count": 7223,
+      "heading_count": 20,
+      "headings": [
+        {
+          "level": 1,
+          "title": "目标拆解与根因分析框架（OKRTS + 5W + 问题四象限）",
+          "line": 6
+        },
+        {
+          "level": 2,
+          "title": "框架总览",
+          "line": 10
+        },
+        {
+          "level": 2,
+          "title": "模型一：OKRTS 金字塔模型（目标逐级拆解）",
+          "line": 22
+        },
+        {
+          "level": 3,
+          "title": "模型结构",
+          "line": 24
+        },
+        {
+          "level": 3,
+          "title": "层级说明",
+          "line": 49
+        },
+        {
+          "level": 3,
+          "title": "执行原则",
+          "line": 58
+        },
+        {
+          "level": 3,
+          "title": "操作清单",
+          "line": 65
+        },
+        {
+          "level": 2,
+          "title": "模型二：5W 根因分析法（漏斗模型）",
+          "line": 75
+        },
+        {
+          "level": 3,
+          "title": "模型结构",
+          "line": 77
+        },
+        {
+          "level": 3,
+          "title": "逐层追问指南",
+          "line": 109
+        },
+        {
+          "level": 3,
+          "title": "执行要点",
+          "line": 120
+        },
+        {
+          "level": 2,
+          "title": "模型三：问题关注四象限模型（分类应对）",
+          "line": 129
+        },
+        {
+          "level": 3,
+          "title": "四象限结构",
+          "line": 131
+        },
+        {
+          "level": 3,
+          "title": "问题分类与应对策略",
+          "line": 154
+        },
+        {
+          "level": 3,
+          "title": "资源分配原则",
+          "line": 163
+        },
+        {
+          "level": 3,
+          "title": "使用流程",
+          "line": 179
+        },
+        {
+          "level": 2,
+          "title": "三模型联动工作流",
+          "line": 188
+        },
+        {
+          "level": 3,
+          "title": "典型场景示例",
+          "line": 221
+        },
+        {
+          "level": 2,
+          "title": "关联技能",
+          "line": 238
+        },
+        {
+          "level": 2,
+          "title": "参考资源",
+          "line": 246
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "models",
+      "length_diagnosis": "normal",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    },
+    {
+      "id": "principles/01-before_analyese",
+      "name": "think-before-execute",
+      "file_name": "01-before_analyese.md",
+      "source_path": "/Users/caolei/Desktop/darwin-skill/library/principles/01-before_analyese.md",
+      "relative_path": "principles/01-before_analyese.md",
+      "line_count": 269,
+      "char_count": 9374,
+      "heading_count": 25,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Think-Before-Execute",
+          "line": 21
+        },
+        {
+          "level": 2,
+          "title": "Default Engineering Policy",
+          "line": 27
+        },
+        {
+          "level": 3,
+          "title": "Anti Over-Engineering",
+          "line": 43
+        },
+        {
+          "level": 2,
+          "title": "Coordination with Brainstorming",
+          "line": 57
+        },
+        {
+          "level": 2,
+          "title": "Task Classification — Routing",
+          "line": 66
+        },
+        {
+          "level": 2,
+          "title": "Phase 1: Internal Audit",
+          "line": 83
+        },
+        {
+          "level": 3,
+          "title": "1.1 Goal Extraction",
+          "line": 87
+        },
+        {
+          "level": 3,
+          "title": "1.2 Context Sufficiency Check",
+          "line": 90
+        },
+        {
+          "level": 3,
+          "title": "1.3 Dependency Audit",
+          "line": 103
+        },
+        {
+          "level": 3,
+          "title": "1.4 Feasibility Check",
+          "line": 108
+        },
+        {
+          "level": 3,
+          "title": "1.5 Risk & Path Divergence Identification",
+          "line": 113
+        },
+        {
+          "level": 3,
+          "title": "1.6 Rework Cost Assessment",
+          "line": 116
+        },
+        {
+          "level": 2,
+          "title": "Phase 2: Decision",
+          "line": 121
+        },
+        {
+          "level": 3,
+          "title": "Condition A: Direct Execution",
+          "line": 125
+        },
+        {
+          "level": 3,
+          "title": "Condition B: Trigger Structured Inquiry",
+          "line": 137
+        },
+        {
+          "level": 2,
+          "title": "Phase 3: Structured Inquiry",
+          "line": 150
+        },
+        {
+          "level": 3,
+          "title": "Pre-warning: Architecture/Feasibility Conflict",
+          "line": 152
+        },
+        {
+          "level": 3,
+          "title": "Standard Inquiry Format",
+          "line": 166
+        },
+        {
+          "level": 3,
+          "title": "When to Use What",
+          "line": 180
+        },
+        {
+          "level": 3,
+          "title": "Inquiry Design Principles",
+          "line": 187
+        }
+      ],
+      "has_frontmatter": true,
+      "frontmatter_keys": [
+        "Coordinates with brainstorming",
+        "Skip for",
+        "Trigger for tasks involving",
+        "description",
+        "name"
+      ],
+      "has_trigger_description": true,
+      "layer": "principles",
+      "length_diagnosis": "large_but_reviewable",
+      "recommendation": "keep_reviewing",
+      "state": "active"
+    }
+  ]
+}

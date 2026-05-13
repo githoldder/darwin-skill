@@ -1,6 +1,6 @@
 {
   "schema_version": "0.2.0",
-  "generated_at": "2026-05-12T16:58:14.063024+00:00",
+  "generated_at": "2026-05-13T12:11:30.983456+00:00",
   "sources": [
     {
       "path": "/Users/caolei/Desktop/darwin-skill/skills",
@@ -11,10 +11,10 @@
     "total_assets": 22,
     "layer_counts": {
       "cases": 2,
-      "models": 3,
+      "models": 2,
       "inbox": 11,
       "methods": 5,
-      "principles": 1
+      "principles": 2
     },
     "state_counts": {
       "candidate": 11,
@@ -937,44 +937,122 @@
       "file_name": "SKILL.md",
       "source_path": "/Users/caolei/Desktop/darwin-skill/skills/think-before-execute/SKILL.md",
       "relative_path": "think-before-execute/SKILL.md",
-      "line_count": 31,
-      "char_count": 1317,
-      "heading_count": 5,
+      "line_count": 269,
+      "char_count": 9374,
+      "heading_count": 25,
       "headings": [
         {
           "level": 1,
-          "title": "Think Before Execute",
-          "line": 6
-        },
-        {
-          "level": 2,
-          "title": "Purpose",
-          "line": 8
-        },
-        {
-          "level": 2,
-          "title": "Workflow",
-          "line": 12
-        },
-        {
-          "level": 2,
-          "title": "Guardrails",
+          "title": "Think-Before-Execute",
           "line": 21
         },
         {
           "level": 2,
-          "title": "Output",
-          "line": 29
+          "title": "Default Engineering Policy",
+          "line": 27
+        },
+        {
+          "level": 3,
+          "title": "Anti Over-Engineering",
+          "line": 43
+        },
+        {
+          "level": 2,
+          "title": "Coordination with Brainstorming",
+          "line": 57
+        },
+        {
+          "level": 2,
+          "title": "Task Classification — Routing",
+          "line": 66
+        },
+        {
+          "level": 2,
+          "title": "Phase 1: Internal Audit",
+          "line": 83
+        },
+        {
+          "level": 3,
+          "title": "1.1 Goal Extraction",
+          "line": 87
+        },
+        {
+          "level": 3,
+          "title": "1.2 Context Sufficiency Check",
+          "line": 90
+        },
+        {
+          "level": 3,
+          "title": "1.3 Dependency Audit",
+          "line": 103
+        },
+        {
+          "level": 3,
+          "title": "1.4 Feasibility Check",
+          "line": 108
+        },
+        {
+          "level": 3,
+          "title": "1.5 Risk & Path Divergence Identification",
+          "line": 113
+        },
+        {
+          "level": 3,
+          "title": "1.6 Rework Cost Assessment",
+          "line": 116
+        },
+        {
+          "level": 2,
+          "title": "Phase 2: Decision",
+          "line": 121
+        },
+        {
+          "level": 3,
+          "title": "Condition A: Direct Execution",
+          "line": 125
+        },
+        {
+          "level": 3,
+          "title": "Condition B: Trigger Structured Inquiry",
+          "line": 137
+        },
+        {
+          "level": 2,
+          "title": "Phase 3: Structured Inquiry",
+          "line": 150
+        },
+        {
+          "level": 3,
+          "title": "Pre-warning: Architecture/Feasibility Conflict",
+          "line": 152
+        },
+        {
+          "level": 3,
+          "title": "Standard Inquiry Format",
+          "line": 166
+        },
+        {
+          "level": 3,
+          "title": "When to Use What",
+          "line": 180
+        },
+        {
+          "level": 3,
+          "title": "Inquiry Design Principles",
+          "line": 187
         }
       ],
       "has_frontmatter": true,
       "frontmatter_keys": [
+        "Coordinates with brainstorming",
+        "Skip for",
+        "Trigger for tasks involving",
         "description",
         "name"
       ],
       "has_trigger_description": true,
-      "layer": "models",
-      "length_diagnosis": "normal",
+      "layer": "principles",
+      "length_diagnosis": "large_but_reviewable",
       "recommendation": "keep_reviewing",
       "state": "active"
     },

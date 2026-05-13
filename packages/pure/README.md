@@ -1,12 +1,24 @@
-# 达尔文.skill Pure
+<p align="center">
+  <img src="assets/logo.png" alt="Darwin Skill Pure logo" width="300">
+</p>
+
+<h1 align="center">达尔文.skill Pure</h1>
+
+<p align="center">
+  只带进化机制，不带作者个人物种库。把它交给你的 Agent，让它照料你自己的本机 skills 生态。
+</p>
+
+<p align="center">
+  <strong>v1.0.0</strong> · Pure 纯净版
+</p>
+
+---
 
 Pure 版只包含达尔文机制，不包含作者个人具体 skills。
 
-版本：`v1.0.0`
-
 ## 用途
 
-用智能体维护你自己的本机 skills / prompts / SOP 仓库：
+用智能体维护你自己的本机 skills / prompts / SOP 仓库，让有用的技能留下，重复的流程脚本化，过时的资产进入归档：
 
 - 扫描资产
 - 生成索引

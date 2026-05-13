@@ -5,7 +5,7 @@
   "interface": {
     "displayName": "达尔文.skill",
     "description": "用进废退、适者生存的本地 Skills 进化插件。",
-    "icon": "./assets/logo.svg"
+    "icon": "./assets/logo.png"
   },
   "packageProfile": "full",
   "skills": [

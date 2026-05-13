@@ -38,7 +38,7 @@ Recommended Pure contents:
 
 ```text
 packages/pure/.codex-plugin/plugin.json
-packages/pure/assets/logo.svg
+packages/pure/assets/logo.png
 packages/pure/docs/mechanism.md
 packages/pure/scripts/archive_stale_skills.py
 packages/pure/scripts/scan_skills.py

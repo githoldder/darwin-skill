@@ -1,0 +1,42 @@
+{
+  "version": "0.1.0",
+  "default_target": "./skills",
+  "skillpacks": [
+    {
+      "name": "01-academic-writing",
+      "repo_name": "01-skillpack-academic-writing",
+      "url": "https://github.com/githoldder/01-skillpack-academic-writing.git",
+      "scene": "课程作业、实验报告、论文科研写作与 LaTeX 交付",
+      "priority": "P0"
+    },
+    {
+      "name": "02-project-delivery",
+      "repo_name": "02-skillpack-project-delivery",
+      "url": "https://github.com/githoldder/02-skillpack-project-delivery.git",
+      "scene": "完整项目文档流、软件工程交付、求职作品集和甲方交付材料",
+      "priority": "P0"
+    },
+    {
+      "name": "03-tech-sharing",
+      "repo_name": "03-skillpack-tech-sharing",
+      "url": "https://github.com/githoldder/03-skillpack-tech-sharing.git",
+      "scene": "技术知识文档、群聊分享、内部资料整理和 Obsidian 导出 PDF",
+      "priority": "P1"
+    },
+    {
+      "name": "04-presentation-demo",
+      "repo_name": "04-skillpack-presentation-demo",
+      "url": "https://github.com/githoldder/04-skillpack-presentation-demo.git",
+      "scene": "演示 PPT、reveal.js、演讲稿、展示 checklist、用户指南和成果展示材料",
+      "priority": "P1"
+    },
+    {
+      "name": "05-governance-core",
+      "repo_name": "05-skillpack-governance-core",
+      "url": "https://github.com/githoldder/05-skillpack-governance-core.git",
+      "scene": "达尔文机制、工程防呆、命名规范、版本控制、质量审查和 skill 演化治理",
+      "priority": "P0"
+    }
+  ]
+}
+

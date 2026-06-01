@@ -1,0 +1,57 @@
+{
+  "version": "0.1.0",
+  "updated_at": "2026-05-31",
+  "purpose": "Index external scenario skillpacks that can be synchronized into the Darwin Skill Full release.",
+  "release_profiles": {
+    "full": "Darwin mechanism plus author-provided high-frequency skillpacks, library references, scripts, and registry indexes.",
+    "pure": "Darwin mechanism only."
+  },
+  "skillpacks": [
+    {
+      "name": "01-academic-writing",
+      "repo_name": "01-skillpack-academic-writing",
+      "scene": "课程作业、实验报告、论文科研写作与 LaTeX 交付",
+      "local_path": "/Users/caolei/Desktop/Obsidian_root/Projects/000_个人看板/脚手架&通用模版&工具/04-skills/01-academic-writing",
+      "status": "draft",
+      "priority": "P0",
+      "darwin_role": "author-provided-full"
+    },
+    {
+      "name": "02-project-delivery",
+      "repo_name": "02-skillpack-project-delivery",
+      "scene": "完整项目文档流、软件工程交付、求职作品集和甲方交付材料",
+      "local_path": "/Users/caolei/Desktop/Obsidian_root/Projects/000_个人看板/脚手架&通用模版&工具/04-skills/02-project-delivery",
+      "status": "draft",
+      "priority": "P0",
+      "darwin_role": "author-provided-full"
+    },
+    {
+      "name": "03-tech-sharing",
+      "repo_name": "03-skillpack-tech-sharing",
+      "scene": "技术知识文档、群聊分享、内部资料整理和 Obsidian 导出 PDF",
+      "local_path": "/Users/caolei/Desktop/Obsidian_root/Projects/000_个人看板/脚手架&通用模版&工具/04-skills/03-tech-sharing",
+      "status": "draft",
+      "priority": "P1",
+      "darwin_role": "author-provided-full"
+    },
+    {
+      "name": "04-presentation-demo",
+      "repo_name": "04-skillpack-presentation-demo",
+      "scene": "演示 PPT、reveal.js、演讲稿、展示 checklist、用户指南和成果展示材料",
+      "local_path": "/Users/caolei/Desktop/Obsidian_root/Projects/000_个人看板/脚手架&通用模版&工具/04-skills/04-presentation-demo",
+      "status": "draft",
+      "priority": "P1",
+      "darwin_role": "author-provided-full"
+    },
+    {
+      "name": "05-governance-core",
+      "repo_name": "05-skillpack-governance-core",
+      "scene": "达尔文机制、工程防呆、命名规范、版本控制、质量审查和 skill 演化治理",
+      "local_path": "/Users/caolei/Desktop/Obsidian_root/Projects/000_个人看板/脚手架&通用模版&工具/04-skills/05-governance-core",
+      "status": "draft",
+      "priority": "P0",
+      "darwin_role": "core-and-author-provided-full"
+    }
+  ]
+}
+

@@ -1,0 +1,27 @@
+{
+  "name": "@githoldder/darwin-skillpacks",
+  "version": "0.1.0",
+  "description": "Install Darwin scenario skillpacks from GitHub with one npx command.",
+  "type": "module",
+  "bin": {
+    "darwin-skillpacks": "./bin/darwin-skillpacks.js"
+  },
+  "files": [
+    "bin/",
+    "registry/",
+    "README.md"
+  ],
+  "keywords": [
+    "darwin-skill",
+    "skillpack",
+    "codex",
+    "skills",
+    "npx"
+  ],
+  "author": "githoldder",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
+

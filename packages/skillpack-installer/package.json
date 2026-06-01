@@ -4,7 +4,7 @@
   "description": "Install Darwin scenario skillpacks from GitHub with one npx command.",
   "type": "module",
   "bin": {
-    "darwin-skillpacks": "./bin/darwin-skillpacks.js"
+    "darwin-skillpacks": "bin/darwin-skillpacks.js"
   },
   "files": [
     "bin/",
@@ -24,4 +24,3 @@
     "node": ">=18"
   }
 }
-
